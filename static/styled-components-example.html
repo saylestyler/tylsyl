@@ -1,0 +1,289 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>styled-theming – @thejameskyle</title>
+  <style media="screen">
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+      font-size: 1.2em;
+      line-height: 1.8;
+
+      background: white;
+      color: rgb(46, 68, 78);
+
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body::before {
+      content: "";
+      display: block;
+      height: 10px;
+      background: linear-gradient(20deg, rgb(219,112,147), #daa357);
+    }
+
+    h1, h2, h3, h4, h5, h6, header {
+      font-family: "Avenir Next",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    }
+
+    p, h1, h2, h3, h4, h5, h6, ul, ol, li, pre, img, aside {
+      margin-top: 1.5em;
+      margin-bottom: 0;
+    }
+
+    li {
+      margin-top: 0.5em;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: top;
+    }
+
+    a {
+      color: rgb(219,112,147);
+      font-weight: 600;
+    }
+
+    aside {
+      padding: 1em;
+      background: linear-gradient(20deg, rgb(219,112,147), #daa357);
+      color: white;
+    }
+
+    aside a {
+       color: white;
+    }
+
+    blockquote {
+      margin-left: 0;
+      margin-right: 0;
+      padding: 1em 0;
+    }
+
+    blockquote :first-child {
+      margin-top: 0;
+    }
+
+    blockquote a {
+      color: white;
+    }
+
+    code {
+      padding: 0.15em 0.2em;
+
+      font-size: 0.95em;
+      font-weight: 900;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+
+      /* background: #FFD3CF;
+      color: #B84035; */
+    }
+
+    pre {
+      font-size: 0.9em;
+      padding: 1em 1.5em;
+      background: #222;
+      color: #C5C8C6;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    pre.sh {
+      background: #DB7093;
+      color: white;
+    }
+
+    pre code {
+      padding: 0;
+      background: transparent;
+      color: inherit;
+      font-weight: inherit;
+    }
+
+    pre em {
+      font-style: normal;
+      color: hsl(350, 40%, 70%);
+    }
+
+    hr {
+      margin: 2em 0;
+      border: none;
+      /* border-top: 2px solid #FF594A; */
+    }
+
+    header {
+      padding-bottom: 1em;
+    }
+
+    header h1 {
+      color: rgb(243, 182, 97);
+    }
+
+    header p {
+      margin-top: 0;
+      font-size: 1.3em;
+      line-height: 1.2;
+      font-weight: 500;
+    }
+
+    footer {
+      margin-top: 3em;
+      border-top: 2px solid #DB7093;
+      font-size: 0.8em;
+      text-align: center;
+    }
+
+    .content {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2em 2em 4em;
+    }
+  </style>
+</head>
+<body>
+  <div id="example"></div>
+
+<script src="block-sites.js"></script>
+
+<script src="https://unpkg.com/react@15.5.1/dist/react.min.js"></script>
+<script src="https://unpkg.com/react-dom@15.5.1/dist/react-dom.min.js"></script>
+<script src="https://unpkg.com/create-react-class@15.6.0/create-react-class.min.js"></script>
+<script src="https://unpkg.com/styled-components@2.1.1/dist/styled-components.min.js"></script>
+<script src="https://unpkg.com/styled-theming@2.1.1/dist/styled-theming.min.js"></script>
+
+<script>
+  (function() {
+    var h = window.React.createElement;
+    var createReactClass = window.createReactClass;
+    var render = window.ReactDOM.render;
+    var styled = window.styled.default;
+    var ThemeProvider = window.styled.ThemeProvider;
+    var theme = window.theme;
+
+    var colors = {
+      white: '#fff',
+
+      grayLighter: '#eee',
+      grayLight: '#ccc',
+      grayDark: '#444',
+      grayDarker: '#222',
+
+      blueLight: '#2196F3',
+      blueDark: '#104977',
+
+      greenLight: '#8bc34a',
+      greenDark: '#3b5221',
+
+      yellowLight: '#ffc107',
+      yellowDark: '#715605',
+
+      redLight: '#e91e63',
+      redDark: '#670a2a',
+    };
+
+    var fontSize = theme('size', {
+      normal: '0.9em',
+      large: '1.1em',
+    });
+
+    var boxBackgroundColor = theme('mode', {
+      light: "aliceblue",
+      dark: "#222",
+    });
+
+    var boxColor = theme('mode', {
+      light: "rgb(46, 68, 78)",
+      dark: "#C5C8C6",
+    });
+
+    var Box = styled.div([
+      'padding: 4em 2em;\n' +
+      'text-align: center;\n' +
+      'font-size: ', /* 0 */ ';\n' +
+      'background-color: ', /* 1 */ ';\n' +
+      'color: ', /* 2 */ ';'
+    ], fontSize, boxBackgroundColor, boxColor);
+
+    var buttonBackgroundColor = theme.variants('mode', 'kind', {
+      default: { light: "slategray", dark: "slategray" },
+      primary: { light: "palevioletred", dark: "hotpink" },
+      success: { light: "mediumseagreen", dark: "seagreen", },
+      warning: { light: "sandybrown", dark: "peru", },
+      danger: { light: "tomato", dark: "brown", },
+    });
+
+    var buttonPadding = theme('size', {
+      normal: '0.5em 1em',
+      large: '0.4em 0.7em',
+    });
+
+    var buttonMargin = theme('size', {
+      normal: '0.5em',
+      large: '0.2em 0.2em',
+    });
+
+    var Button = styled.button([
+      'font: inherit;\n' +
+      'border: none;\n' +
+      'border-radius: 0.25em;\n' +
+      'cursor: pointer;\n' +
+      'padding: ', /* 0 */ ';\n' +
+      'margin: ', /* 1 */ ';\n' +
+      'background-color: ', /* 2 */ ';\n' +
+      'color: white;'
+    ], buttonPadding, buttonMargin, buttonBackgroundColor);
+
+    Button.defaultProps = {
+      kind: 'default'
+    };
+
+    var App = createReactClass({
+      getInitialState: function() {
+        return {
+          mode: 'light',
+          size: 'normal',
+        };
+      },
+
+      handleToggleMode: function() {
+        this.setState({ mode: this.state.mode === 'light' ? 'dark' : 'light' });
+      },
+
+      handleToggleSize: function() {
+        this.setState({ size: this.state.size === 'normal' ? 'large' : 'normal' });
+      },
+
+      render: function() {
+        return (
+          h(ThemeProvider, { theme: { mode: this.state.mode, size: this.state.size } },
+            h(Box, null,
+              h(Button, { onClick: this.handleToggleMode }, 'Toggle Mode'),
+              h(Button, { kind: "primary", onClick: this.handleToggleSize }, 'Toggle Size'),
+              h(Button, { kind: "success", onClick: this.handleToggleMode }, 'Toggle Mode'),
+              h(Button, { kind: "warning", onClick: this.handleToggleSize }, 'Toggle Size'),
+              h(Button, { kind: "danger", onClick: this.handleToggleMode }, 'Toggle Mode')
+            )
+          )
+        );
+      }
+    });
+
+    render(
+      h(App),
+      document.getElementById('example')
+    );
+  }());
+</script>
+
+</body>
+</html>

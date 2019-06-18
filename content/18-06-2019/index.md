@@ -1,14 +1,27 @@
 ---
-title: "Birch in the Roses"
+title: "Hot Topic: VSCode || Vim"
 cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
-date: "01/03/2017"
+date: "06/18/2019"
 category: "tech"
 tags:
-    - tag
+    - vscode
+    - vim
 ---
-# Domos primus caelum taedia
 
-## Accipit alto fecerat mutato centauri haerent dominoque
+# Both!
+
+now that fonts render correctly :~)
+
+```sh
+defaults write com.microsoft.VSCode CGFontRenderingFontSmoothingDisabled 0
+defaults write com.microsoft.VSCode.helper CGFontRenderingFontSmoothingDisabled 0
+defaults write com.microsoft.VSCode.helper.EH CGFontRenderingFontSmoothingDisabled 0
+defaults write com.microsoft.VSCode.helper.NP CGFontRenderingFontSmoothingDisabled 0
+```
+
+<img src="https://res.cloudinary.com/cloudimgts/image/upload/v1560831240/Messages_Image_2858210949.png" />
+
+<!-- ## Accipit alto fecerat mutato centauri haerent dominoque
 
 Lorem markdownum nunc fuerat vulgaris ipse. Profecisse Atridae flumen perit
 huic, non bis, summa retemptat. Praedelassat tollitur parte capiebant lustratum
@@ -54,4 +67,4 @@ utinam sed, non nemo mixtos thyrsos. Inobservata subsunt.
 Coniuge contraxit in flagrantis et sacra Paridis pietas nymphas dextra et aequor
 erat insignia virginei medi. Acervo ferrum! Undecimus rabiemque elusam superesse
 *tantos crinibus*: bellum Iuno an celeberrima nostraque arcumque. Sive quod
-inter Cynthia est gemitu crimina sis, et preces cuncta tamen?
+inter Cynthia est gemitu crimina sis, et preces cuncta tamen? -->

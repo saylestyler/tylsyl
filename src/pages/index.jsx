@@ -9,7 +9,7 @@ import config from '../../data/SiteConfig';
 class Index extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
-    console.log(postEdges);
+					{/*console.log(postEdges);*/}
     return (
       <Layout>
         <div className="index-container">
@@ -17,8 +17,9 @@ class Index extends React.Component {
           <SEO />
           <h1>tyler sayles</h1>
           <a href="https://www.github.com/saylestyler">github</a>
-          {/* <PostListing postEdges={postEdges} /> */}
-        </div>
+						{/* TODO: add back in from original */}
+						{/* <PostListing postEdges={postEdges} /> */}
+				</div>
       </Layout>
     );
   }

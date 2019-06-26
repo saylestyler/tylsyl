@@ -12,6 +12,8 @@ tags:
 ---
 
 
+![](https://res.cloudinary.com/cloudimgts/image/upload/v1561547972/Messages_Image_1910260770.png)
+
 i found the cover photo for this tidbit in `/usr/local/Cellar/macvim/8.1-156/MacVim.app/Contents/Resources/vim/`
 
 # NOTE: This "post" is based on [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and is meant to test styling of Markdown generated documents.

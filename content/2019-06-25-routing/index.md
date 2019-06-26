@@ -8,6 +8,8 @@ tags:
     - Routing
 ---
 
+![](https://res.cloudinary.com/cloudimgts/image/upload/v1561548100/lol.png)
+
 <https://www.w3.org/Provider/Style/URI.html>
 
 > Cool URIs don't change

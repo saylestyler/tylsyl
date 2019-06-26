@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../layout';
-// import PostListing from "../components/PostListing/PostListing";
+import PostListing from "../components/PostListing/PostListing";
 import SEO from '../components/SEO/SEO';
 import config from '../../data/SiteConfig';
 
@@ -17,8 +17,7 @@ class Index extends React.Component {
           <SEO />
           <h1>tyler sayles</h1>
           <a href="https://www.github.com/saylestyler">github</a>
-						{/* TODO: add back in from original */}
-						{/* <PostListing postEdges={postEdges} /> */}
+						<PostListing postEdges={postEdges} />
 				</div>
       </Layout>
     );

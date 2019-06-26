@@ -40,10 +40,10 @@ module.exports = plop => {
 
 			// Add the file
 			return [{
-					type: 'add',
-					path: '../content/{{date}}--{{dashCase title}}.md',
-					templateFile: 'templates/post-md.template'
-				}
+				type: 'add',
+				path: '../content/{{date}}--{{dashCase title}}.md',
+				templateFile: 'templates/post-md.template'
+			}
 			]
 		},
 		// “a function that takes the answers data as a parameter and returns the actions array”.

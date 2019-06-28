@@ -3,9 +3,9 @@ title: "electron"
 cover: ""
 category: "development"
 date: "06/28/2019"
-slug: "cool-uris-dont-change"
+slug: "electron"
 tags:
-	
+	- electron
 ---
 
 i wonder if the yaml header above'll get parsed properly :) 
@@ -16,5 +16,5 @@ stack edit test :~)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTYyOTU0Nl19
+eyJoaXN0b3J5IjpbLTEyNzgxMjYyMjFdfQ==
 -->

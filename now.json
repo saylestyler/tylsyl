@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "tylsyl-blog",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { 
+          "distDir": "public" 
+      }
+    }
+  ],
+  "alias": "https://hexagram.one"
+}

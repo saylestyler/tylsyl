@@ -1,79 +1,54 @@
-/** @jsx jsx */
-import { jsx, css } from '@emotion/core'
-// eslint-disable-next-line no-unused-vars
-import React, { useContext } from 'react'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
-import styled from '@emotion/styled'
-import Header from './header'
-import GlobalStyles from './GlobalStyles.js'
-import { colorContext, Provider as ThemeProvider } from './color-theme'
-import { MDXProvider } from '@mdx-js/tag'
-import MDXComponents from './mdx-components.js'
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
+import './all.sass'
+import useSiteMetadata from './SiteMetadata'
 
-const Wrapper = styled.div({
-  margin: '0 auto',
-  maxWidth: 960,
-  padding: '0px 1.0875rem 1.45rem',
-  paddingTop: 0,
-})
-
-function LayoutImpl({ children }) {
-  const { theme, toggleTheme } = useContext(colorContext)
+const TemplateWrapper = ({ children }) => {
+  const { title, description } = useSiteMetadata()
   return (
-    <>
-      <GlobalStyles theme={theme} />
-      <StaticQuery
-        query={graphql`
-          query RegularSiteTitleQuery {
-            site {
-              siteMetadata {
-                title
-              }
-            }
-          }
-        `}
-        render={data => (
-          <main
-            css={css({
-              color: 'var(--textNormal)',
-              background: 'var(--bg)',
-              transition: 'color 0.2s ease-out, background 0.2s ease-out',
-              minHeight: '100vh',
-            })}
-          >
-            <Helmet
-              title={data.site.siteMetadata.title}
-              meta={[
-                {
-                  name: 'description',
-                  content:
-                    'A blog about technology, web development, and other things.',
-                },
-                {
-                  name: 'keywords',
-                  content: 'blog, technology, web development',
-                },
-              ]}
-            >
-              <html lang="en" />
-            </Helmet>
+    <div>
+      <Helmet>
+        <html lang="en" />
+        <title>{title}</title>
+        <meta name="description" content={description} />
 
-            <Wrapper>
-              <Header currentTheme={theme} onThemeToggle={toggleTheme} />
-              <MDXProvider components={MDXComponents}>{children}</MDXProvider>
-            </Wrapper>
-          </main>
-        )}
-      />
-    </>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/img/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          href="/img/favicon-32x32.png"
+          sizes="32x32"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          href="/img/favicon-16x16.png"
+          sizes="16x16"
+        />
+
+        <link
+          rel="mask-icon"
+          href="/img/safari-pinned-tab.svg"
+          color="#ff4400"
+        />
+        <meta name="theme-color" content="#fff" />
+
+        <meta property="og:type" content="business.business" />
+        <meta property="og:title" content={title} />
+        <meta property="og:url" content="/" />
+        <meta property="og:image" content="/img/og-image.jpg" />
+      </Helmet>
+      <Navbar />
+      <div>{children}</div>
+      <Footer />
+    </div>
   )
 }
 
-export default function Layout(props) {
-  return (
-    <ThemeProvider>
-      <LayoutImpl {...props} />
-    </ThemeProvider>
-  )
-}
+export default TemplateWrapper

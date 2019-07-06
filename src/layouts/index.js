@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Header from '../components/header'
 import './index.css'
@@ -10,8 +9,8 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'javascript, react,vue,angular,technology,github' }
+        { name: 'description', content: 'Tyler Sayles dev blog' },
+        { name: 'keywords', content: 'devblog, blog, log, brain dump, postmortem' }
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
@@ -27,10 +26,6 @@ const Layout = ({ children, data }) => (
     </div>
   </div>
 )
-
-Layout.propTypes = {
-  children: PropTypes.func
-}
 
 export default Layout
 

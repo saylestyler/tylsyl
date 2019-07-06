@@ -36,12 +36,13 @@ directory/file to be in rather shallow sight:
 `~/.data/SWAP/.agrc.swp`
 
 last modified: 2 years ago
-size: 17gb
+size: 28gb
 
 # wifeswp
 
 from vim's `h: swap`
 
+```
 Recovery after a crash _crash-recovery_
 
 You have spent several hours typing in that text that has to be finished
@@ -131,5 +132,4 @@ Execute {command}. If it contains a command that loads a new
 buffer, it will be loaded without creating a swapfile and the
 'swapfile' option will be reset. If a buffer already had a
 swapfile it is not removed and 'swapfile' is not reset.
-
-Detecting an existing swap file ~
+```

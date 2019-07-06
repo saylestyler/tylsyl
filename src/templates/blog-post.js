@@ -1,102 +1,81 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
-import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import Link from 'gatsby-link'
+import Image from '../components/Image'
+import MetaPost from '../components/MetaPost'
+import './blog-post.css'
+import Share from '../components/share'
 
-export const BlogPostTemplate = ({
-  content,
-  contentComponent,
-  description,
-  tags,
-  title,
-  helmet,
-}) => {
-  const PostContent = contentComponent || Content
+export default props => {
+  const post = props.data.markdownRemark
+  const url = props.data.site.siteMetadata.url
+  const pathname = props.location.pathname
+  const { title, description, thumbnail, date, rawDate } = post.frontmatter
+  const { next, prev } = props.pathContext
+  const author = props.data.site.siteMetadata.author
 
   return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
+    <div>
+      <div className="main-body">
+        <MetaPost
+          title={title}
+          description={description}
+          thumbnail={thumbnail}
+          date={rawDate}
+          url={url}
+          pathname={pathname}
+        />
+
+        <h1>{title}</h1>
+        <div className="date-time">
+          <span>{date} </span>
+          <span>{post.timeToRead} min read.</span>
         </div>
+        <div style={{ marginBottom: "1rem" }}>
+          by&nbsp;
+          <a href="https://twitter.com/saigowthamr">{author}</a>
+        </div>
+
+        {thumbnail && <Image all={thumbnail} text={title.trim(5)} />}
+
+        <div style={{ marginTop: '1rem' }} dangerouslySetInnerHTML={{ __html: post.html }} />
+
+        <Share title={title} url={url} pathname={pathname} />
       </div>
-    </section>
+
+      <ul className="pager">
+        {prev && (
+          <li className="prev">
+            <Link to={prev.fields.slug}>Previous Post</Link>
+          </li>
+        )}
+        {next && (
+          <li className="next">
+            <Link to={next.fields.slug}>Next Post</Link>
+          </li>
+        )}
+      </ul>
+    </div>
   )
 }
 
-BlogPostTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
-  description: PropTypes.string,
-  title: PropTypes.string,
-  helmet: PropTypes.object,
-}
-
-const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data
-
-  return (
-    <Layout>
-      <BlogPostTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
-        description={post.frontmatter.description}
-        helmet={
-          <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-        }
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
-      />
-    </Layout>
-  )
-}
-
-BlogPost.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
-}
-
-export default BlogPost
-
-export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
+export const query = graphql`
+  query BlogPostQuery($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      timeToRead
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         title
         description
-        tags
+        thumbnail
+        date(formatString: "MMM Do")
+        rawDate:date
+      }
+    }
+
+    site {
+      siteMetadata {
+        url
+        author
       }
     }
   }

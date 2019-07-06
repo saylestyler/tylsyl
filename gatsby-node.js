@@ -1,87 +1,64 @@
-const _ = require('lodash')
+const createPaginatedPages = require('gatsby-paginate')
 const path = require('path')
-const { createFilePath } = require('gatsby-source-filesystem')
-const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions
+exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
+  const { createNodeField } = boundActionCreators
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug
+    })
+  }
+}
 
-  return graphql(`
-    {
-      allMarkdownRemark(limit: 1000) {
-        edges {
-          node {
-            id
-            fields {
-              slug
-            }
-            frontmatter {
-              tags
-              templateKey
+exports.createPages = ({ graphql, boundActionCreators }) => {
+  const { createPage } = boundActionCreators
+  return new Promise((resolve, reject) => {
+    graphql(`
+      {
+        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+          edges {
+            node {
+              id
+              frontmatter {
+                title
+                date(formatString: "DD MMMM, YYYY")
+              }
+              fields {
+                slug
+              }
+              excerpt
+              timeToRead
             }
           }
         }
       }
-    }
-  `).then(result => {
-    if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()))
-      return Promise.reject(result.errors)
-    }
-
-    const posts = result.data.allMarkdownRemark.edges
-
-    posts.forEach(edge => {
-      const id = edge.node.id
-      createPage({
-        path: edge.node.fields.slug,
-        tags: edge.node.frontmatter.tags,
-        component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-        ),
-        // additional data can be passed via context
-        context: {
-          id,
-        },
+    `).then(result => {
+      createPaginatedPages({
+        edges: result.data.allMarkdownRemark.edges,
+        createPage: createPage,
+        pageTemplate: './src/templates/index.js',
+        pageLength: 5,
+        pathPrefix: ''
       })
-    })
+      const posts = result.data.allMarkdownRemark.edges
 
-    // Tag pages:
-    let tags = []
-    // Iterate through each post, putting all found tags into `tags`
-    posts.forEach(edge => {
-      if (_.get(edge, `node.frontmatter.tags`)) {
-        tags = tags.concat(edge.node.frontmatter.tags)
-      }
-    })
-    // Eliminate duplicate tags
-    tags = _.uniq(tags)
-
-    // Make tag pages
-    tags.forEach(tag => {
-      const tagPath = `/tags/${_.kebabCase(tag)}/`
-
-      createPage({
-        path: tagPath,
-        component: path.resolve(`src/templates/tags.js`),
-        context: {
-          tag,
-        },
+      result.data.allMarkdownRemark.edges.forEach(({ node }, index) => {
+        createPage({
+          path: node.fields.slug,
+          component: path.resolve(`./src/templates/blog-post.js`),
+          context: {
+            // Data passed to context is available in page queries as GraphQL variables.
+            slug: node.fields.slug,
+            prev: index === 0 ? null : posts[index - 1].node,
+            next: index === posts.length - 1 ? null : posts[index + 1].node
+          }
+        })
       })
+      resolve()
     })
   })
-}
-
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
-  fmImagesToRelative(node) // convert image paths for gatsby images
-
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    })
-  }
 }

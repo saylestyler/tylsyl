@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Home',
-    url: 'https://gowtham.netlify.com',
-    author: 'Sai gowtham'
+    url: 'https://www.tylsyl.com',
+    author: 'Tyler Sayles'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'My Blog',
-        short_name: 'My Blog',
+        name: 'Tyler Sayles',
+        short_name: 'Tyler Sayles',
         start_url: '/',
         background_color: '#f7f0eb',
         theme_color: '#a2466c',

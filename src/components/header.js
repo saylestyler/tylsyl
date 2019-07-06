@@ -10,9 +10,7 @@ const Header = ({ siteTitle }) => (
         maxWidth: 960,
         padding: '1.45rem 1.0875rem',
         textAlign: 'center'
-      }}
-    >
-
+      }}>
       <Link
         to='/'
       >

@@ -6,7 +6,6 @@ const MetaPost = (props) => (
     title={props.title}
     meta={[
       { name: 'title', content: props.title },
-
       { name: 'description', content: props.description },
       {
         property: 'og:title',
@@ -16,7 +15,6 @@ const MetaPost = (props) => (
         property: 'og:url',
         content: props.url + props.pathname
       },
-
       {
         property: 'og:image',
         content:
@@ -36,12 +34,11 @@ const MetaPost = (props) => (
         props.thumbnail &&
         props.url + props.thumbnail
       },
-
       {
         rel: 'author',
         href: 'https://twitter/saylesopenhauer'
       },
-      { property: 'author', content: 'Tyler Sayle' },
+      { property: 'author', content: 'Tyler Sayles' },
       { property: 'og:type', content: 'article' },
       { name: 'twitter:card', content: 'summary_large_image' },
       {

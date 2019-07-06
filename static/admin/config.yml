@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: saylestyler/tylsyl #replace with your username/repo
+  repo: saylestyler/tylsyl
 
 media_folder: static/img
 public_folder: /img

@@ -1,10 +1,12 @@
 ---
 date: '2019-07-06T11:39:00-04:00'
-title: downloaded chromium... literally
+title: downloading chromium... literally
 description: '... literally '
 thumbnail: ''
 ---
 literally just the deploy logs of me cloning Chromium
+
+highlights include `wasm_corpus` and `zucchini_testdata`
 
 ```shell
 ❯ cd ~/chromium

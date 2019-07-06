@@ -15,7 +15,7 @@ export default props => {
 
   return (
     <div>
-      <div className="main-body">
+      <div className='main-body'>
         <MetaPost
           title={title}
           description={description}
@@ -26,13 +26,13 @@ export default props => {
         />
 
         <h1>{title}</h1>
-        <div className="date-time">
+        <div className='date-time'>
           <span>{date} </span>
           <span>{post.timeToRead} min read.</span>
         </div>
-        <div style={{ marginBottom: "1rem" }}>
+        <div style={{ marginBottom: '1rem' }}>
           by&nbsp;
-          <a href="https://twitter.com/saigowthamr">{author}</a>
+          <a href='https://twitter.com/saigowthamr'>{author}</a>
         </div>
 
         {thumbnail && <Image all={thumbnail} text={title.trim(5)} />}
@@ -42,14 +42,14 @@ export default props => {
         <Share title={title} url={url} pathname={pathname} />
       </div>
 
-      <ul className="pager">
+      <ul className='pager'>
         {prev && (
-          <li className="prev">
+          <li className='prev'>
             <Link to={prev.fields.slug}>Previous Post</Link>
           </li>
         )}
         {next && (
-          <li className="next">
+          <li className='next'>
             <Link to={next.fields.slug}>Next Post</Link>
           </li>
         )}

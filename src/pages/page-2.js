@@ -8,9 +8,9 @@ const SecondPage = props => {
   return (
     <div>
       <Helmet
-        title="Blog posts"
+        title='Blog posts'
         meta={[
-          { name: 'description', content: 'Blog for javascript webdevlopment' },
+          { name: 'description', content: 'Blog for javascript webdevlopment' }
         ]}
       />
       <h1>Number of posts{data.allMarkdownRemark.totalCount}</h1>
@@ -20,7 +20,7 @@ const SecondPage = props => {
           to={node.fields.slug}
           style={{ textDecoration: `none`, color: `inherit` }}
         >
-          <ul className="posts">
+          <ul className='posts'>
             <h1>{node.frontmatter.title}</h1>
             <span>
               {node.frontmatter.date} &nbsp;

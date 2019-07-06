@@ -2,13 +2,14 @@ import React from 'react'
 
 const Share = props => (
   <div>
-    <h4 style={{ textAlign: 'center', margin: '0 0 .5rem 1rem' }}>Dist</h4>
     <ul className='social'>
       <li>
         <a
           href={
-            `https://twitter.com/intent/tweet?url=${props.url +
-            props.pathname}&text=${props.title} by @saylestyler`
+            `https://twitter.com/intent/tweet?
+            url=${props.url + props.pathname}&
+            text=${props.title} 
+            by @saylesopenhauer`
           }
           target='blank'>
           share -> twitter

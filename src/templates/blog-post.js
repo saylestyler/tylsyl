@@ -32,7 +32,7 @@ export default props => {
         </div>
         <div style={{ marginBottom: '1rem' }}>
           by&nbsp;
-          <a href='https://twitter.com/saigowthamr'>{author}</a>
+          <a href='https://twitter.com/saylesopenhauer'>{author}</a>
         </div>
 
         {thumbnail && <Image all={thumbnail} text={title.trim(5)} />}

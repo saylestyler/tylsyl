@@ -10,3 +10,5 @@ description: 'links, from july'
 [imperva](https://www.imperva.com/learn/performance/cdn-and-ssl-tls/) 10/10 learning section, this one about browser caching
 
 [elastic binary tree](http://wtarreau.blogspot.com/2011/12/elastic-binary-trees-ebtree.html) trove of a trove
+
+[haproxy architecture](http://www.haproxy.org/download/1.2/doc/architecture.txt) .txt

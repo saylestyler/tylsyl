@@ -10,6 +10,7 @@ The repo is iExport which is an innocent piece of Python to extract the contents
 :~)
 
 
+
 Here's version 1:
 
 ```python
@@ -149,10 +150,10 @@ now let's see if i can improve upon the first python I wrote over a year ago
 when I would've been hard pressed to explain base64 encoding or even encoding
 or even base-ic math :^O
 
-  * fix indentation causing `</body></html> to repeat` (whitespace sensitivity
-    :horror:)
-  * get rid of unused imports
-  * get rid of the `main()` method mess
+* fix indentation causing `</body></html> to repeat` (whitespace sensitivity
+  :horror:)
+* get rid of unused imports
+* get rid of the `main()` method mess
 
 ```python
 #!/usr/bin/env python3

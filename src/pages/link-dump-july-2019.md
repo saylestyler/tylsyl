@@ -15,3 +15,5 @@ description: 'links, from july'
 [haproxy architecture](http://www.haproxy.org/download/1.2/doc/architecture.txt) .txt
 
 [haproxy live demo!](http://demo.haproxy.org/) + design!
+
+[behold](github.com/blueyed/dotfiles/blob/master/vimrc) a 4,000 line long `~/.vimrc`

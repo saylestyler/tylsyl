@@ -13,7 +13,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'devblog, blog, log, brain dump, postmortem' }
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} />
+<Header siteTitle={data.site.siteMetadata.title} /> 
     <div
       style={{
         margin: '0 auto',

@@ -7,24 +7,14 @@
 // replaces pasteboard with cloudinary url
 
 require('dotenv').load()
-// const readline = require('readline')
 const cloudinary = require('cloudinary').v2
 const shj = require('shelljs')
-const ex = require('execa');
-
-// const rl = readline.createInterface({
-//   input: process.stdin,
-//   output: process.stdout
-// })
+const clipboardy = require('clipboardy');
 
 cloudinary.config({ cloud_name: process.env.CLOUDINARY_CLOUD_NAME, api_key: process.env.CLOUDINARY_API_KEY, api_secret: process.env.CLOUDINARY_API_SECRET })
 
 cloudinary.uploader.upload(shj.exec(`pbpaste`, { silent: true }), (e, result) => {
   if (e) console.error(e)
   const cloudinaryUrl = result.secure_url
-  shj.echo(cloudinaryUrl).to('tmp')
-  // readline
-  // shj.echo(cloudinaryUrl).to('tmp')
-  // const catOutput = shj.cat('./tmp', { silent: true })
-  // shj.exec('')
+  clipboardy.writeSync(result.secure_url)
 })

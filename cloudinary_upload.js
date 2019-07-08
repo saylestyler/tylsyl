@@ -6,7 +6,8 @@
 // uploads them to cloudinary
 // replaces pasteboard with cloudinary url
 
-require('dotenv').load()
+const dotenv = require('dotenv')
+dotenv.config()
 const cloudinary = require('cloudinary').v2
 const shj = require('shelljs')
 const clipboardy = require('clipboardy');

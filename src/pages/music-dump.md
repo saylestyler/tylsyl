@@ -7,7 +7,7 @@ description: snatched bold
 
 probs deserves / will b warranted w/ a post of her own
 
-![snatched bold](http://ww4.sinaimg.cn/large/006tNc79ly1g4savkjhz4j30tm0jttek.jpg)
+![snatched bold](https://res.cloudinary.com/cloudimgts/image/upload/v1562607482/moglgcfzk1pqy97wsjzk.jpg)
 
 # Rəvanə Ərəbova
 

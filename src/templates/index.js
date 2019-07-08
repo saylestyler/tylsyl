@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Pagination from '../components/pagination'
-import icon from '../img/favicon.ico'
+// import icon from '../img/favicon.ico'
 
 const NavLink = props => {
   if (!props.test) {
@@ -21,7 +21,7 @@ const IndexPages = ({ data, pathContext }) => {
     <div>
       <div>
         <Helmet>
-          <link rel='icon' href={icon} />
+          {/* <link rel='icon' href={icon} /> */}
           <title>Home | Blog made with gatsby</title>
           <meta name='description' content='Blog for javascript webdevlopment' />
         </Helmet>
@@ -31,7 +31,7 @@ const IndexPages = ({ data, pathContext }) => {
             key={i}
             to={node.fields.slug}
             style={{ textDecoration: `none`, color: `inherit` }}
-          >
+          // con>
             <ul className='posts'>
               <h1>{node.frontmatter.title}</h1>
               <span>

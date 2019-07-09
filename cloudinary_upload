@@ -9,18 +9,15 @@
 const dotenv = require('dotenv')
 dotenv.config()
 const cloudinary = require('cloudinary').v2
-const clipboardy = require('clipboardy');
+const clipboardy = require('clipboardy')
 
-cloudinary.config({ 
-  cloud_name: process.env.CLOUD_NAME, 
-  api_key: process.env.API_KEY, 
-  api_secret: process.env.API_SECRET 
+cloudinary.config({
+  cloud_name: process.env.CLOUD_NAME,
+  api_key: process.env.API_KEY,
+  api_secret: process.env.API_SECRET
 })
 
 cloudinary.uploader.upload(clipboardy.readSync(), (e, res) => {
   if (e) console.error(e)
-
-  clipboardy.writeSync(res.secure_url)
-
-  console.log('\nmd img \n![](' + res.secure_url + ')')
+  clipboardy.writeSync('![alt]' + res.secure_url + ')')
 })

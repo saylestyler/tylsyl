@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  <script src="https://widget.cloudinary.com/v2.0/global/all.js"></script>
+</head>
+<body>
+  <button id="upload_widget" class="cloudinary-button">Upload files</button>
+  <script>
+    const cloudinary_config = { cloudName: 'cloudimgts', uploadPreset: 'aqga34kp' }
+    const uploadWidget = cloudinary.createUploadWidget(cloudinary_config, (error, result) => {
+      if (error) console.error(error) 
+      if (result && result.event === "success") {
+        console.log('Done! Here is the image info: ', result);
+      }
+    })
+
+    document
+      .getElementById("upload_widget")
+      .addEventListener("click", () => {
+        uploadWidget.open();
+    }, false);
+  </script>
+</body>
+
+</html>

@@ -9,3 +9,5 @@ description: |
 [axel rauschmayer (always)](https://2ality.com/index.html) forever
 
 [dom enlightenment](http://domenlightenment.com/) best book on DOM / html 
+
+[someplacedumb](http://www.someplacedumb.net/) decidedly not

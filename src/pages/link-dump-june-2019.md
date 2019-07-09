@@ -11,3 +11,5 @@ description: |
 [dom enlightenment](http://domenlightenment.com/) best book on DOM / html 
 
 [someplacedumb](http://www.someplacedumb.net/) decidedly not
+
+[programmable web](https://www.programmableweb.com/news/how-to-build-twilio-appointment-reminders-nodejs-and-express/how-to/2019/03/27) literally a trove

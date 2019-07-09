@@ -1,6 +1,6 @@
 ---
 date: '2019-07-08T21:10:42-04:00'
-title: funny dev  dump
+title: funny dev dump
 description: funny
 ---
 # `killall children`

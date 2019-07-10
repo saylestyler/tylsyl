@@ -23,3 +23,4 @@ description: 'links, from july'
 
 william gibson _has a twitter_ *and tweets* aka will i ever accomplish anything
 
+[what got me into russian poetry](http://max.mmlc.northwestern.edu/mdenner/Demo/poetpage/tsvetaeva.html)

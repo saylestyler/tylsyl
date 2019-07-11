@@ -23,7 +23,9 @@ and here's `ps aux | grep 8000`
 
 aka finds nothing but the `rg` searching for... nothing aka turns out they are not the same! :hehe: 
 
-# `lsof` (files opened by processes)
+# lsof 
+
+(files opened by processes)
 
 focuses on the _port_ a process is running on
 
@@ -53,7 +55,7 @@ focuses on the _port_ a process is running on
     lsof +D path/to/directory
 ```
 
-# `ps` 
+# ps 
 
 quoting [this gist](https://gist.github.com/Integralist/a49df746e2bd30bff047#ps): "An open file may be a regular file, a directory, a block special file, a character special file, an executing text reference, a library, a stream or a network file (Internet socket, NFS file or UNIX domain socket)" 
 

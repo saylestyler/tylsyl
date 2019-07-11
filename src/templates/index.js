@@ -32,13 +32,8 @@ const IndexPages = ({ data, pathContext }) => {
           <Link
             key={i}
             to={node.fields.slug}>
-            <ul className='posts'>
-              <h1>{node.frontmatter.title}</h1>
-              {/* <span>
-                {node.frontmatter.date} &nbsp;
-                {node.timeToRead}min read
-              </span>
-              <p>{node.excerpt}</p> */}
+            <ul>
+              <li>{node.frontmatter.title}</li>
             </ul>
           </Link>
         ))}
@@ -46,8 +41,11 @@ const IndexPages = ({ data, pathContext }) => {
 
       <Pagination
         NavLink={NavLink}
-        first={first} last={last} previousUrl={previousUrl}
-        nextUrl={nextUrl} />
+        first={first} 
+	last={last} 
+	previousUrl={previousUrl}
+        nextUrl={nextUrl} 
+     />
     </div>
   )
 }

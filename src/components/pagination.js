@@ -1,27 +1,22 @@
 import React from 'react'
 
 const Pagination = (props) => (
-  <div >
-    {
-      props.first === false &&
-      <div className='previousLink'>
+  <ul>
+    {props.first === false &&
+      <li className='previousLink'>
         <props.NavLink
           test={props.first}
           url={props.previousUrl}
-          text='left'
-        />
-      </div>
-    }
-    {
-      props.last === false &&
-      <div className='nextLink'>
+          text='back in time'/>
+      </li>}
+    {props.last === false &&
+      <li className='nextLink'>
         <props.NavLink
           test={props.last}
           url={props.nextUrl}
-          text='right' />
-      </div>
-    }
-  </div>
+          text='forward in time'/>
+      </li>}
+  </ul>
 )
 
 export default Pagination

@@ -19,3 +19,9 @@ description: 'links, from july'
 [behold](github.com/blueyed/dotfiles/blob/master/vimrc) a 4,000 line long `~/.vimrc`
 
 [what got me into russian poetry](http://max.mmlc.northwestern.edu/mdenner/Demo/poetpage/tsvetaeva.html)
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Working breakfast at the White Spot, correcting the uncorrected proofs of Agency. <a href="https://t.co/GqlU68Hi7A">pic.twitter.com/GqlU68Hi7A</a></p>&mdash; William Gibson (@GreatDismal) <a href="https://twitter.com/GreatDismal/status/1148623822175629315?ref_src=twsrc%5Etfw">July 9, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+william gibson _has a twitter_ *and tweets* aka will i ever accomplish anything

@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import './blog.css'
 
 const SecondPage = props => {
   const data = props.data
@@ -18,7 +17,6 @@ const SecondPage = props => {
         <Link
           key={i}
           to={node.fields.slug}
-          style={{ textDecoration: `none`, color: `inherit` }}
         >
           <ul className='posts'>
             <h1>{node.frontmatter.title}</h1>

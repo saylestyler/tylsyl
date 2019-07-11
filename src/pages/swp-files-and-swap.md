@@ -17,9 +17,10 @@ twaz indeed not _truly_ full: on doing
 sudo find / -type f -size +10M -exec ls -lh {} \
 ```
 
-i found a bevy of vim swp files, one which was 20gb
+i found a bevy of vim swp files, one which was 20 gb
 
-<h3 style='color: red; font-weight: 600'>TWENTY GIGABYTES</h3>
+
+# 20 gb
 
 according to ImFeelingLucky's first result:
 

@@ -3,6 +3,8 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Pagination from '../components/pagination'
 import icon from '../img/favicon.ico'
+import 'normalize.css' // normalize.css npm
+import './global.css'
 
 const NavLink = props => {
   if (!props.test) {
@@ -22,22 +24,21 @@ const IndexPages = ({ data, pathContext }) => {
       <div>
         <Helmet>
           <link rel='icon' href={icon} /> 
-          <title>Home | Blog made with gatsby</title>
-          <meta name='description' content='Blog for javascript webdevlopment' />
+          <title>Tyler Sayles | dev dump | github.com/saylestyler</title>
+          <meta name='description' content='blog dev dump postmortem' />
         </Helmet>
 
         {group.map(({ node }, i) => (
           <Link
             key={i}
-            to={node.fields.slug}
-            style={{ textDecoration: `none`, color: `inherit` }}>
+            to={node.fields.slug}>
             <ul className='posts'>
               <h1>{node.frontmatter.title}</h1>
-              <span>
+              {/* <span>
                 {node.frontmatter.date} &nbsp;
                 {node.timeToRead}min read
               </span>
-              <p>{node.excerpt}</p>
+              <p>{node.excerpt}</p> */}
             </ul>
           </Link>
         ))}

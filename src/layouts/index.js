@@ -1,6 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import './index.css'
 require('prismjs/themes/prism-twilight.css')
 
 const Layout = ({ children, data }) => (
@@ -12,14 +11,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'devblog, blog, log, brain dump, postmortem' }
       ]}
     />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 1060,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0
-      }}
-    >
+    <div>
       {children()}
     </div>
   </div>

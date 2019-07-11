@@ -2,9 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Image from '../components/Image'
 import MetaPost from '../components/MetaPost'
-import './blog-post.css'
-import Share from '../components/share'
-
 export default props => {
   const post = props.data.markdownRemark
   const url = props.data.site.siteMetadata.url
@@ -12,7 +9,6 @@ export default props => {
   const { title, description, thumbnail, date, rawDate } = post.frontmatter
   const { next, prev } = props.pathContext
   const author = props.data.site.siteMetadata.author
-
   return (
     <div>
       <div className='main-body'>
@@ -24,24 +20,15 @@ export default props => {
           url={url}
           pathname={pathname}
         />
-
+        <Link to={'/'}>Home</Link>
         <h1>{title}</h1>
         <div className='date-time'>
-          <span>{date} </span>
-          <span>{post.timeToRead} min read.</span>
+          <span>{date} | {author}</span>
+          {/* <span>{post.timeToRead} min read</span> */}
         </div>
-        <div style={{ marginBottom: '1rem' }}>
-          by&nbsp;
-          <a href='https://twitter.com/saylesopenhauer'>{author}</a>
-        </div>
-
         {thumbnail && <Image all={thumbnail} text={title.trim(5)} />}
-
-        <div style={{ marginTop: '1rem' }} dangerouslySetInnerHTML={{ __html: post.html }} />
-
-        <Share title={title} url={url} pathname={pathname} />
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
-
       <ul className='pager'>
         {prev && (
           <li className='prev'>

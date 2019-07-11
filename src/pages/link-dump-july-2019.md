@@ -25,3 +25,5 @@ description: 'links, from july'
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 william gibson _has a twitter_ *and tweets* aka will i ever accomplish anything
+
+[behold](https://github.com/blueyed/dotfiles/blob/master/vimrc) a 4,000 line long `~/.vimrc`

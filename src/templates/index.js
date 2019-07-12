@@ -3,8 +3,6 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Pagination from '../components/pagination'
 import icon from '../img/favicon.ico'
-import 'normalize.css' // normalize.css npm
-import './global.css'
 
 const NavLink = props => {
   if (!props.test) {

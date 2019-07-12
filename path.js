@@ -1,1 +1,0 @@
-/Users/tyler/.nvm/versions/node/v10.16.0/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Applications/Wireshark.app/Contents/MacOS

@@ -4,6 +4,21 @@ import AboutPagePreview from './preview-templates/AboutPagePreview'
 import BlogPostPreview from './preview-templates/BlogPostPreview'
 
 var cloudinary = window.cloudinary
+window.ml = cloudinary.openMediaLibrary({
+  cloud_name: 'cloudimgts',
+  upload_preset: 'aqga34kp',
+  api_key: '739913194731388',
+  button_class: 'myBtn',
+  default_transformations: [{ quality: 'auto' }, { format: 'auto' }],
+  insert_transformation: true
+}, {
+  insertHandler: function (data) {
+    data.assets.forEach(asset => {
+      console.log('Inserted asset:',
+        JSON.stringify(asset, null, 2))
+    })
+  }
+}, document.getElementById('open-btn'))
 
 CMS.registerPreviewTemplate('about', AboutPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
@@ -45,10 +60,6 @@ function addElement () {
   goToSite.style.top = '250px'
   document.body.appendChild(goToSite)
 
-  // unnecessary since in template?
-  // addEventListener, w/ callback launchCML
-  widg.addEventListener('click', launchCML)
-
   // replace new blog button w/ nya
   var newBlogButton = document.getElementsByClassName('nc-collectionPage-topNewButton')
   newBlogButton[0].innerHTML = '<h1>NYA</h1>'
@@ -56,36 +67,20 @@ function addElement () {
   document.body.getElementsByClassName('nc-appHeader-content')[0].style.visibility = 'hidden'
 }
 
-function launchCML () {
-  cloudinary.applyUploadWidget('#upload_widget_opener', {
-    cloud_name: 'cloudimgts',
-    upload_preset: 'aqga34kp',
-    api_key: '739913194731388',
-    button_class: 'myBtn'
-  },
-  (error, result) => {
-    if (error) {
-      console.log(error)
-    } else {
-      console.log(result)
-    }
-  })
-}
-// window.ml = cloudinary.openMediaLibrary({
-// cloud_name: 'cloudimgts',
-// upload_preset: 'aqga34kp',
-// api_key: '739913194731388',
-// button_class: 'myBtn',
-// default_transformations: [{ quality: 'auto' }, { format: 'auto' }],
-// insert_transformation: true
-// }, {
-// insertHandler: function (data) {
-// data.assets.forEach(asset => {
-// console.log('Inserted asset:',
-// JSON.stringify(asset, null, 2))
-// })
-// }
-// }, document.getElementById('open-btn'))
+// function launchCML () {
+//   cloudinary.applyUploadWidget('#upload_widget_opener', {
+//     cloud_name: 'cloudimgts',
+//     upload_preset: 'aqga34kp',
+//     api_key: '739913194731388',
+//     button_class: 'myBtn'
+//   },
+//   (error, result) => {
+//     if (error) {
+//       console.log(error)
+//     } else {
+//       console.log(result)
+//     }
+//   })
 // }
 
 /*!

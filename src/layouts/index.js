@@ -1,31 +1,45 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-require('prismjs/themes/prism-twilight.css')
-import './base.css'
+// import React from "react";
+// import Helmet from "react-helmet";
+// import config from "../../data/SiteConfig";
+// import "./index.css";
 
-const Layout = ({ children, data }) => (
+// export default class MainLayout extends React.Component {
+// render() {
+// const { children } = this.props;
+// return (
+// <div>
+// <Helmet>
+// <meta name="description" content={config.siteDescription} />
+// </Helmet>
+// {children}
+// </div>
+// );
+// }
+// }
+
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+import Navbar from '../components/Navbar'
+
+import './all.sass'
+
+require('prismjs/themes/prism-solarizedlight.css')
+
+var config = {
+  siteDescription: 'tyler sayles, dev blog, web development, data dump, central dumping'
+}
+
+const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: 'Tyler Sayles dev blog' },
-        { name: 'keywords', content: 'devblog, blog, log, brain dump, postmortem' }
-      ]}
-    />
-    <div>
-      {children()}
-    </div>
+    <Helmet>
+      <meta name='description' content={config.siteDescription} />
+      <meta name='google-site-verification' content='KTnPw9JrncXlqv5zhAGJH1Bx46F553A-8HIaNk3dajY' />
+    </Helmet>
+    <Navbar />
+    <div className='children-class'>{children()}</div>
   </div>
 )
+TemplateWrapper.propTypes = { children: PropTypes.func }
 
-export default Layout
-
-export const query = graphql`
-  query SiteTitleQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
+export default TemplateWrapper

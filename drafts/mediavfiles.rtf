@@ -1,0 +1,127 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Arial-Black;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww25100\viewh12920\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs22 \cf0 1. l\'e4s (i den h\'e4r ordern): \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \strike \strikec0   * jsobj i detalj \strike0\striked0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs42 \cf0   * fatta ringtillbakafunktioner och deras applikationer \
+  * clo w/ l\'e4ttedom
+\fs22 \
+  * hur man anv\'e4nder mapera, filtrera, reducera \
+\
+2. max stats{\field{\*\fldinst{HYPERLINK "https://pastebin.com/qqPDj3RC"}}{\fldrslt https://pastebin.com/qqPDj3RC}}\strike \strikec0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \strikec0 \
+1. l\'e4s f\'f6d ts filer \
+   * hask \
+\
+2. l\'e4s shop ts filer \
+   * hask \
+   * ts\
+\
+&* set up a flow account\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \strikec0 3. remove download badge from footer, newsletter \
+deeplink app in mobile safari \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \strikec0 \
+invite shamsah to slack\strike0\striked0 \
+\strike \strikec0 give example of early uploads tagging taxonomy to max \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \strikec0 send examples of vfiles loud entries profiles\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \strike0\striked0 \
+\
+\
+\
+\
+\
+____ MISC \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 rubber duck a new data structure for uploads and feed / microsyntax (taxonomy / tagging) \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 experience content not read it \
+the site doesn't represent cardi b, MIGOs, etc. \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Fetches feed events for the given user, sorted least-recent to most Can potentially return a large number of results due to the  multi-query fetching.\
+-- Fetches up to four of the first category (currently likes, since that will generally be the most common and therefore have the most-recent-least-recent event), then fetches either up to four of the next category if there weren't four in the first, or all created after the oldest in the first. In the end, it is limited to 100 events.\
+In this way, we minimize the amount of data we fetch but don't return, and don't have to worry about missing events in the middle.\
+\
+feed events: \
+\
+LikedMedia ::\
+LikedVfile ::\
+LikedMVF   ::\
+LikedMVFMany \
+Filed :: Medi\
+FiledMany :: \
+Mentioned :: \
+MentionedMany\
+Commented :: \
+CommentedMany\
+ Followed :: \
+FollowedA :: \
+FollowedManyA\
+Collaborated \
+\
+data complexity example:\
+-- Currently I get a notif when people comment on my mediavfile, but\
+-- the owner of the media (if different) does not get a notification\
+-- Accordingly, this leaves in comments on media I own, but should scrub\
+-- those out if we change notifications\
+\
+tylersayles [4:04 PM]\
+what\
+what's a mediaVfile again\
+lol\
+\
+steph [4:04 PM]\
+same as media\
+it\'92s just called mediavfile instead of media\
+iirc\
+\
+evan [4:16 PM]\
+it is the join table between media and vfiles tables\
+and represents a media being in a vfile\
+so it has foreign keys `media_id`, `person_id`, `vfile_id` as well as several other columns relevant to a media being in a vfile (edited)\
+\
+steph [4:17 PM]\
+but with the vfile id.\
+\
+tylersayles [4:17 PM]\
+ooo i'd never heard it described that way !\
+\
+steph [4:19 PM]\
+why do we have both media/mediavfile?\
+in the app\
+\
+evan [4:19 PM]\
+media is the media table\
+\
+steph [4:19 PM]\
+was it something we introduced later in?\
+\
+evan [4:19 PM]\
+media used to be able to exist outside of a vfile as well as in a vfile\
+\
+steph [4:19 PM]\
+ahhhh\
+okay\
+dat loose media.\
+\
+evan [4:19 PM]\
+until julie anne decided we werent having loose media anymore..\
+\
+<insert images of loose media\
+}

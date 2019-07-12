@@ -1,0 +1,111 @@
+/*.post-content p {*/
+  /*font-family: Georgia, serif;*/
+  /*font-size: 18px;*/
+  /*line-height: 29px;*/
+  /*padding: 18px;*/
+/*}*/
+ /*h1 {*/
+  /*font-size: 37px;*/
+  /*line-height: 56px;*/
+  /*margin-bottom: 29px;*/
+/*}*/
+/*.post-title {*/
+  /*font-size: 47px;*/
+  /*line-height: 70px;*/
+  /*margin-bottom: 29px;*/
+/*}*/
+ /*h2 {*/
+  /*font-size: 29px;*/
+  /*line-height: 45px;*/
+  /*margin-top: 47px;*/
+  /*margin-bottom: 18px;*/
+/*}*/
+ /*h3 {*/
+  /*font-size: 23px;*/
+  /*line-height: 36px;*/
+  /*margin-top: 29px;*/
+  /*margin-bottom: 11px;*/
+/*}*/
+ /*h4 {*/
+  /*font-size: 18px;*/
+  /*line-height: 29px;*/
+  /*font-weight: bold;*/
+  /*margin-bottom: 7px;*/
+/*}*/
+ /*p,  ul,  ol,  blockquote,  pre,  .alert,  .note,  .box,  .footnotes {*/
+  /*margin-bottom: 29px;*/
+/*}*/
+ /*ul,  ol {*/
+  /*margin-left: 29px;*/
+/*}*/
+ /*blockquote {*/
+  /*padding-left: 18px;*/
+  /*border-style: solid;*/
+  /*border-color: rgba(0,0,0,0.15);*/
+  /*border-width: 0 0 0 7px;*/
+/*}*/
+ /*blockquote.right,  blockquote.left {*/
+  /*font-size: 29px;*/
+  /*line-height: 45px;*/
+  /*padding-left: 0;*/
+  /*border: 0;*/
+  /*margin-bottom: 18px;*/
+/*}*/
+ /*sub,  sup {*/
+  /*padding: 0 1px;*/
+/*}*/
+ /*code,  pre,  kbd {*/
+  /*font-size: 15px;*/
+/*}*/
+ /*code {*/
+  /*background-color: rgba(0,0,0,0.08);*/
+  /*padding: 3px 4px;*/
+  /*border-radius: 7px;*/
+  /*margin: 0 1px;*/
+/*}*/
+ /*pre {*/
+  /*padding: 11px 18px 18px 11px;*/
+  /*border-style: solid;*/
+  /*border-color: rgba(0,0,0,0.15);*/
+  /*border-width: 0 0 0 7px;*/
+/*}*/
+ /*kbd {*/
+  /*background-color: #fff;*/
+  /*padding: 3px 4px;*/
+  /*border-radius: 4px;*/
+  /*box-shadow: 0 0 4px 0 rgba(0,0,0,0.45);*/
+  /*margin: 0 1px;*/
+/*}*/
+ /*.alert,  .note,  .box {*/
+  /*padding: 18px;*/
+/*}*/
+ /*.footnotes {*/
+  /*font-size: 14px;*/
+  /*line-height: 23px;*/
+  /*padding-top: 18px;*/
+  /*border-top: 1px dotted rgba(0,0,0,0.15);*/
+/*}*/
+ /*.footnotes p {*/
+  /*margin-bottom: 18px;*/
+/*}*/
+ /*ul ul,  ul ol,  ol ul,  ol ol,  blockquote.right p,  blockquote.left p,  .alert :last-child,  .note :last-child,  .box :last-child,  .footnotes :last-child {*/
+  /*margin-bottom: 0;*/
+/*}*/
+/*@media all and (min-width: 309px) {*/
+   /*blockquote.right,  blockquote.left {*/
+    /*width: 38.2%;*/
+  /*}*/
+   /*blockquote.right {*/
+    /*float: right;*/
+    /*margin-left: 29px;*/
+  /*}*/
+   /*blockquote.left {*/
+    /*float: left;*/
+    /*margin-right: 29px;*/
+  /*}*/
+/*}*/
+@media all and (min-width: 558px) {
+   {
+    padding: 29px;
+  }
+}

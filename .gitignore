@@ -1,17 +1,9 @@
-.env
-.notes
-notes
-
 # Project dependencies
-.cache
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
-yarn-error.log
-
+.cache/
 # Build directory
-/public
+public/
+static/admin/*.bundle.*
 .DS_Store
-/Drafts
-/drafts
-.diar
-*.draft.*
-.env
+yarn-error.log

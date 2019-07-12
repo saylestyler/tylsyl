@@ -1,0 +1,134 @@
+//@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Arimo|Chivo')
+
+//@font-face
+  //font-family: 'Bitter'
+  //font-style: normal
+  //font-weight: 400
+  //src: local("Bitter Regular"), local("Bitter-Regular"), url('../fonts/bitter/bitter-v12-latin-regular.woff2') format("woff2"), url('../fonts/bitter/bitter-v12-latin-regular.woff') format("woff")
+
+//Success Criterion 1.4.12 Text Spacing
+//Understanding Text Spacing |
+//How to Meet Text Spacing(Level AA)
+//In content implemented using markup languages that support the following text style properties, no loss of content or functionality occurs by setting all of the following and by changing no other style property:
+
+//Line height (line spacing) to at least 1.5 times the font size;
+//Spacing following paragraphs to at least 2 times the font size;
+//Letter spacing (tracking) to at least 0.12 times the font size;
+//Word spacing to at least 0.16 times the font size.
+//Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script.
+
+body, html, .post-content p
+  //font-family: 'Arimo', sans-serif
+  //font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
+  font-family: -apple-system, ".SFNSText", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+
+h1, h2, h3, h4, h5, h6, h7
+  font-family: 'Archivo Black', sans-serif
+
+h2
+  font-size: 2.0em
+  font-weight: 400
+
+
+img, iframe
+  margin-top: 10px
+  margin-bottom: 20px
+  width: 80%
+
+.taglist, li, a
+  list-style: none
+  text-align: left
+
+.post-title-and-description-wrapper
+  padding-left: 20px
+  font-weight: 800
+  color: black
+
+.post-title
+  font-family: 'Archivo Black'
+  font-size: 3em
+  color: #c4a000;
+  text-shadow: white 0 -2px;
+  border-bottom: 1px solid #d3d7cf;
+
+.post-description
+  font-style: oblique
+  font-size: 1.0em
+  margin-bottom: 3.5em
+
+.edit-this-page,
+.edit-this-page > a
+  color: lightgray
+  font-size: 8px
+
+.post-list-title
+  font-family: 'Georiga', serif
+  a
+    color: blue
+  &:visited
+    color: purple
+  &:hover
+    color: lightblue
+
+.post-list-date
+  margin-bottom: 1.5em
+
+//from https://html.spec.whatwg.org/dev/introduction.html#is-this-html5?
+.post-content p
+  //font-family: 'Arimo', sans-serif
+  font-size: 22px
+  line-height: 1.2
+  margin-bottom: 1.5em
+  margin-top: 1.5em
+
+//.index-page-wrapper
+  //margin-left: 10px
+  //margin-right: 10px
+
+.purple, .note
+  background: #eef
+  border: solid 1px #aaf
+  padding: 0.5em
+  margin: 1.5em
+  font-size: 1.3em
+
+nav
+  padding: 20px
+  text-align: right
+  a
+    margin-right: 20px
+    color: #286efa
+    padding-right: 30px
+    margin-right: 20px
+  &:visited
+    color: #286efa
+
+.navbar-item
+  font-size: 1.5em
+  a
+    color: red
+    border-bottom: none
+  &:visited
+    color: red
+  &:hover
+    color: darkred
+
+@media all and (min-width: 900px)
+  .post-content p
+    line-height: 30px
+    font-size: 22px
+    margin-bottom: 2em
+    margin-top: 2em
+
+  .index-page-wrapper
+    margin-left: 5px
+    margin-right: 5px
+
+@media all and (max-width: 400px)
+  .post-content p
+    font-size: 18px
+    line-height: 1.3
+
+  body, html
+    margin: 0px
+    padding: 5px

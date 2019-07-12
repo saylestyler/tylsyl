@@ -1,0 +1,134 @@
+fje
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.009  000.009: --- VIM STARTING ---
+000.104  000.095: Allocated generic buffers
+000.593  000.489: locale set
+000.627  000.034: GUI prepared
+000.632  000.005: clipboard setup
+000.645  000.013: window checked
+001.419  000.774: inits 1
+001.433  000.014: parsing arguments
+008.647  007.214: expanding arguments
+011.326  002.679: shell init
+011.705  000.379: Termcap init
+011.740  000.035: inits 2
+013.540  001.800: init highlight
+013.927  000.277  000.277: sourcing $VIM/vimrc
+015.761  001.675  001.675: sourcing /Users/tyler/.vim/autoload/plug.vim
+026.305  000.071  000.071: sourcing /Users/tyler/.vim/plugged/vim-javascript/ftdetect/javascript.vim
+026.464  000.055  000.055: sourcing /Users/tyler/.vim/plugged/vim-jsx/ftdetect/javascript.vim
+026.595  000.017  000.017: sourcing /Users/tyler/.vim/plugged/yats.vim/ftdetect/tsx.vim
+026.659  000.017  000.017: sourcing /Users/tyler/.vim/plugged/yats.vim/ftdetect/typescript.vim
+026.773  000.020  000.020: sourcing /Users/tyler/.vim/plugged/typescript-vim/ftdetect/typescript.vim
+026.894  000.022  000.022: sourcing /Users/tyler/.vim/plugged/tsuquyomi/ftdetect/typescript.vim
+027.051  000.050  000.050: sourcing /Users/tyler/.vim/plugged/vim-coffee-script/ftdetect/coffee.vim
+027.125  000.026  000.026: sourcing /Users/tyler/.vim/plugged/vim-coffee-script/ftdetect/vim-literate-coffeescript.vim
+027.291  000.024  000.024: sourcing /Users/tyler/.vim/plugged/ultisnips/ftdetect/snippets.vim
+027.514  006.984  006.682: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+027.820  000.046  000.046: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+028.112  000.040  000.040: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+028.949  000.218  000.218: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+029.075  000.595  000.377: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+029.106  000.880  000.285: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+029.354  000.017  000.017: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+029.670  000.028  000.028: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+030.107  000.021  000.021: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+030.508  000.206  000.206: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/syntax/nosyntax.vim
+031.183  000.190  000.190: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+031.309  000.561  000.371: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+031.339  001.117  000.350: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+037.680  000.226  000.226: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+038.232  000.183  000.183: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+041.720  010.058  009.649: sourcing /Users/tyler/.vim/plugged/vim-material/colors/vim-material.vim
+042.107  028.099  007.233: sourcing $HOME/.vimrc
+042.115  000.199: sourcing vimrc file(s)
+042.544  000.030  000.030: sourcing /Users/tyler/.vim/plugged/goyo.vim/plugin/goyo.vim
+043.135  000.171  000.171: sourcing /Users/tyler/.vim/plugged/vim-gitgutter/autoload/gitgutter/utility.vim
+043.683  000.116  000.116: sourcing /Users/tyler/.vim/plugged/vim-gitgutter/autoload/gitgutter/highlight.vim
+044.454  001.756  001.469: sourcing /Users/tyler/.vim/plugged/vim-gitgutter/plugin/gitgutter.vim
+057.163  012.556  012.556: sourcing /Users/tyler/.vim/plugged/vim-g/plugin/g.vim
+058.781  001.314  001.314: sourcing /Users/tyler/.vim/plugged/asyncrun.vim/plugin/asyncrun.vim
+059.128  000.195  000.195: sourcing /Users/tyler/.vim/plugged/tsuquyomi/plugin/tsuquyomi.vim
+061.339  002.039  002.039: sourcing /Users/tyler/.vim/plugged/emmet-vim/plugin/emmet.vim
+062.077  000.527  000.527: sourcing /Users/tyler/.vim/plugged/vim-surround/plugin/surround.vim
+062.500  000.019  000.019: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+062.779  000.016  000.016: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+063.051  000.019  000.019: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+064.160  000.214  000.214: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+064.728  000.209  000.209: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+068.412  005.064  004.641: sourcing /Users/tyler/.vim/plugged/vim-material/colors/vim-material.vim
+073.625  000.741  000.741: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+073.694  002.481  001.740: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/macros/matchit.vim
+073.768  011.545  003.946: sourcing /Users/tyler/.vim/plugged/vim-sensible/plugin/sensible.vim
+075.403  000.108  000.108: sourcing /Users/tyler/.vim/plugged/ultisnips/autoload/UltiSnips/map_keys.vim
+075.513  001.562  001.454: sourcing /Users/tyler/.vim/plugged/ultisnips/plugin/UltiSnips.vim
+075.729  000.045  000.045: sourcing /Users/tyler/.vim/plugged/vim-snippets/plugin/vimsnippets.vim
+077.022  000.486  000.486: sourcing /Users/tyler/.vim/plugged/delimitMate/autoload/delimitMate.vim
+079.664  003.778  003.292: sourcing /Users/tyler/.vim/plugged/delimitMate/plugin/delimitMate.vim
+084.731  004.867  004.867: sourcing /Users/tyler/.vim/plugged/nerdcommenter/plugin/NERD_commenter.vim
+085.810  000.919  000.919: sourcing /Users/tyler/.vim/plugged/supertab/plugin/supertab.vim
+086.749  000.111  000.111: sourcing /Users/tyler/.vim/plugged/ale/autoload/ale/events.vim
+086.900  000.943  000.832: sourcing /Users/tyler/.vim/plugged/ale/plugin/ale.vim
+087.317  000.276  000.276: sourcing /Users/tyler/.vim/plugged/YouCompleteMe/plugin/youcompleteme.vim
+087.547  000.079  000.079: sourcing /Users/tyler/.vim/plugged/ag.vim/plugin/ag.vim
+088.167  000.121  000.121: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/init.vim
+088.746  000.105  000.105: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/parts.vim
+089.504  001.827  001.601: sourcing /Users/tyler/.vim/plugged/vim-airline/plugin/airline.vim
+090.214  000.200  000.200: sourcing /Users/tyler/.vim/plugged/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+090.365  000.705  000.505: sourcing /Users/tyler/.vim/plugged/ctrlp.vim/plugin/ctrlp.vim
+090.998  000.071  000.071: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/plugin/getscriptPlugin.vim
+091.261  000.204  000.204: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/plugin/gzip.vim
+091.579  000.239  000.239: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/plugin/logiPat.vim
+091.679  000.040  000.040: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/plugin/manpager.vim
+091.919  000.185  000.185: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim
+092.496  000.516  000.516: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim
+092.623  000.051  000.051: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/plugin/rrhelper.vim
+092.724  000.035  000.035: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/plugin/spellfile.vim
+092.981  000.158  000.158: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/plugin/tarPlugin.vim
+093.151  000.102  000.102: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/plugin/tohtml.vim
+093.385  000.170  000.170: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/plugin/vimballPlugin.vim
+093.648  000.185  000.185: sourcing /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/plugin/zipPlugin.vim
+093.658  004.624: loading plugins
+093.743  000.085: loading packages
+094.071  000.114  000.114: sourcing /Users/tyler/.vim/plugged/ultisnips/after/plugin/UltiSnips_after.vim
+094.635  000.406  000.406: sourcing /Users/tyler/.vim/plugged/indentLine/after/plugin/indentLine.vim
+094.656  000.393: loading after plugins
+094.662  000.006: inits 3
+101.294  006.632: reading viminfo
+101.358  000.064: setting raw mode
+101.374  000.016: start termcap
+101.402  000.028: clearing screen
+102.140  000.267  000.267: sourcing /Users/tyler/.vim/plugged/ale/autoload/ale.vim
+102.843  000.314  000.314: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/extensions.vim
+103.228  000.080  000.080: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/extensions/quickfix.vim
+103.712  000.194  000.194: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline.vim
+104.105  000.054  000.054: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/extensions/netrw.vim
+104.444  000.038  000.038: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/extensions/term.vim
+104.847  000.095  000.095: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/extensions/ctrlp.vim
+105.295  000.105  000.105: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/extensions/hunks.vim
+105.860  000.197  000.197: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/util.vim
+106.360  000.111  000.111: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/extensions/ale.vim
+107.244  000.241  000.241: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/extensions/whitespace.vim
+107.924  000.097  000.097: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/extensions/wordcount.vim
+108.426  000.057  000.057: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/extensions/keymap.vim
+113.661  000.125  000.125: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/section.vim
+114.322  000.259  000.259: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/highlighter.vim
+118.239  000.088  000.088: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/themes.vim
+118.637  000.821  000.733: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/themes/dark.vim
+129.000  000.224  000.224: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/builder.vim
+129.645  000.121  000.121: sourcing /Users/tyler/.vim/plugged/vim-airline/autoload/airline/extensions/default.vim
+149.106  044.304: opening buffers
+149.520  000.146  000.146: sourcing /Users/tyler/.vim/plugged/vim-gitgutter/autoload/gitgutter.vim
+153.650  004.398: BufEnter autocommands
+153.654  000.004: editing files in windows
+154.983  000.913  000.913: sourcing /Users/tyler/.vim/plugged/YouCompleteMe/autoload/youcompleteme.vim
+289.083  134.516: VimEnter autocommands
+289.093  000.010: before starting main loop
+301.321  000.549  000.549: sourcing /Users/tyler/.vim/plugged/vim-gitgutter/autoload/gitgutter/hunk.vim
+301.986  000.126  000.126: sourcing /Users/tyler/.vim/plugged/ale/autoload/ale/statusline.vim
+303.488  013.720: first screen update
+303.489  000.001: --- VIM STARTED ---

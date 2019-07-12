@@ -1,17 +1,20 @@
 backend:
-  name: github
-  repo: saylestyler/tylsyl
+  name: git-gateway
+  branch: master
 
-media_folder: static/img
-public_folder: /img
+media_folder: src/img
+public_folder: static/img
+
 collections:
   - name: "blog"
-    label: "Blog"
-    folder: src/pages
+    label: "b"
+    folder: "src/pages/blog"
     create: true
+    slug: "{{slug}}"
     fields:
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-      - { name: body, label: Body, widget: markdown }
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}

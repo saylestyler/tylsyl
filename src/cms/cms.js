@@ -6,17 +6,40 @@ import BlogPostPreview from './preview-templates/BlogPostPreview';
 CMS.registerPreviewTemplate('about', AboutPagePreview);
 CMS.registerPreviewTemplate('blog', BlogPostPreview);
 
-window.onload = addElement;
+/*!
+ * Run event after the DOM is ready
+ * (c) 2017 Chris Ferdinandi, MIT License, https://gomakethings.com
+ * @param  {Function} fn Callback function
+ */
+var ready = function (fn) {
+  // Sanity check
+  if (typeof fn !== 'function') return;
 
-addElement();
+  // If document is already loaded, run method
+  if (document.readyState === 'interactive' || document.readyState === 'complete') {
+    return fn();
+  }
 
-function addElement () {
+  // Otherwise, wait until document is loaded
+  document.addEventListener('DOMContentLoaded', fn, false);
+};
 
+ready(function () {
+  // hide shit
+  document.body.getElementsByClassName('nc-collectionPage-topHeading')[0].style.visibility = 'hidden';
+  document.body.getElementsByClassName('nc-collectionPage-sidebarHeading')[0].style.visibility = 'hidden';
+
+  // highlight search as a reminder that u can search all posts
+  document.body.getElementsByClassName('nc-collectionPage-sidebarSearch')[0].style.width = '300px';
+  
   var widg = document.createElement('div');
   widg.innerHTML = `<div>
                       <button id="cl-button"
-                              class="myBtn"
-                              onclick="
+                              class="myBtn">
+                              <a href="https://www.tylsyl.com/upload">
+                              get media 
+                              </a>
+                            </button>
 
                     </div>`;
   widg.style.position = 'fixed';
@@ -26,7 +49,7 @@ function addElement () {
 
   var goToSite = document.createElement('div');
   goToSite.innerHTML = `<div>
-                         <a href='tylsyl.com' />
+                         <a href='https://www.tylsyl.com' />
                            <button>
                               Gå TillSi
                             </button>
@@ -39,51 +62,8 @@ function addElement () {
   document.body.appendChild(goToSite);
 
   // replace new blog button w/ nya
-  // var newBlogButton = document.getElementsByClassName('nc-collectionPage-topNewButton');
-  // newBlogButton[0].innerHTML = '<h1>NYA</h1>';
+  var newBlogButton = document.getElementsByClassName('nc-collectionPage-topNewButton');
+  newBlogButton[0].innerHTML = '<h1>NYA</h1>';
 
-  // document.body.getElementsByClassName('nc-appHeader-content')[0].style.visibility = 'hidden';
-}
-
-/*!
- * Run event after the DOM is ready
- * (c) 2017 Chris Ferdinandi, MIT License, https://gomakethings.com
- * @param  {Function} fn Callback function
- */
-// var ready = function (fn) {
-//   // Sanity check
-//   if (typeof fn !== 'function') return
-
-//   // If document is already loaded, run method
-//   if (document.readyState === 'interactive' || document.readyState === 'complete') {
-//     return fn()
-//   }
-
-//   // Otherwise, wait until document is loaded
-//   document.addEventListener('DOMContentLoaded', fn, false)
-// }
-
-// ready(function () {
-//   // hide shit
-//   document.body.getElementsByClassName('nc-collectionPage-topHeading')[0].style.visibility = 'hidden'
-//   document.body.getElementsByClassName('nc-collectionPage-sidebarHeading')[0].style.visibility = 'hidden'
-
-//   // highlight search as a reminder that u can search all posts
-//   document.body.getElementsByClassName('nc-collectionPage-sidebarSearch')[0].style.width = '300px'
-// })
-
-// window.ml = cloudinary.openMediaLibrary({
-//   cloud_name: 'cloudimgts',
-//   upload_preset: 'aqga34kp',
-//   api_key: '739913194731388',
-//   button_class: 'myBtn',
-//   default_transformations: [{ quality: 'auto' }, { format: 'auto' }],
-//   insert_transformation: true
-// }, {
-//   insertHandler: function (data) {
-//     data.assets.forEach(asset => {
-//       console.log('Inserted asset:',
-//         JSON.stringify(asset, null, 2));
-//     });
-//   }
-// }, document.getElementById('open-btn'));
+  document.body.getElementsByClassName('nc-appHeader-content')[0].style.visibility = 'hidden';
+});

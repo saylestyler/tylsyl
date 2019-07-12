@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+
+    <script src="https://media-library.cloudinary.com/global/all.js"></script>
+    <script>
+        const mloptions = {
+            cloud_name: 'cloudimgts',
+            api_key: '739913194731388',
+        }
+    
+        function insertHandler(data){
+            data.assets.forEach(asset => { console.log("Inserted asset:", JSON.stringify(asset, null, 2)) })
+        }
+    
+        window.ml = cloudinary.createMediaLibrary(mloptions, {insertHandler: insertHandler});
+        window.ml.show({folder: {path: "home"}});
+    </script>
+<!-- 
+  <a href="#" id="media_library_widget_opener">browse</a>
+
+  <script type="text/javascript">
+    var myMediaWidget;
+    document.getElementById("media_library_widget_opener").addEventListener("click", function () {
+      myMediaWidget = cloudinary.createMediaLibrary({
+        cloud_name: 'cloudimgts',
+        upload_preset: 'aqga34kp',
+        api_key: '739913194731388',
+        button_class: 'myBtn',
+        button_caption: 'Select Image or Video'
+      }, {
+          insertHandler: function (data) {
+            data.assets.forEach(asset => console.log('Inserted asset:', JSON.stringify(asset, null, 2)));
+          }
+        }, document.getElementById('open-btn'));
+    }, false);
+    myMediaWidget.open();
+  </script> -->
+</body>
+
+</html>

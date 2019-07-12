@@ -11,26 +11,24 @@ window.onload = addElement;
 addElement();
 
 function addElement () {
-  const launchCML = () => {
-    window.cloudinary.createMediaLibrary({
-      cloud_name: 'cloudimgts',
-      upload_preset: 'aqga34kp',
-      api_key: '739913194731388',
-      button_class: 'myBtn',
-      button_caption: 'Select Image or Video'
-    }, {
-      insertHandler: function (data) {
-        data.assets.forEach(asset => console.log('Inserted asset:', JSON.stringify(asset, null, 2)));
-      }
-    }, document.getElementById('open-btn')
-    );
-  };
 
   var widg = document.createElement('div');
   widg.innerHTML = `<div>
                       <button id="cl-button"
                               class="myBtn"
-                              onclick="launchCML()">
+                              onclick="
+                  window.cloudinary.createMediaLibrary({
+                    cloud_name: 'cloudimgts',
+                    upload_preset: 'aqga34kp',
+                    api_key: '739913194731388',
+                    button_class: 'myBtn',
+                    button_caption: 'Select Image or Video'
+                  }, {
+                    insertHandler: function (data) {
+                      data.assets.forEach(asset => console.log('Inserted asset:', JSON.stringify(asset, null, 2)));
+                    }
+                  }, document.getElementById('open-btn'));
+                              ">
                         media library
                       </button>
                     </div>`;

@@ -59,21 +59,21 @@ function addElement () {
   // document.body.getElementsByClassName('nc-appHeader-content')[0].style.visibility = 'hidden';
 }
 
-// function launchCML () {
-//   cloudinary.applyUploadWidget('#upload_widget_opener', {
-//     cloud_name: 'cloudimgts',
-//     upload_preset: 'aqga34kp',
-//     api_key: '739913194731388',
-//     button_class: 'myBtn'
-//   },
-//   (error, result) => {
-//     if (error) {
-//       console.log(error)
-//     } else {
-//       console.log(result)
-//     }
-//   })
-// }
+function launchCML () {
+  window.cloudinary.applyUploadWidget('#upload_widget_opener', {
+    cloud_name: 'cloudimgts',
+    upload_preset: 'aqga34kp',
+    api_key: '739913194731388',
+    button_class: 'myBtn'
+  },
+  (error, result) => {
+    if (error) {
+      console.log(error)
+    } else {
+      console.log(result)
+    }
+  })
+}
 
 /*!
  * Run event after the DOM is ready

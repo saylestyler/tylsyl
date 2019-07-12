@@ -20,7 +20,7 @@ sudo find / -type f -size +10M -exec ls -lh {} \
 i found a bevy of vim swp files, one which was 20 gb
 
 
-# 20 gb
+# 20 gb<h3 style='color: red; font-weight: 600'>TWENTY GIGABYTES</h3>
 
 according to ImFeelingLucky's first result:
 
@@ -134,3 +134,6 @@ buffer, it will be loaded without creating a swapfile and the
 'swapfile' option will be reset. If a buffer already had a
 swapfile it is not removed and 'swapfile' is not reset.
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2MDA2MDg3MDBdfQ==
+-->

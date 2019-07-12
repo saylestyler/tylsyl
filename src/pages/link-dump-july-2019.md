@@ -16,7 +16,7 @@ description: 'links, from july'
 
 [haproxy live demo!](http://demo.haproxy.org/) + design!
 
-[behold](github.com/blueyed/dotfiles/blob/master/vimrc) a 4,000 line long `~/.vimrc`
+[behold](https://github.com/blueyed/dotfiles/blob/master/vimrc) a 4,000 line long `~/.vimrc`
 
 [what got me into russian poetry](http://max.mmlc.northwestern.edu/mdenner/Demo/poetpage/tsvetaeva.html)
 
@@ -26,4 +26,7 @@ description: 'links, from july'
 
 william gibson _has a twitter_ *and tweets* aka will i ever accomplish anything
 
-[behold](https://github.com/blueyed/dotfiles/blob/master/vimrc) a 4,000 line long `~/.vimrc`
+[beholdwhat got me into russian poetry](https://github.com/blueyed/dotfiles/blob/master/vimrc) a 4,000 line long `~/.vimrc`max.mmlc.northwestern.edu/mdenner/Demo/poetpage/tsvetaeva.html)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExMTIxNDE1NDldfQ==
+-->

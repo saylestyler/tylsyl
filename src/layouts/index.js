@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 require('prismjs/themes/prism-twilight.css')
-import './whatwg.css'
+// import './whatwg.css'
 import './base.css'
 
 const Layout = ({ children, data }) => (

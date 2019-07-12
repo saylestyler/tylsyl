@@ -23,7 +23,7 @@ and here's `ps aux | grep 8000`
 
 aka finds nothing but the `rg` searching for... nothing aka turns out they are not the same! :hehe: 
 
-# lsof 
+# `lsof` 
 
 (files opened by processes)
 
@@ -55,7 +55,7 @@ focuses on the _port_ a process is running on
     lsof +D path/to/directory
 ```
 
-# ps 
+# `ps` 
 
 quoting [this gist](https://gist.github.com/Integralist/a49df746e2bd30bff047#ps): "An open file may be a regular file, a directory, a block special file, a character special file, an executing text reference, a library, a stream or a network file (Internet socket, NFS file or UNIX domain socket)" 
 
@@ -100,3 +100,6 @@ fun fact, this pkg uses a funny pkg called `get-them-args`
 and "under the hood", ofc, it simply uses `lsof | grep | awk | xargs kill`
 
 ![](https://res.cloudinary.com/cloudimgts/image/upload/v1562693483/yyherfnqnqtgustbdeef.jpg)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTgyOTcxNjA0OV19
+-->

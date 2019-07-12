@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 
 const Navbar = () => (
   <nav className='nav templateWrapper'>
@@ -15,6 +15,6 @@ const Navbar = () => (
       </li>
     </ul>
   </nav>
-)
+);
 
-export default Navbar
+export default Navbar;

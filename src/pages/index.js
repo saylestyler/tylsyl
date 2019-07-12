@@ -1,12 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
-import graphql from 'graphql'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Link from 'gatsby-link';
+import graphql from 'graphql';
 
 export default class IndexPage extends React.Component {
   render () {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { data } = this.props;
+    const { edges: posts } = data.allMarkdownRemark;
     return (
       <main className='main'>
         <section className='grid'>
@@ -28,7 +28,7 @@ export default class IndexPage extends React.Component {
           }
         </section>
       </main>
-    )
+    );
   }
 }
 
@@ -38,7 +38,7 @@ IndexPage.propTypes = {
       edges: PropTypes.array
     })
   })
-}
+};
 
 export const pageQuery = graphql`
   query IndexQuery {
@@ -62,4 +62,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

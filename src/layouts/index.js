@@ -17,18 +17,18 @@
 // }
 // }
 
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import Navbar from '../components/Navbar'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import Navbar from '../components/Navbar';
 
-import './all.sass'
+import './all.sass';
 
-require('prismjs/themes/prism-solarizedlight.css')
+require('prismjs/themes/prism-solarizedlight.css');
 
 var config = {
   siteDescription: 'tyler sayles, dev blog, web development, data dump, central dumping'
-}
+};
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -39,7 +39,7 @@ const TemplateWrapper = ({ children }) => (
     <Navbar />
     <div className='children-class'>{children()}</div>
   </div>
-)
-TemplateWrapper.propTypes = { children: PropTypes.func }
+);
+TemplateWrapper.propTypes = { children: PropTypes.func };
 
-export default TemplateWrapper
+export default TemplateWrapper;

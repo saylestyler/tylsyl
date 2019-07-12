@@ -28,7 +28,7 @@
     "gatsby-transformer-sharp": "^1.6.21",
     "global": "^4.3.2",
     "highlight.js": "^9.12.0",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.14",
     "lodash-webpack-plugin": "^0.11.4",
     "netlify-cms": "^1.7.0",
     "prismjs": "^1.15.0",

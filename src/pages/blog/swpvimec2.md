@@ -40,6 +40,7 @@ around ~ 1.5 MILLION PAGES
 
 from vim's `h: swap`
 
+```
 Recovery after a crash          *crash-recovery*
 
 You have spent several hours typing in that text that has to be finished
@@ -101,11 +102,9 @@ Disadvantages:
   file, he will not see your swap file and will not get the ATTENTION warning
   message.
 
-<div class="green">
 If you want to put swap files in a fixed place, put a command resembling the
 following ones in your .vimrc:
   :set dir=~/tmp    (for Unix)
-</div>
 
 This is also very handy when editing files on floppy.  Of course you will have
 to create that "tmp" directory for this to work!
@@ -125,6 +124,4 @@ The 'swapfile' option can be reset to avoid creating a swapfile.  And the
     buffer, it will be loaded without creating a swapfile and the
     'swapfile' option will be reset.  If a buffer already had a
     swapfile it is not removed and 'swapfile' is not reset.
-
-Detecting an existing swap file ~
-
+```

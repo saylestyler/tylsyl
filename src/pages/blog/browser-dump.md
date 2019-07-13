@@ -13,11 +13,7 @@ tags:
 [mischacs](#mischacs)
 [user scripts](#userScripts)
 
-<h2>
-  <a href="browserExtensions">
-    browser extensions
-  </a>
-</h2>
+# browser extensions
 
 ## octomate
 
@@ -27,11 +23,7 @@ adds shiny download button to download files, a TOC, and favorites bar
 
 ## octolinkr
 
-anamotopia
-
 [octolinker](https://octolinker.github.io/)
-
-<image src="../../static/img/klim.png">
 
 ## klim reader
 
@@ -89,22 +81,10 @@ body > :not(.klim-wrapper)
   padding: 0 5%
   text-align: left
 ```
-
-[klim reader]( 
-
-)
-
-<h2>
-  <a href="mischacs">
-    browser extensions
-  </a>
-</h2>
-
+  
 ## feeling lucky
 
-<div class="green">
 tl;dr guessing / poking around in the dark / deleting everything has never worked and if it has it's infinitely less preferable to the ^ method
-</div>
 
 feeling lucky is almost always right, if `howdoi` didn't quite get you there
 

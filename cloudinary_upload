@@ -24,10 +24,11 @@ chokidar.watch('/Users/tyler/Screenshots/', {
 }).on('ready', () => log('Initial scan complete. Ready for changes'))
   .on('add', path => {
     cloudinary.uploader.upload(path, (e, res) => {
-      if (e) console.error(`error on line 30`, e)
-      clipboardy.writeSync(`![](${res.secure_url})`)
-      console.log(res.secure_url + 'uploaded to cloudinary')
+      if (e) console.error(`error on line 30`, e);
+      clipboardy.writeSync(`![](${res.secure_url})`);
+      console.log(`${path} uploaded to cloudinary`);
+      shelljs.rm(`${path} deleted`);
     })
   })
-  .on('error', error => log(`Watcher error: ${error}`))
-  .on('unlink', path => log(`File ${path} has been removed`))
+  .on('error', error => log(`Watcher error: ${error}`));
+  .on('unlink', path => log(`File ${path} has been removed`));

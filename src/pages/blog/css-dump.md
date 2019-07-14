@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: (fuck) css dump
+title: css dump
 date: '2018-07-24T12:40:07-04:00'
 description: see title
 tags:

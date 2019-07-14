@@ -1,35 +1,31 @@
 #!/usr/bin/env node
 
-// uploads them to cloudinary
-// replaces pasteboard with cloudinary url
+const dotenv = require('dotenv');
+const chokidar = require('chokidar');
+const cloudinary = require('cloudinary').v2;
+const shelljs = require('shelljs');
+const clipboardy = require('clipboardy');
 
-const dotenv = require('dotenv')
-const chokidar = require('chokidar')
-const cloudinary = require('cloudinary').v2
-const clipboardy = require('clipboardy')
-const shelljs = require('shelljs')
-const log = console.log.bind(console)
-
-dotenv.config()
+dotenv.config();
 cloudinary.config({
   cloud_name: process.env.CLOUD_NAME,
   api_key: process.env.API_KEY,
   api_secret: process.env.API_SECRET
-})
+});
 
-chokidar.watch('/Users/tyler/Screenshots/', {
-  ignored: /(^|[\/\\])\../, // ignores dot files aka .DS_Store
-  persistent: true,
-  usePolling: true, // performance
-  binaryInterval: 300
-}).on('ready', () => log('Initial scan complete. Ready for changes'))
+chokidar
+  .watch('/Users/tyler/Screenshots/', {
+    ignored: /(^|[\/\\])\../, // ignores dot files aka .DS_Store
+    persistent: true,
+    usePolling: true, // performance
+    binaryInterval: 5000
+  })
   .on('add', path => {
     cloudinary.uploader.upload(path, (e, res) => {
-      if (e) console.error(`error on line 30`, e);
-      clipboardy.writeSync(`![](${res.secure_url})`);
+      if (e) console.error(e);
+      shelljs.rm(path);
+      clipboardy.write(`![altylsyl](${res.secure_url}`);
       console.log(`${path} uploaded to cloudinary`);
-      shelljs.rm(`${path} deleted`);
-    })
+    });
   })
-  .on('error', error => log(`Watcher error: ${error}`))
-  .on('unlink', path => log(`File ${path} has been removed`));
+  .on('error', error => console.log(`Watcher error: ${error}`));

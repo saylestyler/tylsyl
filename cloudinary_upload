@@ -7,6 +7,7 @@ const dotenv = require('dotenv')
 const chokidar = require('chokidar')
 const cloudinary = require('cloudinary').v2
 const clipboardy = require('clipboardy')
+const shelljs = require('shelljs')
 const log = console.log.bind(console)
 
 dotenv.config()
@@ -30,5 +31,5 @@ chokidar.watch('/Users/tyler/Screenshots/', {
       shelljs.rm(`${path} deleted`);
     })
   })
-  .on('error', error => log(`Watcher error: ${error}`));
+  .on('error', error => log(`Watcher error: ${error}`))
   .on('unlink', path => log(`File ${path} has been removed`));

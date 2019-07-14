@@ -2,19 +2,22 @@
 templateKey: blog-post
 title: dostoyevsky dump
 date: '2018-07-28T19:41:16-04:00'
-description: Ведь обидеться иногда очень приятно, не так ли? И ведь знает человек, что никто не обидел его, а что он сам себе обиду навыдумал и налгал для красы, сам преувеличил, чтобы картину создать, к слову привязался и из горошинки сделал гору, знает сам это, а все-таки самый первый обижается, обижается до приятности, до ощущения большого удовольствия, а тем самым доходит и до вражды истинной…
+description: очень приятно
 tags:
   - writing
   - dostoyevsky
 ---
+<div class="green">Ведь обидеться иногда очень приятно, не так ли? И ведь знает человек, что никто не обидел его, а что он сам себе обиду навыдумал и налгал для красы, сам преувеличил, чтобы картину создать, к слову привязался и из горошинки сделал гору, знает сам это, а все-таки самый первый обижается, обижается до приятности, до ощущения большого удовольствия, а тем самым доходит и до вражды истинной…</div>
 
 <!--The Project Gutenberg EBook of The Grand Inquisitor, by Feodor Dostoevsky-->
 
 <!--This eBook is for the use of anyone anywhere at no cost and with-->
-<!--almost no restrictions whatsoever.  You may copy it, give it away or-->
-<!--re-use it under the terms of the Project Gutenberg License included-->
-<!--with this eBook or online at www.gutenberg.net-->
 
+<!--almost no restrictions whatsoever.  You may copy it, give it away or-->
+
+<!--re-use it under the terms of the Project Gutenberg License included-->
+
+<!--with this eBook or online at www.gutenberg.net-->
 
 <!--Title: The Grand Inquisitor-->
 
@@ -22,25 +25,27 @@ tags:
 
 <!--Translator: H. P. Blavatsky-->
 
-<!--Posting Date: June 28, 2010 [EBook #8578]-->
+<!--Posting Date: June 28, 2010 \[EBook #8578]-->
+
 <!--Release Date: July, 2005-->
+
 <!--First Posted: July 25, 2003-->
 
 <!--Language: English-->
 
 <!--Character set encoding: ISO-8859-1-->
 
-<!--*** START OF THIS PROJECT GUTENBERG EBOOK THE GRAND INQUISITOR ***-->
+<!--\*\*\* START OF THIS PROJECT GUTENBERG EBOOK THE GRAND INQUISITOR \*\*\*-->
 
 <!--Produced by Jake Jaqua.  HTML version by Al Haines.-->
 
 # THE GRAND INQUISITOR
 
-<!--`Fyodor Dostoevsky`-->
+<!--\`Fyodor Dostoevsky\`-->
 
-<!--[Dedicated by the Translator to those sceptics who clamour so loudly, both in print and private letters—"Show us the wonder-working 'Brothers,' let them come out publicly—and we will believe in them!"]-->
+<!--\[Dedicated by the Translator to those sceptics who clamour so loudly, both in print and private letters—"Show us the wonder-working 'Brothers,' let them come out publicly—and we will believe in them!"]-->
 
-<!--[The following is an extract from M. Dostoevsky's celebrated novel, The Brothers Karamazof, the last publication from the pen of the great Russian novelist, who died a few months ago, just as the concluding chapters appeared in print. Dostoevsky is beginning to be recognized as one of the ablest and profoundest among Russian writers. His characters are invariably typical portraits drawn from various classes of Russian society, strikingly life-like and realistic to the highest degree. The following extract is a cutting satire on modern theology generally and the Roman Catholic religion in particular. The idea is that Christ revisits earth, coming to Spain at the period of the Inquisition, and is at once arrested as a heretic by the Grand Inquisitor. One of the three brothers of the story, Ivan, a rank materialist and an atheist of the new school, is supposed to throw this conception into the form of a poem, which he describes to Alyosha—the youngest of the brothers, a young Christian mystic brought up by a "saint" in a monastery—as follows: (—Ed. Theosophist, Nov., 1881)]-->
+<!--\[The following is an extract from M. Dostoevsky's celebrated novel, The Brothers Karamazof, the last publication from the pen of the great Russian novelist, who died a few months ago, just as the concluding chapters appeared in print. Dostoevsky is beginning to be recognized as one of the ablest and profoundest among Russian writers. His characters are invariably typical portraits drawn from various classes of Russian society, strikingly life-like and realistic to the highest degree. The following extract is a cutting satire on modern theology generally and the Roman Catholic religion in particular. The idea is that Christ revisits earth, coming to Spain at the period of the Inquisition, and is at once arrested as a heretic by the Grand Inquisitor. One of the three brothers of the story, Ivan, a rank materialist and an atheist of the new school, is supposed to throw this conception into the form of a poem, which he describes to Alyosha—the youngest of the brothers, a young Christian mystic brought up by a "saint" in a monastery—as follows: (—Ed. Theosophist, Nov., 1881)]-->
 
 <!--"Quite impossible, as you see, to start without an introduction," laughed Ivan. "Well, then, I mean to place the event described in the poem in the sixteenth century, an age—as you must have been told at school—when it was the great fashion among poets to make the denizens and powers of higher worlds descend on earth and mix freely with mortals... In France all the notaries' clerks, and the monks in the cloisters as well, used to give grand performances, dramatic plays in which long scenes were enacted by the Madonna, the angels, the saints, Christ, and even by God Himself. In those days, everything was very artless and primitive. An instance of it may be found in Victor Hugo's drama, Notre Dame de Paris, where, at the Municipal Hall, a play called Le Bon Jugement de la Tres-sainte et Gracièuse Vierge Marie, is enacted in honour of Louis XI, in which the Virgin appears personally to pronounce her 'good judgment.' In Moscow, during the prepetrean period, performances of nearly the same character, chosen especially from the Old Testament, were also in great favour. Apart from such plays, the world was overflooded with mystical writings, 'verses'—the heroes of which were always selected from the ranks of angels, saints and other heavenly citizens answering to the devotional purposes of the age. The recluses of our monasteries, like the Roman Catholic monks, passed their time in translating, copying, and even producing original compositions upon such subjects, and that, remember, during the Tarter period!... In this connection, I am reminded of a poem compiled in a convent—a translation from the Greek, of course—called, 'The Travels of the Mother of God among the Damned,' with fitting illustrations and a boldness of conception inferior nowise to that of Dante. The 'Mother of God' visits hell, in company with the archangel Michael as her cicerone to guide her through the legions of the 'damned.' She sees them all, and is witness to their multifarious tortures. Among the many other exceedingly remarkably varieties of torments—every category of sinners having its own—there is one especially worthy of notice, namely a class of the 'damned' sentenced to gradually sink in a burning lake of brimstone and fire. Those whose sins cause them to sink so low that they no longer can rise to the surface are for ever forgotten by God, i.e., they fade out from the omniscient memory, says the poem—an expression, by the way, of an extraordinary profundity of thought, when closely analysed. The Virgin is terribly shocked, and falling down upon her knees in tears before the throne of God, begs that all she has seen in hell—all, all without exception, should have their sentences remitted to them. Her dialogue with God is colossally interesting. She supplicates, she will not leave Him. And when God, pointing to the pierced hands and feet of her Son, cries, 'How can I forgive His executioners?' She then commands that all the saints, martyrs, angels and archangels, should prostrate themselves with her before the Immutable and Changeless One and implore Him to change His wrath into mercy and—forgive them all. The poem closes upon her obtaining from God a compromise, a kind of yearly respite of tortures between Good Friday and Trinity, a chorus of the 'damned' singing loud praises to God from their 'bottomless pit,' thanking and telling Him:-->
 
@@ -55,7 +60,7 @@ Thou hast condemned us justly.
 And blind faith remained alone
 To lull the trusting heart,
 As heav'n would send a sign no more.
-"True, again, we have all heard of miracles being wrought ever since the 'age of miracles' passed away to return no more. We had, and still have, our saints credited with performing the most miraculous cures; and, if we can believe their biographers, there have been those among them who have been personally visited by the Queen of Heaven. But Satan sleepeth not, and the first germs of doubt, and ever-increasing unbelief in such wonders, already had begun to sprout in Christendom as early as the sixteenth century. It was just at that time that a new and terrible heresy first made its appearance in the north of Germany.* [*Luther's reform] A great star 'shining as it were a lamp... fell upon the fountains waters'... and 'they were made bitter.' This 'heresy' blasphemously denied 'miracles.' But those who had remained faithful believed all the more ardently, the tears of mankind ascended to Him as heretofore, and the Christian world was expecting Him as confidently as ever; they loved Him and hoped in Him, thirsted and hungered to suffer and die for Him just as many of them had done before.... So many centuries had weak, trusting humanity implored Him, crying with ardent faith and fervour: 'How long, O Lord, holy and true, dost Thou not come!' So many long centuries hath it vainly appealed to Him, that at last, in His inexhaustible compassion, He consenteth to answer the prayer.... He decideth that once more, if it were but for one short hour, the people—His long-suffering, tortured, fatally sinful, his loving and child-like, trusting people—shall behold Him again. The scene of action is placed by me in Spain, at Seville, during that terrible period of the Inquisition, when, for the greater glory of God, stakes were flaming all over the country.
+"True, again, we have all heard of miracles being wrought ever since the 'age of miracles' passed away to return no more. We had, and still have, our saints credited with performing the most miraculous cures; and, if we can believe their biographers, there have been those among them who have been personally visited by the Queen of Heaven. But Satan sleepeth not, and the first germs of doubt, and ever-increasing unbelief in such wonders, already had begun to sprout in Christendom as early as the sixteenth century. It was just at that time that a new and terrible heresy first made its appearance in the north of Germany._ [_Luther's reform] A great star 'shining as it were a lamp... fell upon the fountains waters'... and 'they were made bitter.' This 'heresy' blasphemously denied 'miracles.' But those who had remained faithful believed all the more ardently, the tears of mankind ascended to Him as heretofore, and the Christian world was expecting Him as confidently as ever; they loved Him and hoped in Him, thirsted and hungered to suffer and die for Him just as many of them had done before.... So many centuries had weak, trusting humanity implored Him, crying with ardent faith and fervour: 'How long, O Lord, holy and true, dost Thou not come!' So many long centuries hath it vainly appealed to Him, that at last, in His inexhaustible compassion, He consenteth to answer the prayer.... He decideth that once more, if it were but for one short hour, the people—His long-suffering, tortured, fatally sinful, his loving and child-like, trusting people—shall behold Him again. The scene of action is placed by me in Spain, at Seville, during that terrible period of the Inquisition, when, for the greater glory of God, stakes were flaming all over the country.
 
 Burning wicked heretics,
 In grand auto-da-fes.
@@ -123,4 +128,4 @@ Ivan paused. He had entered into the situation and had spoken with great animati
 
 "And you, together with him? You too!" despairingly exclaimed Alyosha, while Ivan burst into a still louder fit of laughter.
 
----
+- - -

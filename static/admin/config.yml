@@ -5,6 +5,8 @@ backend:
 media_folder: src/img
 public_folder: static/img
 
+publish_mode: editorial_workflow
+
 collections:
   - name: "blog"
     label: "b"

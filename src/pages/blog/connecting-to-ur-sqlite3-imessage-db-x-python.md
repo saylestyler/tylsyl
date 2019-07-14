@@ -1,12 +1,12 @@
 ---
 templateKey: blog-post
 title: connecting to ur sqlite3 iMessage db x python
-date: '2019-07-12T17:52:10-04:00'
+date: '2017-07-12T17:52:00-04:00'
 description: babys first github star
 tags:
   - python
 ---
-Today I got my first GitHub star!
+~ Today I got my first GitHub star!
 
 The repo is iExport which is an innocent piece of Python to extract the contents of a OS X user's chat.db, conveniently contained out-of-sight in `~/Library/Messages/chat.db` and accessible via `sqlite3 chat.db`
 

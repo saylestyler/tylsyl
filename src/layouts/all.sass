@@ -1,0 +1,134 @@
+// classNames and elementsfor blogpost
+//<main className='index-page-wrapper'>
+  //helmet || ''
+  //<h1 className='post-title'>title</h1>
+  //<p className='post-description'>description</p>
+  //<PostContent
+    //className='post-content'
+
+// @import './fonts/fonts.css'
+
+main, section, nav, .post-description, .index-page-wrapper
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+  font-family: -apple-system
+  max-width: 600px
+  margin-left: 0.5em
+  //margin-right: 0.5em
+
+figure
+  display: block
+  margin-block-start: 0em
+  margin-block-end: 0em
+  margin-inline-start: 0px
+  margin-inline-end: 0px
+
+// don't change color for visted nav links
+a.navbar-item:visited 
+  color: blue
+
+a:visited 
+  color: darkblue
+
+nav
+  a
+    margin-right: 20px
+    padding: 10px
+    text-decoration: underline
+    &:hover
+      color: deeppink
+
+img, iframe
+  max-width: 100%
+  margin-top: 0.5em
+  margin-bottom: 0.5em
+
+.post-title
+  font-family: serif
+  font-size: 2.5em
+
+.post-description
+  font-style: oblique
+  margin: 0.5em
+
+.edit-this-page,
+.edit-this-page > a
+  color: lightgray
+  font-size: 5px
+
+.post-list-date
+  margin-bottom: 1.5em
+  color: mediumseagreen
+  font-family: monospace
+
+.post-content p
+  margin-left: 3px
+  // margin-right: 4em
+  // font-family: 'Droid Serif', monospace, arial
+  font-size: 16px
+  word-wrap: break-word
+  color: #444444
+
+.post-content > h1, h2, h3, h4, h5, h6
+  text-decoration: underline
+  font-weight: 700
+  word-wrap: break-word
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  -webkit-osx-font-smoothing: grayscale
+  text-rendering: optimizeLegibility
+  -ms-touch-action: manipulation
+  -moz-osx-font-smoothing: grayscale
+  -moz-text-rendering: optimizeLegibility
+
+//code[class*="language-"], pre[class*="language-"]
+div[class*="gatsby-highlight"]
+  border: 1px solid black
+  pre
+    padding: 5px
+
+// headers in post content that are inline-code
+.post-content > h1, h2, h3, h4, h5, h6
+  code[class*="language-"]
+    text-decoration: none
+    background-color: white
+    color: black
+
+// for boxes of code
+div[class*="gatsby-highlight"] pre
+  background-color: white
+
+// inline code
+.post-content > p > code
+  background-color: white
+  word-wrap: break-word
+  white-space: pre-wrap
+  white-space: -moz-pre-wrap
+  white-space: -pre-wrap
+  white-space: -o-pre-wrap
+
+pre, code
+  white-space: pre-wrap
+  white-space: -moz-pre-wrap
+  white-space: -pre-wrap
+  white-space: -o-pre-wrap
+  word-wrap: break-word
+
+code[class*="language-"],
+pre[class*="language-"]
+  padding: 0
+  font-size: 0.8em
+  font-family: Consolas
+  background-color: white
+  color: black
+
+@media all and (max-width: 599px) and (min-width: 320px)
+  code[class*="language-"]
+    padding: 0
+    font-size: 1.0em
+
+.green
+  border-color: #52E052
+  background: #E9FBE9
+  overflow: auto
+  padding: .5em
+  page-break-inside: avoid

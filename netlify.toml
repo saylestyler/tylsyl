@@ -1,0 +1,3 @@
+[build]
+  publish = "public"
+  command = "./node_modules/gatsby/dist/bin/gatsby.js build"

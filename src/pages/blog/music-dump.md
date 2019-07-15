@@ -6,9 +6,11 @@ description: music dump
 tags:
   - music
 ---
-<div class="subtitle>
-SoundCloudWrapper
-</div>
+## um
+
+at 1:57 her and the pianist both grin @ what's about to follow
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jyrb3IExfOk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 3:08: a moment
 

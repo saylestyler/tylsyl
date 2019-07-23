@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: literally just the deploy logs of me cloning Chromium
+title: cloning Chromium
 date: '2019-07-12T17:53:48-04:00'
 description: '... literally '
 ---

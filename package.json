@@ -33,14 +33,10 @@
     "lodash-webpack-plugin": "^0.11.4",
     "netlify-cms": "^1.7.0",
     "prismjs": "^1.15.0",
-    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
     "sharp": "^0.20.5",
-    "typeface-yrsa": "0.0.54",
-    "typography-plugin-code": "^0.16.11",
-    "typography-theme-irving": "^0.15.10",
     "uuid": "^3.2.1"
   },
   "keywords": [
@@ -53,11 +49,9 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
-    "fix": "semistandard --fix | snazzy"
+    "fix": "semistandard ./src/**/*.js --fix | snazzy"
   },
   "devDependencies": {
-    "clipboardy": "^2.1.0",
-    "semistandard": "^13.0.1",
-    "shelljs": "^0.8.3"
+    "semistandard": "^13.0.1"
   }
 }

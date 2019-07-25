@@ -25,9 +25,7 @@ class TagRoute extends React.Component {
         <Helmet title={`${tag} | ${title}`} />
         <div className='container content'>
           <div className='columns'>
-            <div
-              style={{ marginBottom: '1rem' }}
-            >
+            <div style={{ marginBottom: '1rem' }}>
               <h3 className='title'>{tagHeader}</h3>
               <ul className='taglist'>{postLinks}</ul>
               <p>

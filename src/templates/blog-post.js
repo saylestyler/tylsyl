@@ -22,7 +22,7 @@ export const BlogPostTemplate = ({
       <p className='post-description'>{description}</p>
       <PostContent className='post-content' content={content} />
 
-      { tags && tags.length ? (
+      {tags && tags.length ? (
         <section className='taglistWrapper'>
           <ul className='taglist'>
             {tags.map(tag => (
@@ -31,9 +31,6 @@ export const BlogPostTemplate = ({
               </li>
             ))}
           </ul>
-          <Link className='edit-this-page' to={`/admin/`}>
-            edit this page
-          </Link>
         </section>
       ) : null }
 

@@ -43,11 +43,6 @@ Armin
 
 ببرواس حرواس حسين شلونك عيني شلونك
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HwkLbeEYz6E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-Pretty Ricky
-Hotline
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Xgqo6W5NlLM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Omar S

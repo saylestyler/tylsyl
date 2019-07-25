@@ -8,9 +8,11 @@ tags:
   - devops
   - ssh
 ---
-Doing phone-screens I've been asked what a deployment has looked like at previous jobs, thus this musing.
+Doing phone-screens I've been asked what a deployment has looked like at previous jobs I've been at, thus this post.
 
-to deploy staging for the frontend, a bash script would be ran, broken down:
+# frontend (staging)
+
+to deploy staging for the frontend, a bash script would be ran, broken down here:
 
 ```bash
 #!/bin/bash
@@ -111,9 +113,11 @@ pushd
 pushd +4
 ```
 
-where `dist` is where the build artefacts live, which then copy everything recursively using [scp](https://en.wikipedia.org/wiki/Secure_copy), `popd` aka remove a directory in the dir stack via, you guessed it, `pushd`, and then call `exit-staging-tunnel`.
-next to the remote directory where u want your static assets to live, run your build command (we used grunt): `grunt build:staging`
-finally, call the M&P function
+where `dist` is where the build artefacts live, which then copy everything recursively using [scp](https://en.wikipedia.org/wiki/Secure_copy) to the remote directory you want to your static files to live @, `popd` to remove a directory added to the dir stack via, you guessed it, `pushd`, and then call `exit-staging-tunnel`.
+
+Almost finally, run your build command (we used grunt): `grunt build:staging`
+
+& finally, call the M&P function:
 
 ```
 porter_ip=(${STAGING_PORTER_IP})
@@ -122,4 +126,4 @@ deploy-staging $porter_ip
 
 and you've deployed your frontend to staging! :~)
 
-_backend to come l8r_
+_backend/production for a separate post_

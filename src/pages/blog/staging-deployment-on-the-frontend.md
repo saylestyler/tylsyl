@@ -2,10 +2,11 @@
 templateKey: blog-post
 title: 'staging deployment on the frontend '
 date: '2019-07-24T17:20:02-04:00'
-description: 'déploie '
+description: how we deployed staging via bash script at a previous job
 tags:
   - deployment
   - devops
+  - ssh
 ---
 Doing phone-screens I've been asked what a deployment has looked like at previous jobs, thus this musing.
 

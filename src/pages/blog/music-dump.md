@@ -19,18 +19,8 @@ at 1:57 her and the pianist both grin @ what's about to follow
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sj1agB6k9FI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ناديا المنفوخ
-Nadia Almanfoukh
-Wa'alyan Moolayitan
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/357295440&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
-spellista@saylestyler
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0W7w3bFFF_VbvjM5iTvFgTxLjLVErh9S" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-spellista@vfiles
-
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=iU02L19J7jA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 برواس حسين شلونك عيني شلونك
 Parwas Hussein

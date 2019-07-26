@@ -31,8 +31,9 @@ export const BlogPostTemplate = ({
             ))}
           </ul>
         </section>
-      ) : null }
+      ) : null}
 
+      <Link className="index-link" to={'/'}>Index</Link>
     </main>
   );
 };

@@ -6,6 +6,10 @@ description: music dump
 tags:
   - music
 ---
+## 3:20 - 3:27 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QYJ-3ie55i4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## um
 
 at 1:57 her and the pianist both grin @ what's about to follow

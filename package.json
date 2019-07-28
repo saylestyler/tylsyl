@@ -53,6 +53,11 @@
     "fix": "semistandard ./src/**/*.js --fix | snazzy"
   },
   "devDependencies": {
+    "babel-jest": "^24.8.0",
+    "babel-preset-gatsby": "^0.2.8",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.8.0",
+    "react-test-renderer": "^16.8.6",
     "semistandard": "^13.0.1"
   }
 }

@@ -2,10 +2,16 @@
 templateKey: blog-post
 title: live studio audience noises
 date: '2018-09-13T17:15:01-04:00'
-description: Co-hosts
+description: >-
+  mostly timestamps of laughter heard from audiences in yt clips bc that's what
+  i like ok 
 tags:
   - youtube
 ---
+
+## 4:53 - 4:56 a compounding laugh
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G6ghWBYBk6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div class="note">
 

@@ -1,6 +1,6 @@
 // mock the gatsby module itself
 // helpful for testing <Link>s and graphql
-
+const jest = require('jest');
 const React = require('react');
 const gatsby = jest.requireActual('gatsby');
 

@@ -6,6 +6,10 @@ description: fawefawfewafawefawef
 tags:
   - madtv
 ---
+# 3:23 - 3:28
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ngHI7ApqUkc?start=203" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # 2:06 - 2:11 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aMRKnH2dgjU?start=125" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -17,10 +21,6 @@ tags:
 # rpdr wwe... simuation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kHigulQ45tk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-# "funny" "dump"
-
-<img src="https://res.cloudinary.com/cloudimgts/image/upload/v1536986789/Untitled.gif" />
 
 # san gennaro on the corner of mott & grand ≠ la dolcè vita Chinese chicken salad
 

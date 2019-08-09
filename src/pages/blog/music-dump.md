@@ -6,11 +6,17 @@ description: music dump
 tags:
   - music
 ---
+## roof moment bjork
+
+my friend was on a roof w/ bjork + her choir and saw this happen:
+
+<video width="560" controls>
+  <source src="https://res.cloudinary.com/cloudimgts/video/upload/v1565332793/meetka-bjork_onrgvk.mp4" type="video/mp4">
+</video>
+
 ## carl craig :sob:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZFHD9QpQDFA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## 3:20 - 3:27
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QYJ-3ie55i4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

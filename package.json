@@ -51,6 +51,7 @@
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "fix": "semistandard ./src/**/*.js --fix | snazzy"
+
   },
   "devDependencies": {
     "babel-jest": "^24.8.0",

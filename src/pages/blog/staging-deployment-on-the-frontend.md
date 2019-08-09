@@ -95,6 +95,7 @@ function deploy-staging {
   done
 }
 ```
+
 for all the ips specified as args to the script, tunnel, then, from the excellent CLI `tldr`:
 
 ```bash
@@ -127,3 +128,9 @@ deploy-staging $porter_ip
 and you've deployed your frontend to staging! :~)
 
 _backend/production for a separate post_
+
+---
+
+here's a pic i just found that a fellow developer drew me week 1 of learning abt my job's AWS infrastructure eek 
+
+![aws](https://res.cloudinary.com/cloudimgts/image/upload/v1565330133/xrocyhlzt4yww5qd6qvz.png)

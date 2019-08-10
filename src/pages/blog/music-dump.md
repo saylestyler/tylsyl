@@ -14,11 +14,19 @@ my friend was on a roof w/ bjork + her choir and saw this happen:
   <source src="https://res.cloudinary.com/cloudimgts/video/upload/v1565332793/meetka-bjork_onrgvk.mp4" type="video/mp4">
 </video>
 
+which reminded me of these two jams:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6ctClN6Bp-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QYJ-3ie55i4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## carl craig :sob:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZFHD9QpQDFA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QYJ-3ie55i4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# truly 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wBaoOfbh3hY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## um
 

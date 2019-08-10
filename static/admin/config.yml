@@ -3,11 +3,17 @@ backend:
   branch: master
 
 media_folder: src/img
-public_folder: static/img
+public_folder: /img
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: cloudimgts
+    api_key: 739913194731388
 
 collections:
   - name: "blog"
-    label: "b"
+    label: "skriva"
     folder: "src/pages/blog"
     create: true
     slug: "{{slug}}"

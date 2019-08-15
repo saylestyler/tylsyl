@@ -8,6 +8,17 @@ tags:
   - favs
   - dump
 ---
+## bash ur former bash prowess
+
+<http://samrowe.com/wordpress/advancing-in-the-bash-shell/>
+
+## tips hat 2... apple
+
+## <https://opensource.apple.com/source>
+
+cool stuff e.g. `cron`
+
+<https://opensource.apple.com/source/cron/cron-35/crontab/crontab.c.auto.html>
 
 # troubleshooting
 

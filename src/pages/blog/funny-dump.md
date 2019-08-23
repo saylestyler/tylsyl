@@ -6,6 +6,14 @@ description: fawefawfewafawefawef
 tags:
   - madtv
 ---
+# etc
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lPA9lYMxT0A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# salmon shorts
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gerUKdURxXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # 4:35
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I4Wj6_4Wucc?start=275" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

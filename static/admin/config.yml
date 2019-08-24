@@ -3,13 +3,13 @@ backend:
   branch: master
 
 media_folder: src/img
-public_folder: /img
+public_folder: static/img
 
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: cloudimgts
-    api_key: 739913194731388
+#media_library:
+  #name: cloudinary
+  #config:
+    #cloud_name: cloudimgts
+    #api_key: 739913194731388
 
 collections:
   - name: "blog"

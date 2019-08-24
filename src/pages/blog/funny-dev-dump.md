@@ -8,6 +8,10 @@ tags:
   - dump
 ---
 
+# amaze pers website 
+
+<http://engelschall.com>
+
 # outta bounds 
 
 ![](https://res.cloudinary.com/cloudimgts/image/upload/v1563157173/74318C30-1513-4813-AC8E-6829F0B47222_hnhngk.jpg)

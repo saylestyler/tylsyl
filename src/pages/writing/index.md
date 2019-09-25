@@ -22,11 +22,13 @@ title: Writing
 
 ## DIS magazine
 
-<a href=" http://dismagazine.com/blog/76022/vaquera-the-good-lookbook/ ">
+<a href="http://dismagazine.com/blog/76022/vaquera-the-good-lookbook/">
   <img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569440840/ghskci9trdrgpa36csor.png" alt="writing" />
 </a>
 
 ## dazed
+
+<img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569442412/kt94snrvubciwjxreyuq.png" />
 
 ## id
 
@@ -34,5 +36,5 @@ title: Writing
 
 ## red bull copy writing
 
-![non](https://res.cloudinary.com/cloudimgts/image/upload/v1569440406/Screen_Shot_2016-05-20_at_10.19.57_AM_xtaath.png)
+<img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569440406/Screen_Shot_2016-05-20_at_10.19.57_AM_xtaath.png" />
 

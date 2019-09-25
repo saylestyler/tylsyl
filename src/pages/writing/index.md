@@ -4,21 +4,17 @@ path: /writing
 title: Writing
 ---
 
-## visionaire
+## New York Times
 
-<a href="https://visionaireworld.com/blogs/imported/alex-da-corte-s-virtual-still-life">
-  <img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569440545/hkdicldxwsiyvwmdntcp.png" alt="writing" />
+Collaboration with Shan Huq
+
+<a href="https://www.nytimes.com/interactive/projects/cp/inside-fashion-week/spring-2016/debuting-today-shan-huq">
+  <img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569446306/hanh26wepbrv0egc1vta.png" />
 </a>
 
-<a href="https://visionaireworld.com/blogs/imported/bea-fremderman-s-map-to-ikea">
-  <img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569440671/ylmjog7ukof9g8bsscqk.png" alt="writing" />
-</a>
+## DIS
 
-<a href="https://visionaireworld.com/blogs/imported/louvre-s-3-siecles-de-mode">
-  <img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569440736/yuq6hlomoukdhf5t6pqh.png" alt="writing" />
-</a>
-
-## DIS magazine
+Review of Vaquera
 
 <a href="http://dismagazine.com/blog/76022/vaquera-the-good-lookbook/">
   <img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569440840/ghskci9trdrgpa36csor.png" alt="writing" />
@@ -26,15 +22,36 @@ title: Writing
 
 ## Dazed
 
-<img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569442412/kt94snrvubciwjxreyuq.png" />
+Review of Vaquera's NYFW show
 
-<img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569442470/a1u4ldd9oxalgccst0ff.png">
+<img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569442412/kt94snrvubciwjxreyuq.png" alt="writing" />
 
-## id
+Review of Moses Gauntlett Cheng
 
-## t magazine
+<img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569442470/a1u4ldd9oxalgccst0ff.png" alt="writing" />
 
-## red bull copy writing
+## Red Bull
 
-<img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569440406/Screen_Shot_2016-05-20_at_10.19.57_AM_xtaath.png" />
+Copywriting for Red Bull
 
+<img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569440406/Screen_Shot_2016-05-20_at_10.19.57_AM_xtaath.png" alt="writing" />
+
+## Visionaire
+
+Profile on artist Alex da Corte
+
+<a href="https://visionaireworld.com/blogs/imported/alex-da-corte-s-virtual-still-life">
+  <img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569440545/hkdicldxwsiyvwmdntcp.png" alt="writing" />
+</a>
+
+Profile on artist Bea Fremderman
+
+<a href="https://visionaireworld.com/blogs/imported/bea-fremderman-s-map-to-ikea">
+  <img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569440671/ylmjog7ukof9g8bsscqk.png" alt="writing" />
+</a>
+
+Profile on curator Pamela Golbin
+
+<a href="https://visionaireworld.com/blogs/imported/louvre-s-3-siecles-de-mode">
+  <img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569446021/hh020tqybizyroqyg1zj.png" alt="writing" />
+</a>

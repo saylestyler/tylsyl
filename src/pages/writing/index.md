@@ -4,8 +4,6 @@ path: /writing
 title: Writing
 ---
 
-# test
-
 ## visionaire
 
 <a href="https://visionaireworld.com/blogs/imported/alex-da-corte-s-virtual-still-life">
@@ -26,9 +24,11 @@ title: Writing
   <img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569440840/ghskci9trdrgpa36csor.png" alt="writing" />
 </a>
 
-## dazed
+## Dazed
 
 <img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569442412/kt94snrvubciwjxreyuq.png" />
+
+<img src="https://res.cloudinary.com/cloudimgts/image/upload/v1569442470/a1u4ldd9oxalgccst0ff.png">
 
 ## id
 

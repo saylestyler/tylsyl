@@ -1,4 +1,4 @@
----
+- --
 templateKey: blog-post
 title: 'funny dev dump '
 date: '2019-07-12T17:56:59-04:00'

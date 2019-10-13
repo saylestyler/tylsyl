@@ -82,7 +82,7 @@ here's an example implementing all of their landmark guidelines
 
 ## oreilly books ex
 
-https://resources.oreilly.com/examples
+<https://resources.oreilly.com/examples>
 
 ## ranger (& hyper)
 
@@ -104,33 +104,33 @@ today we lrn to make a [bookmarklet](https://betterexplained.com/articles/how-to
 
 ## ev. psych + design
 
-https://www.atlassian.com/blog/archives/yosemite-thoughts-blurriness-design-ecosystems
+<https://www.atlassian.com/blog/archives/yosemite-thoughts-blurriness-design-ecosystems>
 
 ## usabilitypost.com
 
-https://www.usabilitypost.com/archive/
+<https://www.usabilitypost.com/archive/>
 
 ## gorgina retro
 
-https://www.brunildo.org/test/
+<https://www.brunildo.org/test/>
 
 ## tc39
 
-https://github.com/tc39
+<https://github.com/tc39>
 
-https://tc39.github.io/ecma262/
+<https://tc39.github.io/ecma262/>
 
 ## xinyminutes
 
-https://learnxinyminutes.com/
+[xyz](https://learnxinyminutes.com/)
 
 ## w3c test suite
 
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftylsyl.com&profile=mobile&usermedium=all&warning=1&vextwarning=&lang=en
+[w3c test suite](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftylsyl.com&profile=mobile&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## steve yegge's blog
 
-[steve yegge's blog](http://steve-yegge.blogspot.com/)
+[steve yegge's blog](https://steve-yegge.blogspot.com/)
 
 ## moishe lettvin's blog
 

@@ -22,3 +22,11 @@ line,
 One way is to do a visual select and then type the :. It will fill in :'<,'> for you, then you type the rest of it (Notice you only need to add s/$/,/)
 
 `:'<,'>s/$/,/`
+
+# too many spaces before commas?
+
+`:%s/\s ,/,/g`
+
+ditto simply replacing stuff, but: 
+
+`:%s/\s ,/;/g`

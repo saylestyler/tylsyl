@@ -127,3 +127,7 @@ https://learnxinyminutes.com/
 ## w3c test suite
 
 https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftylsyl.com&profile=mobile&usermedium=all&warning=1&vextwarning=&lang=en
+
+## steve yegge's blog
+
+![steve yegge's blog](http://steve-yegge.blogspot.com/)

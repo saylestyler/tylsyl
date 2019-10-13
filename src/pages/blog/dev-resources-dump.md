@@ -130,4 +130,8 @@ https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftylsyl.com&profi
 
 ## steve yegge's blog
 
-![steve yegge's blog](http://steve-yegge.blogspot.com/)
+[steve yegge's blog](http://steve-yegge.blogspot.com/)
+
+## moishe lettvin's blog
+
+[moise lettvin's blog](https://www.moishelettvin.com/2016/02/23/i-dont-know/)

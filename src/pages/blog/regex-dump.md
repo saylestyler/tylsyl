@@ -9,12 +9,13 @@ tags:
 
 # `/$/,/g` add to end of every line
 
-`:%s/$/,/` will add a comma 
-											to, 
-											the, 
-											end, 
-											of, 
-											every line
+`:%s/$/,/` will add a comma 									to, 
+<br/>											the, 
+<br/>											end, 
+<br/>											of, 
+<br/>											every,
+<br/>
+line,
 
 (vim) do a subset of lines instead of the whole file, specify them in place of the %.
 

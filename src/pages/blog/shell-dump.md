@@ -735,21 +735,21 @@ fi
 }
 
 ```
-see <https://gist.github.com/318247>
-```
 
+see <https://gist.github.com/318247>
+
+```
 function wmate() {
     about 'pipe hot spicy interwebs into textmate and cleanup!'
     example '$ wmate google.com'
     group 'browser'
 
-```
 if [ -t 0 ]; then
     if [ -n "$1" ]; then
         wget -qO- $1 | /usr/bin/mateTIDY=`/usr/bin/osascript << EOT
 tell application "TextMate"
   activate
-end telltell application "System Events"
+end tell application "System Events"
   tell process "TextMate"
     tell menu bar 1
       tell menu bar item "Bundles"
@@ -764,15 +764,8 @@ end telltell application "System Events"
     end tell
   end tell
 end tell
-EOT`
-```
+EOT
 
-function raw() {
-    about 'write wget into a temp file and pump it into your browser'
-    example '$ raw google.com'
-    group 'browser'
-
-```
 if [ -t 0 ]; then
     if [ -n "$1" ]; then
         wget -qO- $1 | browser
@@ -780,18 +773,16 @@ if [ -t 0 ]; then
         reference raw
     fi
 fi
+}
 ```
 
-}
+## finding things 
 
-````
-    ## finding things 
+```bash
+ag -i -o $* 
 
-    ```shell
-    ag -i -o $* 
-
-    find . node_modules 
-````
+find . node_modules 
+```
 
 ## keyboard maestro
 

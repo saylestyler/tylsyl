@@ -39,9 +39,9 @@ A computational process is indeed much like a sorcerer’s idea of a spirit. It 
 
 "People love the idea of a malevolent puppeteer because it denies the existence of individual agency"
 
-- Hamliton Norris
+Hamliton Norris
 
-## nietzsche
+<!-- ## nietzsche
 # BEYOND GOOD AND EVILL
 
 "WE, WHOSE DUTY IS WAKEFULNESS ITSELF"
@@ -147,3 +147,4 @@ To those human beings who are of any concern to me I wish suffering, desolation,
 ## MISC
 
 Look I shout. We are the great miracle of creation! But from some blows this miraculous body cannot repair itself! How--! Words fail me. Look at these men! I recommence. Men! Those in the crowd who can crane to look at the prisoners, even at the flies that begin to settle on their bleeding welts. [...] It occurs to me that we crush insects beneath our feet, miracles of creation too, beetles, worms, cockraoches, ants, in their various ways . (NIETZSCHE HALLA)
+-->

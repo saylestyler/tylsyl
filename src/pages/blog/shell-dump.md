@@ -18,103 +18,6 @@ tags:
 
 ## bash
 
-## /usr/local/Homebrew/bin
-
-```shell
-#!/bin/bash
-set +o posix
-
-# Fail fast with concise message when cwd does not exist
-if ! [[ -d "$PWD" ]]; then
-  echo "Error: The current working directory doesn't exist, cannot proceed." >&2
-  exit 1
-fi
-
-quiet_cd() {
-  cd "$@" >/dev/null || return
-}
-
-symlink_target_directory() {
-  local target target_dirname
-  target="$(readlink "$1")"
-  target_dirname="$(dirname "$target")"
-  local directory="$2"
-  quiet_cd "$directory" && quiet_cd "$target_dirname" && pwd -P
-}
-
-BREW_FILE_DIRECTORY="$(quiet_cd "${0%/*}/" && pwd -P)"
-HOMEBREW_BREW_FILE="${BREW_FILE_DIRECTORY%/}/${0##*/}"
-HOMEBREW_PREFIX="${HOMEBREW_BREW_FILE%/*/*}"
-
-# Default to / prefix if unset or the bin/brew file.
-if [[ -z "$HOMEBREW_PREFIX" || "$HOMEBREW_PREFIX" = "$HOMEBREW_BREW_FILE" ]]
-then
-  HOMEBREW_PREFIX="/"
-fi
-
-HOMEBREW_REPOSITORY="$HOMEBREW_PREFIX"
-
-# Resolve the bin/brew symlink to find Homebrew's repository
-if [[ -L "$HOMEBREW_BREW_FILE" ]]
-then
-  BREW_FILE_DIRECTORY="$(symlink_target_directory "$HOMEBREW_BREW_FILE" "$BREW_FILE_DIRECTORY")"
-  HOMEBREW_REPOSITORY="${BREW_FILE_DIRECTORY%/*}"
-fi
-
-# Try to find a /usr/local HOMEBREW_PREFIX where possible (for bottles)
-if [[ -L "/usr/local/bin/brew" ]]
-then
-  USR_LOCAL_BREW_FILE_DIRECTORY="$(symlink_target_directory "/usr/local/bin/brew" "/usr/local/bin")"
-  USR_LOCAL_HOMEBREW_REPOSITORY="${USR_LOCAL_BREW_FILE_DIRECTORY%/*}"
-  if [[ "$HOMEBREW_REPOSITORY" = "$USR_LOCAL_HOMEBREW_REPOSITORY" ]]
-  then
-    HOMEBREW_PREFIX="/usr/local"
-  fi
-fi
-
-HOMEBREW_LIBRARY="$HOMEBREW_REPOSITORY/Library"
-
-# Whitelist and copy to HOMEBREW_* all variables previously mentioned in
-# manpage or used elsewhere by Homebrew.
-for VAR in AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY BINTRAY_USER BINTRAY_KEY \
-           BROWSER EDITOR GIT NO_COLOR PATH VISUAL
-do
-  # Skip if variable value is empty.
-  [[ -z "${!VAR}" ]] && continue
-
-  VAR_NEW="HOMEBREW_${VAR}"
-  # Skip if existing HOMEBREW_* variable is set.
-  [[ -n "${!VAR_NEW}" ]] && continue
-  export "$VAR_NEW"="${!VAR}"
-done
-
-# test-bot does environment filtering itself
-if [[ -z "$HOMEBREW_NO_ENV_FILTERING" && "$1" != "test-bot" ]]
-then
-  PATH="/usr/bin:/bin:/usr/sbin:/sbin"
-
-  FILTERED_ENV=()
-  # Filter all but the specific variables.
-  for VAR in HOME SHELL PATH TERM COLUMNS LOGNAME USER CI TRAVIS SSH_AUTH_SOCK SUDO_ASKPASS \
-             http_proxy https_proxy ftp_proxy no_proxy all_proxy HTTPS_PROXY FTP_PROXY ALL_PROXY \
-             "${!HOMEBREW_@}" "${!TRAVIS_@}"
-  do
-    # Skip if variable value is empty.
-    [[ -z "${!VAR}" ]] && continue
-
-    FILTERED_ENV+=( "${VAR}=${!VAR}" )
-  done
-
-  exec /usr/bin/env -i "${FILTERED_ENV[@]}" /bin/bash "$HOMEBREW_LIBRARY/Homebrew/brew.sh" "$@"
-else
-  # Don't need shellcheck to follow this `source`.
-  # shellcheck disable=SC1090
-  source "$HOMEBREW_LIBRARY/Homebrew/brew.sh"
-fi
-```
-
-always nice to explore (w/ Ranger) the underbelly of your applications 
-esp when feeling mystified
 
 #### bash-it... Da∫ Unbloaded
 
@@ -807,66 +710,8 @@ Software:
 
 ###
 
-# bonus :~)
-
-## man zshoptions
-
-```shell
-ZSHOPTIONS(1)                                                    ZSHOPTIONS(1)
-
-NNAAMMEE
-       zshoptions - zsh options
-
-SSPPEECCIIFFYYIINNGG OOPPTTIIOONNSS
-       Options are primarily referred to by name.  These names are case insen-
-       sitive and underscores are ignored.  For example, `aalllleexxppoorrtt' is equiv-
-       alent to `AA____lllleeXXPP__oorrtt'.
-
-       The  sense of an option name may be inverted by preceding it with `nnoo',
-       so `sseettoopptt NNoo__BBeeeepp' is equivalent to `uunnsseettoopptt bbeeeepp'.   This  inversion
-       can only be done once, so `nnoonnoobbeeeepp' is _n_o_t a synonym for `bbeeeepp'.  Sim-
-       ilarly, `ttiiffyy' is not  a  synonym  for  `nnoonnoottiiffyy'  (the  inversion  of
-       `nnoottiiffyy').
-
-       Some  options also have one or more single letter names.  There are two
-       sets of single letter options: one used by default, and another used to
-       emulate  sshh/kksshh  (used  when the SSHH__OOPPTTIIOONN__LLEETTTTEERRSS option is set).  The
-       single letter options can be used on the shell command  line,  or  with
-       the  sseett, sseettoopptt and uunnsseettoopptt builtins, as normal Unix options preceded
-       by `--'.
-
-       The sense of the single letter options may be  inverted  by  using  `++'
-       instead  of  `--'.   Some  of the single letter option names refer to an
-       option being off, in which case the inversion of that  name  refers  to
-       the  option  being  on.  For example, `++nn' is the short name of `eexxeecc',
-       and `--nn' is the short name of its inversion, `nnooeexxeecc'.
-
-       In strings of single letter options supplied to the shell  at  startup,
-       trailing  whitespace  will  be ignored; for example the string `--ff    '
-       will be treated just as `--ff', but the string `--ff ii' is an error.   This
-       is  because many systems which implement the `##!!' mechanism for calling
-       scripts do not strip trailing whitespace.
-
-       AAUUTTOO__NNAAMMEE__DDIIRRSS
-              Any parameter that is set to the absolute name  of  a  directory
-              immediately becomes a name for that directory, that will be used
-              by the `%%~~' and related prompt sequences, and will be  available
-              when completion is performed on a word starting with `~~'.  (Oth-
-              erwise, the parameter must be used in the form `~~_p_a_r_a_m'  first.)
-
-       AAUUTTOO__PPAARRAAMM__KKEEYYSS <D>
-              If  a  parameter  name  was  completed and a following character
-              (normally a space) automatically inserted, and the next  charac-
-              ter  typed  is one of those that have to come directly after the
-              name (like `}}', `::', etc.), the automatically added character is
-              deleted, so that the character typed comes immediately after the
-              parameter name.  Completion in a  brace  expansion  is  affected
-              similarly:  the  added character is a `,,', which will be removed
-              if `}}' is typed next.
-# based on https://gist.github.com/318247
-
-cite about-plugin
-about-plugin 'render commandline output in your browser'
+# cite about-plugin
+about-plugin 'render command line output in your browser'
 
 function browser() {
     about 'pipe html to a browser'
@@ -887,8 +732,11 @@ function browser() {
         open $f
     fi
 }
+```
 
+see <https://gist.github.com/318247>
 
+```
 function wmate() {
     about 'pipe hot spicy interwebs into textmate and cleanup!'
     example '$ wmate google.com'
@@ -1047,53 +895,85 @@ get info about logins
 
 cool :~0
 
-## dir layout
-#!/bin/bash -
+### extremely misc & quite masc? 
 
-#===============================================================================
-#
-#          FILE: checkdownloads.sh
-#
-#         USAGE: ./checkdownloads.sh
-#
-#   DESCRIPTION: 
-#
-#       OPTIONS: ---
-#  REQUIREMENTS: ---
-#          BUGS: ---
-#         NOTES: ---
-#        AUTHOR: YOUR NAME (), 
-#  ORGANIZATION: 
-#       CREATED: 10/14/2018 18:50:34
-#      REVISION:  ---
-#===============================================================================
-
-set -o nounset                                  # Treat unset variables as an error
-
-sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'select LSQuarantineDataURLString from LSQuarantineEvent' |more
-tyler@workmb ~ $ import sys
-tyler@workmb ~ $ print(sys.version)
-3.7.0 (default, Aug 25 2018, 09:46:22)
-[Clang 10.0.0 (clang-1000.10.43.1)]
-tyler@workmb ~ $ if True:
-................     print(1)
-................     else:
-................         print(2)
-................
-xonsh: For full traceback set: $XONSH_SHOW_TRACEBACK = True
-  File "<string>", line None
-SyntaxError: <xonsh-code>:4:0: ('code:         ',)
-        print(2)
-^
-tyler@workmb ~ $ if True:
-................     print(1)
-................ else:
-................     print(2)
-................
-1
- def f():
-................     return "xonsh"
-................
-tyler@workmb ~ $ f()
-'xonsh'
-
+## /usr/local/Homebrew/bin
+```shell
+#!/bin/bash
+set +o posix
+# Fail fast with concise message when cwd does not exist
+if ! [[ -d "$PWD" ]]; then
+echo "Error: The current working directory doesn't exist, cannot proceed." >&2
+exit 1
+fi
+quiet_cd() {
+cd "$@" >/dev/null || return
+}
+symlink_target_directory() {
+local target target_dirname
+target="$(readlink "$1")"
+target_dirname="$(dirname "$target")"
+local directory="$2"
+quiet_cd "$directory" && quiet_cd "$target_dirname" && pwd -P
+}
+BREW_FILE_DIRECTORY="$(quiet_cd "${0%/*}/" && pwd -P)"
+HOMEBREW_BREW_FILE="${BREW_FILE_DIRECTORY%/}/${0##*/}"
+HOMEBREW_PREFIX="${HOMEBREW_BREW_FILE%/*/*}"
+# Default to / prefix if unset or the bin/brew file.
+if [[ -z "$HOMEBREW_PREFIX" || "$HOMEBREW_PREFIX" = "$HOMEBREW_BREW_FILE" ]]
+then
+HOMEBREW_PREFIX="/"
+fi
+HOMEBREW_REPOSITORY="$HOMEBREW_PREFIX"
+# Resolve the bin/brew symlink to find Homebrew's repository
+if [[ -L "$HOMEBREW_BREW_FILE" ]]
+then
+BREW_FILE_DIRECTORY="$(symlink_target_directory "$HOMEBREW_BREW_FILE" "$BREW_FILE_DIRECTORY")"
+HOMEBREW_REPOSITORY="${BREW_FILE_DIRECTORY%/*}"
+fi
+# Try to find a /usr/local HOMEBREW_PREFIX where possible (for bottles)
+if [[ -L "/usr/local/bin/brew" ]]
+then
+USR_LOCAL_BREW_FILE_DIRECTORY="$(symlink_target_directory "/usr/local/bin/brew" "/usr/local/bin")"
+USR_LOCAL_HOMEBREW_REPOSITORY="${USR_LOCAL_BREW_FILE_DIRECTORY%/*}"
+if [[ "$HOMEBREW_REPOSITORY" = "$USR_LOCAL_HOMEBREW_REPOSITORY" ]]
+then
+HOMEBREW_PREFIX="/usr/local"
+fi
+fi
+HOMEBREW_LIBRARY="$HOMEBREW_REPOSITORY/Library"
+# Whitelist and copy to HOMEBREW_* all variables previously mentioned in
+# manpage or used elsewhere by Homebrew.
+for VAR in AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY BINTRAY_USER BINTRAY_KEY \
+BROWSER EDITOR GIT NO_COLOR PATH VISUAL
+do
+# Skip if variable value is empty.
+[[ -z "${!VAR}" ]] && continue
+VAR_NEW="HOMEBREW_${VAR}"
+# Skip if existing HOMEBREW_* variable is set.
+[[ -n "${!VAR_NEW}" ]] && continue
+export "$VAR_NEW"="${!VAR}"
+done
+# test-bot does environment filtering itself
+if [[ -z "$HOMEBREW_NO_ENV_FILTERING" && "$1" != "test-bot" ]]
+then
+PATH="/usr/bin:/bin:/usr/sbin:/sbin"
+FILTERED_ENV=()
+# Filter all but the specific variables.
+for VAR in HOME SHELL PATH TERM COLUMNS LOGNAME USER CI TRAVIS SSH_AUTH_SOCK SUDO_ASKPASS \
+http_proxy https_proxy ftp_proxy no_proxy all_proxy HTTPS_PROXY FTP_PROXY ALL_PROXY \
+"${!HOMEBREW_@}" "${!TRAVIS_@}"
+do
+# Skip if variable value is empty.
+[[ -z "${!VAR}" ]] && continue
+FILTERED_ENV+=( "${VAR}=${!VAR}" )
+done
+exec /usr/bin/env -i "${FILTERED_ENV[@]}" /bin/bash "$HOMEBREW_LIBRARY/Homebrew/brew.sh" "$@"
+else
+# Don't need shellcheck to follow this `source`.
+# shellcheck disable=SC1090
+source "$HOMEBREW_LIBRARY/Homebrew/brew.sh"
+fi
+```
+always nice to explore (w/ Ranger) the underbelly of your applications
+esp when feeling mystified

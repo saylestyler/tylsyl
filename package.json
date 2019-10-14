@@ -16,7 +16,7 @@
     "gatsby-plugin-react-helmet": "^2.0.5",
     "gatsby-plugin-robots-txt": "^1.3.0",
     "gatsby-plugin-sass": "^1.0.17",
-    "gatsby-plugin-sharp": "^1.6.34",
+    "gatsby-plugin-sharp": "^1.6.48",
     "gatsby-plugin-typography": "^1.7.19",
     "gatsby-remark-copy-linked-files": "^1.5.31",
     "gatsby-remark-highlights": "^1.3.4",

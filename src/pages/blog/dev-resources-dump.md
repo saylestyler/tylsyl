@@ -12,6 +12,10 @@ tags:
 
 <http://samrowe.com/wordpress/advancing-in-the-bash-shell/>
 
+## google's bash style guide
+
+<https://google.github.io/styleguide/shell.xml>
+
 ## tips hat 2... apple
 
 ## <https://opensource.apple.com/source>

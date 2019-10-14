@@ -746,15 +746,10 @@ function wmate() {
 ```
 if [ -t 0 ]; then
     if [ -n "$1" ]; then
-        wget -qO- $1 | /usr/bin/mate
-```
-
-TIDY=`/usr/bin/osascript << EOT
+        wget -qO- $1 | /usr/bin/mateTIDY=`/usr/bin/osascript << EOT
 tell application "TextMate"
   activate
-end tell
-
-tell application "System Events"
+end telltell application "System Events"
   tell process "TextMate"
     tell menu bar 1
       tell menu bar item "Bundles"
@@ -770,15 +765,7 @@ tell application "System Events"
   end tell
 end tell
 EOT`
-
 ```
-    else
-        reference wmate
-  fi
-fi
-```
-
-}
 
 function raw() {
     about 'write wget into a temp file and pump it into your browser'
@@ -984,6 +971,3 @@ else
 source "$HOMEBREW_LIBRARY/Homebrew/brew.sh"
 fi
 ```
-
-always nice to explore (w/ Ranger) the underbelly of your applications
-esp when feeling mystified

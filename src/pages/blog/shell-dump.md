@@ -11,13 +11,11 @@ tags:
   - cli
   - osx
 ---
-
 <!--# TOC, todo -->
 
 # (z)(fish)(tc)(ba)shells
 
 ## bash
-
 
 #### bash-it... Da∫ Unbloaded
 
@@ -35,26 +33,27 @@ and organize by most stars
 
 example _bash-it browser_  opens a browser with the raw html displayed
 
-``shell
+shell
 echo "<h1>hi mom!</h1>" | browser
+
 # opens browser w/ html rendered on static page
-```
 
-#### bash-it autocompletion
+````
+    #### bash-it autocompletion
 
-another suspiciously seamless-ly integrated feature, w/ no 
-`compinit autoload -UZ)(R##F) -9; init` à la `.zshrc`
+    another suspiciously seamless-ly integrated feature, w/ no 
+    `compinit autoload -UZ)(R##F) -9; init` à la `.zshrc`
 
-you select which autocompletions you'd like, w/ option for `all` and a warning
-that it might slow things down, which, it didn't :~_)
+    you select which autocompletions you'd like, w/ option for `all` and a warning
+    that it might slow things down, which, it didn't :~_)
 
-#### bash-it search
+    #### bash-it search
 
-```shell
-bash-it search bundle
-      aliases:  bundler
-  completions:  bundler
-```
+    ```shell
+    bash-it search bundle
+          aliases:  bundler
+      completions:  bundler
+````
 
 <https://github.com/Bash-it/bash-it>
 
@@ -82,7 +81,7 @@ find -name *.pdf | xargs rm -rf
 
 example:
 
-*11.3.1 Finding Duplicated Words in a Document*
+_11.3.1 Finding Duplicated Words in a Document_
 A common error when writing large amounts of prose is to accidentally duplicate words. Typically you will see this in text as something like “the the program does the following…” When the text is online, often the duplicated words occur at the end of one line and the beginning of another, making them very difficult to spot.
 
 This program, dupword.awk, scans through a file one line at a time and looks for adjacent occurrences of the same word. It also saves the last word on a line (in the variable prev) for comparison with the first word on the next line.
@@ -239,7 +238,6 @@ cool :~0
 
 ## dir layout
 
-
 ## perl packages
 
 ```shell
@@ -256,7 +254,7 @@ install URI::Escape
 
 use `defaults domains` to list them, and `defaults read D` to read them
 
-## ln ~/.vimrc ~/dot-files/vimrc
+## ln \~/.vimrc \~/dot-files/vimrc
 
 sick of having 4 diff config files on 4 diff computers?
 
@@ -283,108 +281,108 @@ then, e.g.
 `ack/bin/ack` = a 138k file with the disclaimer that this file is generated and to go to
 the git repo to see the src (<https://github.com/beyondgrep/ack2>), but alas:
 
-```pl
-#!/usr/bin/env perl
-#
-# This file, ack, is generated code.
-# Please DO NOT EDIT or send patches for it.
-#
-# Please take a look at the source from
-# https://github.com/beyondgrep/ack2
-# and submit patches against the individual files
-# that build ack.
-#
+````pl
+    #!/usr/bin/env perl
+    #
+    # This file, ack, is generated code.
+    # Please DO NOT EDIT or send patches for it.
+    #
+    # Please take a look at the source from
+    # https://github.com/beyondgrep/ack2
+    # and submit patches against the individual files
+    # that build ack.
+    #
 
-package main;
+    package main;
 
-use strict;
-use warnings;
-our $VERSION = '2.24'; # Check https://beyondgrep.com/ for updates
+    use strict;
+    use warnings;
+    our $VERSION = '2.24'; # Check https://beyondgrep.com/ for updates
 
-use 5.008008;
-use Getopt::Long 2.38 ();
-use Carp 1.04 ();
+    use 5.008008;
+    use Getopt::Long 2.38 ();
+    use Carp 1.04 ();
 
-use File::Spec ();
+    use File::Spec ();
 
 
-# XXX Don't make this so brute force
-# See also: https://github.com/beyondgrep/ack2/issues/89
+    # XXX Don't make this so brute force
+    # See also: https://github.com/beyondgrep/ack2/issues/89
 
-our $opt_after_context;
-our $opt_before_context;
-our $opt_output;
-our $opt_print0;
-our $opt_color;
-our $opt_heading;
-our $opt_show_filename;
-our $opt_regex;
-our $opt_break;
-our $opt_count;
-our $opt_v;
-our $opt_m;
-our $opt_g;
-our $opt_f;
-our $opt_lines;
-our $opt_L;
-our $opt_l;
-our $opt_passthru;
-our $opt_column;
+    our $opt_after_context;
+    our $opt_before_context;
+    our $opt_output;
+    our $opt_print0;
+    our $opt_color;
+    our $opt_heading;
+    our $opt_show_filename;
+    our $opt_regex;
+    our $opt_break;
+    our $opt_count;
+    our $opt_v;
+    our $opt_m;
+    our $opt_g;
+    our $opt_f;
+    our $opt_lines;
+    our $opt_L;
+    our $opt_l;
+    our $opt_passthru;
+    our $opt_column;
 
-# Flag if we need any context tracking.
-our $is_tracking_context;
+    # Flag if we need any context tracking.
+    our $is_tracking_context;
 
-# These are all our globals.
+    # These are all our globals.
 
-MAIN: {
-    $App::Ack::orig_program_name = $0;
-    $0 = join(' ', 'ack', $0);
-    if ( $App::Ack::VERSION ne $main::VERSION ) {
-        App::Ack::die( "Program/library version mismatch\n\t$0 is $main::VERSION\n\t$INC{'App/Ack.pm'} is $App::Ack::VERSION" );
+    MAIN: {
+        $App::Ack::orig_program_name = $0;
+        $0 = join(' ', 'ack', $0);
+        if ( $App::Ack::VERSION ne $main::VERSION ) {
+            App::Ack::die( "Program/library version mismatch\n\t$0 is $main::VERSION\n\t$INC{'App/Ack.pm'} is $App::Ack::VERSION" );
+        }
+
+        # Do preliminary arg checking;
+        my $env_is_usable = 1;
+        for my $arg ( @ARGV ) {
+            last if ( $arg eq '--' );
+
+            # Get the --thpppt, --bar, --cathy checking out of the way.
+            $arg =~ /^--th[pt]+t+$/ and App::Ack::thpppt($arg);
+            $arg eq '--bar'         and App::Ack::ackbar();
+            $arg eq '--cathy'       and App::Ack::cathy();
+
+            # See if we want to ignore the environment. (Don't tell Al Gore.)
+            $arg eq '--env'         and $env_is_usable = 1;
+            $arg eq '--noenv'       and $env_is_usable = 0;
+        }
+
+        if ( !$env_is_usable ) {
+            my @keys = ( 'ACKRC', grep { /^ACK_/ } keys %ENV );
+            delete @ENV{@keys};
+        }
+        load_colors();
+
+        Getopt::Long::Configure('default', 'no_auto_help', 'no_auto_version');
+        Getopt::Long::Configure('pass_through', 'no_auto_abbrev');
+        Getopt::Long::GetOptions(
+            'help'       => sub { App::Ack::show_help(); exit; },
+            'version'    => sub { App::Ack::print_version_statement(); exit; },
+            'man'        => sub { App::Ack::show_man(); exit; },
+        );
+        Getopt::Long::Configure('default', 'no_auto_help', 'no_auto_version');
+
+        if ( !@ARGV ) {
+            App::Ack::show_help();
+            exit 1;
+        }
+
+        main();
     }
-
-    # Do preliminary arg checking;
-    my $env_is_usable = 1;
-    for my $arg ( @ARGV ) {
-        last if ( $arg eq '--' );
-
-        # Get the --thpppt, --bar, --cathy checking out of the way.
-        $arg =~ /^--th[pt]+t+$/ and App::Ack::thpppt($arg);
-        $arg eq '--bar'         and App::Ack::ackbar();
-        $arg eq '--cathy'       and App::Ack::cathy();
-
-        # See if we want to ignore the environment. (Don't tell Al Gore.)
-        $arg eq '--env'         and $env_is_usable = 1;
-        $arg eq '--noenv'       and $env_is_usable = 0;
+    ```shell
+    it2prof() {
+      echo -e "\033]50;SetProfile=$1\a"
     }
-
-    if ( !$env_is_usable ) {
-        my @keys = ( 'ACKRC', grep { /^ACK_/ } keys %ENV );
-        delete @ENV{@keys};
-    }
-    load_colors();
-
-    Getopt::Long::Configure('default', 'no_auto_help', 'no_auto_version');
-    Getopt::Long::Configure('pass_through', 'no_auto_abbrev');
-    Getopt::Long::GetOptions(
-        'help'       => sub { App::Ack::show_help(); exit; },
-        'version'    => sub { App::Ack::print_version_statement(); exit; },
-        'man'        => sub { App::Ack::show_man(); exit; },
-    );
-    Getopt::Long::Configure('default', 'no_auto_help', 'no_auto_version');
-
-    if ( !@ARGV ) {
-        App::Ack::show_help();
-        exit 1;
-    }
-
-    main();
-}
-```shell
-it2prof() {
-  echo -e "\033]50;SetProfile=$1\a"
-}
-```
+````
 
 ## cli notetaking
 
@@ -405,7 +403,7 @@ $ does this work amazing!
 ```
 
 > Under "Semantic History", choose "Run coprocess..". In the text field, put:
-
+>
 > `echo vim \1 +\2`
 
 ## amaze ref
@@ -588,7 +586,6 @@ compinit
 
 and not a clue what it does, tho i know it's related to autocompl
 
-
 also, when i `cat .zcompdump` i see:
 
 ```shell
@@ -619,7 +616,8 @@ autoload -Uz +X _call_program
        zshzftpsys   Zsh built-in FTP client
        zshcontrib   Additional zsh functions and utilities
        zshall       Meta-man page containing all of the above
- ```
+```
+
 ## homebrew
 
 for a great explanation of "keg-only"
@@ -707,10 +705,10 @@ Software:
       Time since boot: 9 days 18:30
 ```
 
-
-###
+### 
 
 # cite about-plugin
+
 about-plugin 'render command line output in your browser'
 
 function browser() {
@@ -719,32 +717,37 @@ function browser() {
     example '$ ron -5 man/rip.5.ron | browser'
     group 'browser'
 
-    if [ -t 0 ]; then
-        if [ -n "$1" ]; then
-            open $1
-        else
-            reference browser
-        fi
-
+```
+if [ -t 0 ]; then
+    if [ -n "$1" ]; then
+        open $1
     else
-        f="/tmp/browser.$RANDOM.html"
-        cat /dev/stdin > $f
-        open $f
+        reference browser
     fi
+
+else
+    f="/tmp/browser.$RANDOM.html"
+    cat /dev/stdin > $f
+    open $f
+fi
+```
+
 }
-```
 
+```
 see <https://gist.github.com/318247>
-
 ```
+
 function wmate() {
     about 'pipe hot spicy interwebs into textmate and cleanup!'
     example '$ wmate google.com'
     group 'browser'
 
-    if [ -t 0 ]; then
-        if [ -n "$1" ]; then
-            wget -qO- $1 | /usr/bin/mate
+```
+if [ -t 0 ]; then
+    if [ -n "$1" ]; then
+        wget -qO- $1 | /usr/bin/mate
+```
 
 TIDY=`/usr/bin/osascript << EOT
 tell application "TextMate"
@@ -768,10 +771,13 @@ tell application "System Events"
 end tell
 EOT`
 
-        else
-            reference wmate
-      fi
-    fi
+```
+    else
+        reference wmate
+  fi
+fi
+```
+
 }
 
 function raw() {
@@ -779,24 +785,26 @@ function raw() {
     example '$ raw google.com'
     group 'browser'
 
-    if [ -t 0 ]; then
-        if [ -n "$1" ]; then
-            wget -qO- $1 | browser
-        else
-            reference raw
-        fi
+```
+if [ -t 0 ]; then
+    if [ -n "$1" ]; then
+        wget -qO- $1 | browser
+    else
+        reference raw
     fi
-}
+fi
 ```
 
-## finding things 
+}
 
-```shell
-ag -i -o $* 
+````
+    ## finding things 
 
-find . node_modules 
-``` 
+    ```shell
+    ag -i -o $* 
 
+    find . node_modules 
+````
 
 ## keyboard maestro
 
@@ -895,9 +903,10 @@ get info about logins
 
 cool :~0
 
-### extremely misc & quite masc? 
+```
+/usr/local/Homebrew/bin
+```
 
-## /usr/local/Homebrew/bin
 ```shell
 #!/bin/bash
 set +o posix
@@ -975,5 +984,6 @@ else
 source "$HOMEBREW_LIBRARY/Homebrew/brew.sh"
 fi
 ```
+
 always nice to explore (w/ Ranger) the underbelly of your applications
 esp when feeling mystified

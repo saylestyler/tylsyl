@@ -246,6 +246,8 @@ ctrl-p(lease) use it
 
 [vimrc guide](https://github.com/romainl/idiomatic-vimrc)
 
+[/r/vim](https://www.reddit.com/r/vim/comments/bfxr2z/vim_theory_and_reflections/)
+
 ## keybindings
 
 ```vimscript

@@ -8,34 +8,19 @@ tags:
   - favs
   - dump
 ---
-## bash ur former bash prowess
+# bash 
 
 <http://samrowe.com/wordpress/advancing-in-the-bash-shell/>
 
-## google's bash style guide
+[google's bash style guide](https://google.github.io/styleguide/shell.xml)
 
-<https://google.github.io/styleguide/shell.xml>
+[save ur bash history securely in daß Kloöd](https://bashhub.com/)
 
-## tips hat 2... apple
+## tips hat 2... apple?
 
-## <https://opensource.apple.com/source>
+<https://opensource.apple.com/source>
 
-cool stuff e.g. `cron`
-
-<https://opensource.apple.com/source/cron/cron-35/crontab/crontab.c.auto.html>
-
-# troubleshooting
-
-<div class="purple">
-<h1>before any so-called troubleshooting, ask urself:</h1>
-<ul>
-  <li>did u `man yrproblem`?</li>
-  <li>did u read the README.md?</li>
-  <li>did u read the docs?</li>
-  <li>did u really wanna spend time 'solving' this 'problem'?</li>
-</ul>
-
-</div>
+cool stuff e.g. `cron`? [src](https://opensource.apple.com/source/cron/cron-35/crontab/crontab.c.auto.html)
 
 ## UITest.com
 

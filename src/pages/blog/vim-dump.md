@@ -234,6 +234,18 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 ctrl-p(lease) use it
 
+## misc 
+
+[you don't grok vi](https://gist.github.com/niflyt/1178878)
+
+<https://vimways.org/2018/>
+
+[generate TOC from markdown w/ ctags](https://jdhao.github.io/2019/10/15/tagbar_markdown_setup/)
+
+[romainl's gists](https://gist.github.com/romainl/4b9f139d2a8694612b924322de1025ce)
+
+[vimrc guide](https://github.com/romainl/idiomatic-vimrc)
+
 ## keybindings
 
 ```vimscript

@@ -13,9 +13,14 @@ tags:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G6ghWBYBk6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div class="note">
 
-timestamps ~ when the utterance(s) occur </div>
+# 12:35
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5HS2TstPfW4?start=755" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--
+<div class="note">timestamps ~ when the utterance(s) occur</div>
+--> 
 
 ## 36:11, 36:31
 

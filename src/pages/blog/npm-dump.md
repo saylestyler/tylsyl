@@ -61,6 +61,3 @@ if option b, the only clinteraction you'll have to have is maybe
 `$ sudo chown -R $(whoami) /usr/local/lib`
 
 et voilà
-
-
-

@@ -29,7 +29,9 @@ Examples: >
 
 or any command supplied w/ last bit of previous output
 
-## vim https://vim.fandom.com/wiki/Vim_Tips_Wiki
+## vim 
+
+<https://vim.fandom.com/wiki/Vim_Tips_Wiki>
 
 or any url = edit the html of said page
 

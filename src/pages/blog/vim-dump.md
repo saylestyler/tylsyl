@@ -9,6 +9,19 @@ tags:
   - vs
 ---
 
+## saving 
+
+```
+" Use qq in insert and command mode to Esc and to exit when in normal mode
+inoremap qq <Esc>
+cnoremap qq <Esc>
+nnoremap qq :q<cr>
+nnoremap q1 :q!<cr>
+
+" Use qs to save while in insert mode
+inoremap qs <Esc>:w<cr>a
+```
+
 ## :h vim
 
 i went weeks hitting ctrl + p which search _only node modules_ before 
@@ -29,7 +42,9 @@ Examples: >
 
 or any command supplied w/ last bit of previous output
 
-## vim https://vim.fandom.com/wiki/Vim_Tips_Wiki
+## vim 
+
+<https://vim.fandom.com/wiki/Vim_Tips_Wiki>
 
 or any url = edit the html of said page
 

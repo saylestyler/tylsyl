@@ -124,3 +124,7 @@ today we lrn to make a [bookmarklet](https://betterexplained.com/articles/how-to
 ## moishe lettvin's blog
 
 [moise lettvin's blog](https://www.moishelettvin.com/2016/02/23/i-dont-know/)
+
+## mfowlerblg
+
+[martin fowler's blog](https://martinfowler.com/bliki/ContinuousDelivery.html)

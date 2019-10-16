@@ -96,12 +96,11 @@ window.onload = () => {
       });
     }
 
-    allColorsSorted = allColorsSorted.sort(function (a, b) {
-      return b.value.count - a.value.count;
-    });
+    allColorsSorted = allColorsSorted.sort((a, b) => b.value.count - a.value.count)
 
     var nameStyle = 'font-weight:normal;';
     var countStyle = 'font-weight:bold;';
+
     const colorStyle = color => (`
       background: ${color}; 
       color: ${color}; 

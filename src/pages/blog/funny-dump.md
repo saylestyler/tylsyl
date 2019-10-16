@@ -53,7 +53,3 @@ tags:
 # rpdr wwe... simuation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kHigulQ45tk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-# san gennaro on the corner of mott & grand ≠ la dolcè vita Chinese chicken salad
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EKZS4Jn6gRM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

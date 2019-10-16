@@ -7,6 +7,13 @@ tags:
   - dev
   - dump
 ---
+# 212
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1571184464/k4rzz0owfvvitvxoesfo.png)
+
+# tcrapc
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1571184412/ualuwf0junhdzhi7atvn.png)
 
 # amaze pers website
 

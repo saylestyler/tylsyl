@@ -102,12 +102,13 @@ window.onload = () => {
 
     var nameStyle = 'font-weight:normal;';
     var countStyle = 'font-weight:bold;';
-    function colorStyle (color) {
-      return (
-        'background:' + color + ';color:' + color + ';border:1px solid #333;'
-      );
-    }
+    const colorStyle = color => (`
+      background: ${color}; 
+      color: ${color}; 
+      border:1px solid #333;
+    `)
 
+    // this is fun: https://developer.mozilla.org/en-US/docs/Web/API/Console/group
     console.group(
       'Total colors used in elements on the page: ' +
         window.location.href +

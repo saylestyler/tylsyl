@@ -9,7 +9,7 @@ tags:
   - vs
 ---
 
-## remapping `qq`
+## saving 
 
 ```
 " Use qq in insert and command mode to Esc and to exit when in normal mode
@@ -17,8 +17,10 @@ inoremap qq <Esc>
 cnoremap qq <Esc>
 nnoremap qq :q<cr>
 nnoremap q1 :q!<cr>
-```
 
+" Use qs to save while in insert mode
+inoremap qs <Esc>:w<cr>a
+```
 
 ## :h vim
 

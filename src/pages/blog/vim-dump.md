@@ -9,6 +9,17 @@ tags:
   - vs
 ---
 
+## remapping `qq`
+
+```
+" Use qq in insert and command mode to Esc and to exit when in normal mode
+inoremap qq <Esc>
+cnoremap qq <Esc>
+nnoremap qq :q<cr>
+nnoremap q1 :q!<cr>
+```
+
+
 ## :h vim
 
 i went weeks hitting ctrl + p which search _only node modules_ before 

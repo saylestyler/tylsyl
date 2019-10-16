@@ -1,8 +1,8 @@
 ---
+templateKey: blog-post
 title: $PYTHON $PATH
 date: '2018-07-24T13:23:14-04:00'
 description: '$PATH nightmares '
-templateKey: blog-post
 tags:
   - python
 ---
@@ -38,6 +38,8 @@ pip install --upgrade pip
   /Users/tyler/Library/Python/2.7/lib/python/site-packages/homebrew.pth`
 
 after that do something like this ~ (all of these work with pip3 & python3 as well, if one doesn't work try the other)
+
+test it out w/ this cute bs4 nugget
 
 ```python
 # my_parser.py

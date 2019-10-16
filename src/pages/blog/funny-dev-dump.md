@@ -7,6 +7,10 @@ tags:
   - dev
   - dump
 ---
+# asynchronie
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1571184552/lldwuduv4mf5vgowafaz.png)
+
 # 212
 
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1571184464/k4rzz0owfvvitvxoesfo.png)

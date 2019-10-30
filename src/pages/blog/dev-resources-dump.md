@@ -26,6 +26,14 @@ tags:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cNN_tTXABUA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## post-quantum cryptography (lol)
+
+bunch of cool looking graphics ;) 
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1572475939/nmgtcsegvvjkow7ezjot.png)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6H_9l9N3IXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## tips hat 2... apple?
 
 <https://opensource.apple.com/source>

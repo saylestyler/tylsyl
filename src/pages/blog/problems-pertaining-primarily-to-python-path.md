@@ -6,6 +6,7 @@ description: '$PATH nightmares '
 tags:
   - python
 ---
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1572405112/vev2rjvvjfyhglloc3oz.png)
 
 ## just use virutalenv
 

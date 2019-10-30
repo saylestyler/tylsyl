@@ -16,9 +16,15 @@ tags:
 
 [save ur bash history securely in daß Kloöd](https://bashhub.com/)
 
-## but how do it know 
+## but how do it know: CPUs
 
 <http://buthowdoitknow.com/>
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1572473118/vwucrmgjuwumy37njxaw.png)
+
++ this amazin' vid companion by In One Lesson
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cNN_tTXABUA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## tips hat 2... apple?
 

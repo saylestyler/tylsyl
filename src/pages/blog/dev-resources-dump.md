@@ -16,6 +16,10 @@ tags:
 
 [save ur bash history securely in daß Kloöd](https://bashhub.com/)
 
+## but how do it know 
+
+<http://buthowdoitknow.com/>
+
 ## tips hat 2... apple?
 
 <https://opensource.apple.com/source>

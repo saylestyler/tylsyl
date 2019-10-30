@@ -8,6 +8,22 @@ tags:
 ---
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1572405112/vev2rjvvjfyhglloc3oz.png)
 
+## jk, just use pyenv 
+
+```bash
+brew install pyenv
+pyenv install 3.7.3
+pyenv global 3.7.3
+
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
+
+exec $0
+
+which python && which pip
+```
+
+and verify the output : ) 
+
 ## just use virutalenv
 
 plz just use it like so:

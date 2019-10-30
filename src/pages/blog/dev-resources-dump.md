@@ -79,6 +79,12 @@ here's an example implementing all of their landmark guidelines
 
 <https://dequeuniversity.com/resources/>
 
+## compilers 
+
+11:00 is particularly mind-blowing :~)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QXjU9qTsYCc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## for users w/ cognitive disabilities
 
 <https://usability.com.au/2004/12/an-accessibility-frontier-cognitive-disabilities-and-learning-difficulties-2004/>

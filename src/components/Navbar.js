@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 const Navbar = () => (
-  <nav className='navWrapper'>
     <ul>
       <li>
         <Link className='navbar-item' to='/'>Index</Link>
@@ -11,7 +10,6 @@ const Navbar = () => (
         <Link className='navbar-item' to='/about'>About</Link>
       </li>
     </ul>
-  </nav>
 );
 
 export default Navbar;

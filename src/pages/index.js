@@ -9,7 +9,6 @@ export default class IndexPage extends React.Component {
 
     return (
       <main className='main'>
-        <section className='grid'>
           {
             posts.map(
               ({ node: post }) => (
@@ -26,7 +25,6 @@ export default class IndexPage extends React.Component {
               )
             )
           }
-        </section>
       </main>
     );
   }

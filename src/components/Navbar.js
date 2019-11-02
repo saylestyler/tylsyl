@@ -2,7 +2,9 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 const Navbar = () => (
-    <ul>
+    <ul style={{
+      width: '450px'
+    }}>
       <li>
         <Link className='navbar-item' to='/'>Index</Link>
       </li>

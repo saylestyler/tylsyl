@@ -7,131 +7,21 @@ CMS.registerPreviewTemplate('about', AboutPagePreview);
 CMS.registerPreviewTemplate('blog', BlogPostPreview);
 
 window.onload = () => {
-  (function () {
-    // Should include colors from elements that have a border color but have a zero width?
-    var includeBorderColorsWithZeroWidth = false;
+  /* hide stuff */
+  // tar borta poänglösa navbar
+  document.querySelector(`#nc-root > div > div.nc-appHeader-container > div > div`).innerHTML = ''
+  // contents sidebar
+  document.querySelector('#nc-root > div > div.nc-app-main > div > div > div.nc-collectionPage-sidebar').style.width = '0px'
+  // view as grid
+  document.querySelector('#nc-root > div > div.nc-app-main > div > div > div.nc-collectionPage-main > div.nc-collectionPage-top > div.nc-collectionPage-top-viewControls.nc-collectionPage-top-viewControls-noDescription').innerHTML = '';
+  // sub-subtitle
+  document.querySelector('#nc - root > div > div.nc - app - main > div > div > div.nc - collectionPage - main > div.nc - collectionPage - top > div.nc - collectionPage - top - row > h1').innerHTML = '';
 
-    var allColors = {};
-    var props = [
-      'background-color',
-      'color',
-      'border-top-color',
-      'border-right-color',
-      'border-bottom-color',
-      'border-left-color'
-    ];
-    var skipColors = {
-      'rgb(0, 0, 0)': 1,
-      'rgba(0, 0, 0, 0)': 1,
-      'rgb(255, 255, 255)': 1
-    };
+  /* mod */
+  // nice n shiny new button
+  document.querySelector(`#nc-root > div > div.nc-app-main > div > div > div.nc-collectionPage-main > div.nc-collectionPage-top > div.nc-collectionPage-top-row > a`).innerText = 'NEW'
+  document.querySelector(`#nc-root > div > div.nc-app-main > div > div > div.nc-collectionPage-main > div.nc-collectionPage-top > div.nc-collectionPage-top-row > a`).style.backgroundColor = 'blue'
 
-    [].forEach.call(document.querySelectorAll('*'), function (node) {
-      var nodeColors = {};
-      props.forEach(function (prop) {
-        var color = window.getComputedStyle(node, null).getPropertyValue(prop),
-          thisIsABorderProperty = prop.indexOf('border') != -1,
-          notBorderZero = thisIsABorderProperty
-            ? window
-                .getComputedStyle(node, null)
-                .getPropertyValue(prop.replace('color', 'width')) !== '0px'
-            : true,
-          colorConditionsMet;
-
-        if (includeBorderColorsWithZeroWidth) {
-          colorConditionsMet = color && !skipColors[color];
-        } else {
-          colorConditionsMet = color && !skipColors[color] && notBorderZero;
-        }
-
-        if (colorConditionsMet) {
-          if (!allColors[color]) {
-            allColors[color] = {
-              count: 0,
-              nodes: []
-            };
-          }
-
-          if (!nodeColors[color]) {
-            allColors[color].count++;
-            allColors[color].nodes.push(node);
-          }
-
-          nodeColors[color] = true;
-        }
-      });
-    });
-
-    function rgbTextToRgbArray (rgbText) {
-      return rgbText
-        .replace(/\s/g, '')
-        .match(/\d+,\d+,\d+/)[0]
-        .split(',')
-        .map(function (num) {
-          return parseInt(num, 10);
-        });
-    }
-
-    function componentToHex (c) {
-      var hex = c.toString(16);
-      return hex.length == 1 ? '0' + hex : hex;
-    }
-
-    function rgbToHex (rgbArray) {
-      var r = rgbArray[0],
-        g = rgbArray[1],
-        b = rgbArray[2];
-      return '#' + componentToHex(r) + componentToHex(g) + componentToHex(b);
-    }
-
-    var allColorsSorted = [];
-    for (var i in allColors) {
-      var rgbArray = rgbTextToRgbArray(i);
-      var hexValue = rgbToHex(rgbArray);
-
-      allColorsSorted.push({
-        key: i,
-        value: allColors[i],
-        hexValue: hexValue
-      });
-    }
-
-    allColorsSorted = allColorsSorted.sort((a, b) => b.value.count - a.value.count)
-
-    var nameStyle = 'font-weight:normal;';
-    var countStyle = 'font-weight:bold;';
-
-    const colorStyle = color => (`
-      background: ${color}; 
-      color: ${color}; 
-      border:1px solid #333;
-    `)
-
-    // this is fun: https://developer.mozilla.org/en-US/docs/Web/API/Console/group
-    console.group(
-      'Total colors used in elements on the page: ' +
-        window.location.href +
-        ' are ' +
-        allColorsSorted.length
-    );
-    allColorsSorted.forEach(function (c) {
-      console.groupCollapsed(
-        '%c    %c ' +
-          c.key +
-          ' ' +
-          c.hexValue +
-          ' %c(' +
-          c.value.count +
-          ' times)',
-        colorStyle(c.key),
-        nameStyle,
-        countStyle
-      );
-      c.value.nodes.forEach(function (node) {
-        console.log(node);
-      });
-      console.groupEnd();
-    });
-    console.groupEnd('All colors used in elements on the page');
-  })();
+  document.querySelector('.nc-collectionPage-topNewButton').style.padding = '0 180px';
 };
+

@@ -8,10 +8,7 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <main style={{ 
-        margin: '0px auto',
-        width: '450px' 
-      }}>
+      <div>
         {posts.map(
           ({ node: post }) => (
             <div className='post-list-container'
@@ -26,7 +23,7 @@ export default class IndexPage extends React.Component {
             </div>
           )
         )}
-      </main>
+      </div>
     );
   }
 }

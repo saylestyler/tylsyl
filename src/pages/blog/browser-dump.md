@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: browser.js
+title: browser dump
 date: '2018-10-06T22:34:58-04:00'
 description: opera dev edition
 tags:

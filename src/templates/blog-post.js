@@ -15,7 +15,7 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content;
   return (
-    <main className='index-page-wrapper'>
+    <div className='blog-post-wrapper'>
       {helmet || ''}
       <h1 className='post-title'>{title}</h1>
       <p className='post-description'>{description}</p>
@@ -34,7 +34,7 @@ export const BlogPostTemplate = ({
       ) : null}
 
       <Link className="index-link" to={'/'}>Index</Link>
-    </main>
+    </div>
   );
 };
 

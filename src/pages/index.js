@@ -11,11 +11,10 @@ export default class IndexPage extends React.Component {
       <div>
         {posts.map(
           ({ node: post }) => (
-            <div className='post-list-container'
-              key={post.id}>
+            <div className='post-list-container' key={post.id}>
               <Link className='post-list-title'
-                to={post.fields.slug}>
-                {post.frontmatter.title}
+                    to={post.fields.slug}>
+                    {post.frontmatter.title}
               </Link>
               <p className='post-list-date'>
                 {post.frontmatter.date}

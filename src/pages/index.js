@@ -8,23 +8,24 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <main className='main'>
-          {
-            posts.map(
-              ({ node: post }) => (
-                <div className='post-list-container'
-                  key={post.id}>
-                  <Link className='post-list-title'
-                    to={post.fields.slug}>
-                    {post.frontmatter.title}
-                  </Link>
-                  <p className='post-list-date'>
-                    {post.frontmatter.date}
-                  </p>
-                </div>
-              )
-            )
-          }
+      <main style={{ 
+        margin: '0px auto',
+        width: '450px' 
+      }}>
+        {posts.map(
+          ({ node: post }) => (
+            <div className='post-list-container'
+              key={post.id}>
+              <Link className='post-list-title'
+                to={post.fields.slug}>
+                {post.frontmatter.title}
+              </Link>
+              <p className='post-list-date'>
+                {post.frontmatter.date}
+              </p>
+            </div>
+          )
+        )}
       </main>
     );
   }

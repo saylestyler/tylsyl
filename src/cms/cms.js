@@ -9,7 +9,7 @@ CMS.registerPreviewTemplate('blog', BlogPostPreview);
 window.onload = () => {
   /* hide stuff */
   // tar borta poänglösa navbar
-  document.querySelector(`#nc-root > div > div.nc-appHeader-container > div > div`).innerHTML = ''
+  document.querySelector(`#nc-root > div > div.nc-appHeader-container`).innerText = ''
   // contents sidebar
   document.querySelector('#nc-root > div > div.nc-app-main > div > div > div.nc-collectionPage-sidebar').style.width = '0px'
   // view as grid

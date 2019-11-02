@@ -1,0 +1,243 @@
+!-3	src/pages/blog/shell-dump.md	/^## !-3$/;"	s
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	e-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/2b0aa59/
+(z)(fish)(tc)(ba)shells	src/pages/blog/shell-dump.md	/^# (z)(fish)(tc)(ba)shells$/;"	c
+- SSG	src/pages/blog/gatsby-dump.md	/^  - SSG$/;"	s
+- browser	src/pages/blog/browser-dump.md	/^  - browser$/;"	s
+- design	src/pages/blog/design-dump.md	/^  - design$/;"	s
+- dostoyevsky	src/pages/blog/dostoyevsky-the-grand-inquistor.md	/^  - dostoyevsky$/;"	s
+- dump	src/pages/blog/dev-resources-dump.md	/^  - dump$/;"	s
+- dump	src/pages/blog/funny-dev-dump.md	/^  - dump$/;"	s
+- fix	src/pages/blog/npm-dump.md	/^  - fix$/;"	s
+- google	src/pages/blog/feeling-lucky.md	/^  - google$/;"	s
+- madtv	src/pages/blog/funny-dump.md	/^  - madtv$/;"	s
+- memory	src/pages/blog/swpvimec2.md	/^  - memory$/;"	s
+- music	src/pages/blog/music-dump.md	/^  - music$/;"	s
+- neurology	src/pages/blog/deep-brain-johnny-cash.md	/^  - neurology$/;"	s
+- osx	src/pages/blog/shell-dump.md	/^  - osx$/;"	s
+- osx	src/pages/blog/tmux-ephiphany-followed-by-others-of-larger-grander-scale.md	/^  - osx$/;"	s
+- postgres	drafts/sql-dump.md	/^  - postgres$/;"	s
+- python	src/pages/blog/connecting-to-ur-sqlite3-imessage-db-x-python.md	/^  - python$/;"	s
+- python	src/pages/blog/problems-pertaining-primarily-to-python-path.md	/^  - python$/;"	s
+- ssh	src/pages/blog/staging-deployment-on-the-frontend.md	/^  - ssh$/;"	s
+- vs	src/pages/blog/vim-dump.md	/^  - vs$/;"	s
+- whatwg	src/pages/blog/html-dump.md	/^  - whatwg$/;"	s
+- youtube	src/pages/blog/live-studio-audience-noises.md	/^  - youtube$/;"	s
+.zshrc	src/pages/blog/shell-dump.md	/^## .zshrc$/;"	s
+0:59	src/pages/blog/funny-dump.md	/^# 0:59$/;"	c
+1001freefonts	src/pages/blog/design-dump.md	/^## 1001freefonts$/;"	s
+12:35	src/pages/blog/live-studio-audience-noises.md	/^# 12:35$/;"	c
+1:20, 3:52	src/pages/blog/live-studio-audience-noises.md	/^## 1:20, 3:52$/;"	s
+212	src/pages/blog/funny-dev-dump.md	/^# 212$/;"	c
+2:06 - 2:11	src/pages/blog/funny-dump.md	/^# 2:06 - 2:11 $/;"	c
+2:60	src/pages/blog/live-studio-audience-noises.md	/^## 2:60$/;"	s
+36:11, 36:31	src/pages/blog/live-studio-audience-noises.md	/^## 36:11, 36:31$/;"	s
+3:08: a moment	src/pages/blog/music-dump.md	/^## 3:08: a moment$/;"	s
+3:23 - 3:28; also 4:44; also 6:53-6:55; 9:49-9:52	src/pages/blog/funny-dump.md	/^# 3:23 - 3:28; also 4:44; also 6:53-6:55; 9:49-9:52$/;"	c
+4 strings	src/pages/blog/music-dump.md	/^## 4 strings$/;"	s
+4:12 oh shit lmfao	src/pages/blog/live-studio-audience-noises.md	/^## 4:12 oh shit lmfao$/;"	s
+4:16	src/pages/blog/funny-dump.md	/^# 4:16 $/;"	c
+4:35	src/pages/blog/funny-dump.md	/^# 4:35$/;"	c
+4:53 - 4:56 a compounding laugh	src/pages/blog/live-studio-audience-noises.md	/^## 4:53 - 4:56 a compounding laugh$/;"	s
+5:39 rare sighting	src/pages/blog/funny-dump.md	/^# 5:39 rare sighting$/;"	c
+6:46 & 6:49	src/pages/blog/funny-dump.md	/^# 6:46 & 6:49 $/;"	c
+8:31	src/pages/blog/funny-dump.md	/^# 8:31$/;"	c
+:h vim	src/pages/blog/vim-dump.md	/^## :h vim$/;"	s
+:spell + zg + z=	src/pages/blog/vim-dump.md	/^## :spell + zg + z=$/;"	s
+<3 the current setup?	src/pages/blog/vim-dump.md	/^## <3 the current setup?$/;"	s
+<https://www.chami.com/html-kit/plugins/>	src/pages/blog/design-dump.md	/^## <https:\/\/www.chami.com\/html-kit\/plugins\/>$/;"	s
+<markboulton.co.uk/about>	src/pages/blog/design-dump.md	/^## <markboulton.co.uk\/about>$/;"	s
+Armin	src/pages/blog/music-dump.md	/^## Armin$/;"	s
+CCS, General and Reference, Cross-computing tools and techniques, Design:	src/pages/blog/design-dump.md	/^## CCS, General and Reference, Cross-computing tools and techniques, Design:$/;"	s
+CD (NERDTree)	src/pages/blog/vim-dump.md	/^## CD (NERDTree)$/;"	s
+Contact	src/pages/about/index.md	/^## Contact$/;"	s
+FILTERED_ENV=	fun.sh	/^  FILTERED_ENV=()$/;"	f
+GNU.org	src/pages/blog/shell-dump.md	/^# GNU.org$/;"	c
+HTML HINT	src/pages/blog/html-dump.md	/^## HTML HINT$/;"	s
+L + ctrl + tab (vim-snippets)	src/pages/blog/vim-dump.md	/^## L + ctrl + tab (vim-snippets)$/;"	s
+MISC	src/pages/blog/html-dump.md	/^# MISC$/;"	c
+Omar S	src/pages/blog/music-dump.md	/^## Omar S$/;"	s
+PATH	src/pages/blog/shell-dump.md	/^### PATH$/;"	S
+Parwas Hussein	src/pages/blog/music-dump.md	/^## Parwas Hussein$/;"	s
+Simon Willison's Weblog	src/pages/blog/dev-resources-dump.md	/^## Simon Willison's Weblog$/;"	s
+THE GRAND INQUISITOR	src/pages/blog/dostoyevsky-the-grand-inquistor.md	/^# THE GRAND INQUISITOR$/;"	c
+THEN...	src/pages/blog/npm-dump.md	/^# THEN...$/;"	c
+Thanks	src/pages/about/index.md	/^## Thanks$/;"	s
+UITest.com	src/pages/blog/dev-resources-dump.md	/^## UITest.com$/;"	s
+VOCAB	src/pages/blog/html-dump.md	/^## VOCAB$/;"	s
+WADL, IDL, WSDL	src/pages/blog/html-dump.md	/^# WADL, IDL, WSDL$/;"	c
+WAI-ARIA practices	src/pages/blog/dev-resources-dump.md	/^## WAI-ARIA practices$/;"	s
+ZSH	src/pages/blog/shell-dump.md	/^# ZSH$/;"	c
+[tylsyl.com](https://www.tylsyl.com)	README.md	/^## [tylsyl.com](https:\/\/www.tylsyl.com)$/;"	s
+___gatsby	public/index.html	/^<!DOCTYPE html><html><head><meta charset="utf-8"\/><meta http-equiv="x-ua-compatible" content="i/;"	I
+_operabrowserjs=no_	src/pages/blog/browser-dump.md	/^## _operabrowserjs=no_$/;"	s
+`cp /all/these/files/*`	src/pages/blog/shell-dump.md	/^## `cp \/all\/these\/files\/*`$/;"	s
+`defaults`	src/pages/blog/shell-dump.md	/^## `defaults`$/;"	s
+`function n { echo "${\*}" >> ~/notes; echo "added" };`	src/pages/blog/shell-dump.md	/^## `function n { echo "${\\*}" >> ~\/notes; echo "added" };`$/;"	s
+`killall children`	src/pages/blog/funny-dev-dump.md	/^# `killall children`$/;"	c
+`node_modules/death/`	src/pages/blog/funny-dev-dump.md	/^# `node_modules\/death\/`$/;"	c
+`set guifont=*`	src/pages/blog/vim-dump.md	/^## `set guifont=*`$/;"	s
+`z=` find suggestions	src/pages/blog/vim-dump.md	/^## `z=` find suggestions$/;"	s
+`zsh-autocompletions`, `compinit`, `zcompdump` &c.	src/pages/blog/shell-dump.md	/^### `zsh-autocompletions`, `compinit`, `zcompdump` &c.$/;"	S
+agedu	src/pages/blog/shell-dump.md	/^### agedu$/;"	S
+ale > syntastic	src/pages/blog/vim-dump.md	/^## ale > syntastic$/;"	s
+all of <https://experiments.withgoogle.com>	src/pages/blog/design-dump.md	/^## all of <https:\/\/experiments.withgoogle.com>$/;"	s
+amaze pers website	src/pages/blog/funny-dev-dump.md	/^# amaze pers website$/;"	c
+amaze ref	src/pages/blog/shell-dump.md	/^## amaze ref$/;"	s
+apropos, whatis	src/pages/blog/shell-dump.md	/^### apropos, whatis$/;"	S
+asu + stingettes	src/pages/blog/music-dump.md	/^## asu + stingettes$/;"	s
+asynchronie	src/pages/blog/funny-dev-dump.md	/^# asynchronie$/;"	c
+autocd	src/pages/blog/shell-dump.md	/^### autocd$/;"	S
+b4 u upgrade that ec2 instance	src/pages/blog/swpvimec2.md	/^# b4 u upgrade that ec2 instance$/;"	c
+bash	src/pages/blog/dev-resources-dump.md	/^# bash $/;"	c
+bash	src/pages/blog/shell-dump.md	/^## bash$/;"	s
+bash-it plugins	src/pages/blog/shell-dump.md	/^#### bash-it plugins$/;"	t
+bash-it... Da∫ Unbloaded	src/pages/blog/shell-dump.md	/^#### bash-it... Da∫ Unbloaded$/;"	t
+beautification	src/pages/blog/connecting-to-ur-sqlite3-imessage-db-x-python.md	/^## beautification$/;"	s
+betterexplained	src/pages/blog/dev-resources-dump.md	/^## betterexplained$/;"	s
+beware of quotes	src/pages/blog/shell-dump.md	/^## beware of quotes$/;"	s
+bloop	README.md	/^# bloop$/;"	c
+browser extensions	src/pages/blog/browser-dump.md	/^# browser extensions$/;"	c
+but how do it know: CPUs	src/pages/blog/dev-resources-dump.md	/^## but how do it know: CPUs$/;"	s
+carl craig :sob:	src/pages/blog/music-dump.md	/^## carl craig :sob:$/;"	s
+cat /var/log/system.log	src/pages/blog/shell-dump.md	/^### cat \/var\/log\/system.log$/;"	S
+cat /var/log/system.log | grep cron	src/pages/blog/shell-dump.md	/^### cat \/var\/log\/system.log | grep cron$/;"	S
+changes profiles	src/pages/blog/shell-dump.md	/^## changes profiles$/;"	s
+cite about-plugin	src/pages/blog/shell-dump.md	/^# cite about-plugin$/;"	c
+classique	src/pages/blog/funny-dev-dump.md	/^# classique$/;"	c
+cli notetaking	src/pages/blog/shell-dump.md	/^## cli notetaking$/;"	s
+cmd click to edit the file	src/pages/blog/shell-dump.md	/^## cmd click to edit the file$/;"	s
+compilers	src/pages/blog/dev-resources-dump.md	/^## compilers $/;"	s
+connecting to db	drafts/sql-dump.md	/^### connecting to db$/;"	S
+ctrl p	src/pages/blog/vim-dump.md	/^## ctrl p$/;"	s
+ctrl+p = best file explorer	src/pages/blog/vim-dump.md	/^## ctrl+p = best file explorer$/;"	s
+custom font	src/pages/blog/gatsby-dump.md	/^## custom font$/;"	s
+default $PATH, languages, etc.	src/pages/blog/shell-dump.md	/^## default $PATH, languages, etc.$/;"	s
+defaults read SafariCloudHistoryPushAgent	src/pages/blog/shell-dump.md	/^## defaults read SafariCloudHistoryPushAgent$/;"	s
+delete rest of line	src/pages/blog/vim-dump.md	/^## delete rest of line$/;"	s
+dequeue	src/pages/blog/dev-resources-dump.md	/^## dequeue$/;"	s
+description: '... literally '	src/pages/blog/literally-just-the-deploy-logs-of-me-cloning-chromium.md	/^description: '... literally '$/;"	s
+description: 'how I (and ariel :~)) do it'	public/drafts/bash-startup-sourcing-aliases.md	/^description: 'how I (and ariel :~)) do it'$/;"	s
+description: 'how I (and ariel :~)) do it'	static/drafts/bash-startup-sourcing-aliases.md	/^description: 'how I (and ariel :~)) do it'$/;"	s
+dir layout	src/pages/blog/shell-dump.md	/^## dir layout$/;"	s
+div>ul>li\*3 + ctrl y,	src/pages/blog/vim-dump.md	/^## div>ul>li\\*3 + ctrl y,$/;"	s
+encrypt a file w/ a key	src/pages/blog/vim-dump.md	/^## encrypt a file w\/ a key$/;"	s
+etc	src/pages/blog/funny-dump.md	/^# etc$/;"	c
+ev. psych + design	src/pages/blog/dev-resources-dump.md	/^## ev. psych + design$/;"	s
+feeling lucky	src/pages/blog/browser-dump.md	/^## feeling lucky$/;"	s
+find all file name ending with .pdf and remove them	src/pages/blog/shell-dump.md	/^# find all file name ending with .pdf and remove them$/;"	c
+find files with the prefix brew	src/pages/blog/shell-dump.md	/^## find files with the prefix brew$/;"	s
+foot locker	src/pages/blog/funny-dump.md	/^# foot locker$/;"	c
+for both the info & the site's design itself... it's what a site looks like when designed by a typorapher...	src/pages/blog/design-dump.md	/^# for both the info & the site's design itself... it's what a site looks like when designed by a/;"	c
+for users w/ cognitive disabilities	src/pages/blog/dev-resources-dump.md	/^## for users w\/ cognitive disabilities$/;"	s
+frontend (staging)	src/pages/blog/staging-deployment-on-the-frontend.md	/^# frontend (staging)$/;"	c
+globdots	src/pages/blog/shell-dump.md	/^### globdots$/;"	S
+gorgina retro	src/pages/blog/dev-resources-dump.md	/^## gorgina retro$/;"	s
+gq}	src/pages/blog/vim-dump.md	/^## gq}$/;"	s
+homebrew	src/pages/blog/shell-dump.md	/^## homebrew$/;"	s
+homebrew src	src/pages/blog/shell-dump.md	/^## homebrew src$/;"	s
+html code sniffer	src/pages/blog/browser-dump.md	/^#### html code sniffer$/;"	t
+html5-editor.net	src/pages/blog/dev-resources-dump.md	/^## html5-editor.net$/;"	s
+http://w3c-test.org/	src/pages/blog/dev-resources-dump.md	/^## http:\/\/w3c-test.org\/$/;"	s
+https://mailarchive.ietf.org/arch/browse/	src/pages/blog/dev-resources-dump.md	/^## https:\/\/mailarchive.ietf.org\/arch\/browse\/$/;"	s
+icons8	src/pages/blog/design-dump.md	/^## icons8$/;"	s
+include a script	src/pages/blog/gatsby-dump.md	/^## include a script$/;"	s
+include css for only current page	src/pages/blog/gatsby-dump.md	/^## include css for only current page$/;"	s
+interactions.acm.org	src/pages/blog/design-dump.md	/^## interactions.acm.org$/;"	s
+iterm2 tings	src/pages/blog/shell-dump.md	/^# iterm2 tings$/;"	c
+itty	src/pages/blog/design-dump.md	/^## itty$/;"	s
+jk, just use pyenv	src/pages/blog/problems-pertaining-primarily-to-python-path.md	/^## jk, just use pyenv $/;"	s
+jump to last known cursor position / rename file	src/pages/blog/vim-dump.md	/^## jump to last known cursor position \/ rename file$/;"	s
+just use virutalenv	src/pages/blog/problems-pertaining-primarily-to-python-path.md	/^## just use virutalenv$/;"	s
+keybindings	src/pages/blog/vim-dump.md	/^## keybindings$/;"	s
+keyboard maestro	src/pages/blog/shell-dump.md	/^## keyboard maestro$/;"	s
+klim reader	src/pages/blog/browser-dump.md	/^## klim reader$/;"	s
+kyau & albert	src/pages/blog/music-dump.md	/^## kyau & albert$/;"	s
+last	src/pages/blog/shell-dump.md	/^### last$/;"	S
+linters	src/pages/blog/browser-dump.md	/^### linters$/;"	S
+ln \~/.vimrc \~/dot-files/vimrc	src/pages/blog/shell-dump.md	/^## ln \\~\/.vimrc \\~\/dot-files\/vimrc$/;"	s
+mail a file to yrself	src/pages/blog/shell-dump.md	/^## mail a file to yrself$/;"	s
+mailing urself a file	src/pages/blog/shell-dump.md	/^## mailing urself a file$/;"	s
+making the band lmao	src/pages/blog/music-dump.md	/^## making the band lmao$/;"	s
+marks & jumps	src/pages/blog/vim-dump.md	/^## marks & jumps$/;"	s
+mel b, lol	src/pages/blog/music-dump.md	/^## mel b, lol $/;"	s
+mfowlerblg	src/pages/blog/dev-resources-dump.md	/^## mfowlerblg$/;"	s
+minify a dir of images	src/pages/blog/shell-dump.md	/^## minify a dir of images$/;"	s
+misc	src/pages/blog/design-dump.md	/^# misc$/;"	c
+misc	src/pages/blog/vim-dump.md	/^## misc $/;"	s
+misc awk programs	src/pages/blog/shell-dump.md	/^## misc awk programs$/;"	s
+moishe lettvin's blog	src/pages/blog/dev-resources-dump.md	/^## moishe lettvin's blog$/;"	s
+octolinkr	src/pages/blog/browser-dump.md	/^## octolinkr$/;"	s
+octomate	src/pages/blog/browser-dump.md	/^## octomate$/;"	s
+omar s	src/pages/blog/music-dump.md	/^## omar s$/;"	s
+on new computer	src/pages/blog/problems-pertaining-primarily-to-python-path.md	/^## on new computer$/;"	s
+online roland 303	src/pages/blog/music-dump.md	/^## online roland 303$/;"	s
+opens browser w/ html rendered on static page	src/pages/blog/shell-dump.md	/^# opens browser w\/ html rendered on static page$/;"	c
+opensource.apple.com/source	src/pages/blog/shell-dump.md	/^## opensource.apple.com\/source$/;"	s
+oreilly books ex	src/pages/blog/dev-resources-dump.md	/^## oreilly books ex$/;"	s
+outta bounds	src/pages/blog/funny-dev-dump.md	/^# outta bounds$/;"	c
+perl packages	src/pages/blog/shell-dump.md	/^## perl packages$/;"	s
+plugin overload?	src/pages/blog/vim-dump.md	/^## plugin overload?$/;"	s
+poking around	src/pages/blog/shell-dump.md	/^## poking around$/;"	s
+post-quantum cryptography (lol)	src/pages/blog/dev-resources-dump.md	/^## post-quantum cryptography (lol)$/;"	s
+postgres config	src/pages/blog/shell-dump.md	/^## postgres config$/;"	s
+postgres server logs	src/pages/blog/shell-dump.md	/^## postgres server logs$/;"	s
+prototypicality	src/pages/blog/design-dump.md	/^## prototypicality $/;"	s
+prune	src/pages/blog/shell-dump.md	/^### prune$/;"	S
+quiet_cd	fun.sh	/^quiet_cd() {$/;"	f
+r!	src/pages/blog/vim-dump.md	/^## r!$/;"	s
+ranger (& hyper)	src/pages/blog/dev-resources-dump.md	/^## ranger (& hyper)$/;"	s
+recursively own dir	src/pages/blog/shell-dump.md	/^## recursively own dir$/;"	s
+roof moment bjork	src/pages/blog/music-dump.md	/^## roof moment bjork$/;"	s
+rpdr wwe... simuation	src/pages/blog/funny-dump.md	/^# rpdr wwe... simuation$/;"	c
+salmon shorts	src/pages/blog/funny-dump.md	/^# salmon shorts$/;"	c
+saving	src/pages/blog/vim-dump.md	/^## saving $/;"	s
+search word beneath cursor in current dir	src/pages/blog/vim-dump.md	/^## search word beneath cursor in current dir$/;"	s
+set default editors	src/pages/blog/shell-dump.md	/^### set default editors$/;"	S
+set prompt	src/pages/blog/shell-dump.md	/^### set prompt$/;"	S
+setopt	src/pages/blog/shell-dump.md	/^## setopt$/;"	s
+site check	src/pages/blog/browser-dump.md	/^#### site check$/;"	t
+steve yegge's blog	src/pages/blog/dev-resources-dump.md	/^## steve yegge's blog$/;"	s
+sudo !!	src/pages/blog/shell-dump.md	/^## sudo !!$/;"	s
+sudo dmesg | less	src/pages/blog/shell-dump.md	/^### sudo dmesg | less$/;"	S
+symlink_target_directory	fun.sh	/^symlink_target_directory() {$/;"	f
+system_profiler -detailLevel mini	src/pages/blog/shell-dump.md	/^### system_profiler -detailLevel mini$/;"	S
+tc39	src/pages/blog/dev-resources-dump.md	/^## tc39$/;"	s
+tcrapc	src/pages/blog/funny-dev-dump.md	/^# tcrapc$/;"	c
+textise:	src/pages/blog/browser-dump.md	/^## textise:$/;"	s
+the difference between specifying the above with `--config ./.htmlhintrc`:	src/pages/blog/html-dump.md	/^## the difference between specifying the above with `--config .\/.htmlhintrc`:$/;"	s
+tips hat 2... apple?	src/pages/blog/dev-resources-dump.md	/^## tips hat 2... apple?$/;"	s
+title: About	src/pages/about/index.md	/^title: About$/;"	s
+to be continued!	src/pages/blog/connecting-to-ur-sqlite3-imessage-db-x-python.md	/^# to be continued!$/;"	c
+truly	src/pages/blog/music-dump.md	/^## truly $/;"	s
+tutspoint	src/pages/blog/dev-resources-dump.md	/^## tutspoint$/;"	s
+um	src/pages/blog/music-dump.md	/^## um$/;"	s
+upload_widget_opener	public/google.html	/^    <a href="#" id="upload_widget_opener">Upload multiple images<\/a>$/;"	I
+upload_widget_opener	static/google.html	/^    <a href="#" id="upload_widget_opener">Upload multiple images<\/a>$/;"	I
+usabilitypost.com	src/pages/blog/dev-resources-dump.md	/^## usabilitypost.com$/;"	s
+vared PATH	src/pages/blog/shell-dump.md	/^## vared PATH$/;"	s
+variable font playground	src/pages/blog/design-dump.md	/^## variable font playground$/;"	s
+verdana 4 fun, courier for speed	src/pages/blog/design-dump.md	/^## verdana 4 fun, courier for speed$/;"	s
+vim	src/pages/blog/vim-dump.md	/^## vim $/;"	s
+vim !$	src/pages/blog/shell-dump.md	/^## vim !\$$/;"	s
+vim !$	src/pages/blog/vim-dump.md	/^## vim !\$$/;"	s
+vim frozen?	src/pages/blog/vim-dump.md	/^## vim frozen?$/;"	s
+w3	src/pages/blog/dev-resources-dump.md	/^## w3$/;"	s
+w3c test suite	src/pages/blog/dev-resources-dump.md	/^## w3c test suite$/;"	s
+web radio	src/pages/blog/design-dump.md	/^## web radio$/;"	s
+web style guide	src/pages/blog/dev-resources-dump.md	/^## web style guide$/;"	s
+what CTRL-x does?	src/pages/blog/vim-dump.md	/^## what CTRL-x does?$/;"	s
+what is a swp file	src/pages/blog/swpvimec2.md	/^## what is a swp file$/;"	s
+xargs	src/pages/blog/shell-dump.md	/^## xargs$/;"	s
+xinyminutes	src/pages/blog/dev-resources-dump.md	/^## xinyminutes$/;"	s
+xonsh	src/pages/blog/shell-dump.md	/^## xonsh$/;"	s
+zsh	src/pages/blog/shell-dump.md	/^### zsh$/;"	S
+zsh autocompletion	src/pages/blog/shell-dump.md	/^### zsh autocompletion$/;"	S
+zsh: command not found: npm	src/pages/blog/npm-dump.md	/^# zsh: command not found: npm$/;"	c
+ببرواس حرواس حسين شلونك عيني شلونك	src/pages/blog/music-dump.md	/^## ببرواس حرواس حسين شلونك عيني شلونك$/;"	s
+ناديا المنفوخ	src/pages/blog/music-dump.md	/^## ناديا المنفوخ$/;"	s

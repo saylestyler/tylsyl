@@ -30,7 +30,7 @@ plz just use it like so:
 
 `virtualenv --python /usr/bin/python2.7 --system-site-packages env`
 
-<https://gist.github.com/jaraco/bed7168bce24673219ae773081fd4ab6>
+[ref](https://gist.github.com/jaraco/bed7168bce24673219ae773081fd4ab6)
 
 
 ## on new computer

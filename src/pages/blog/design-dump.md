@@ -39,9 +39,13 @@ Prototypicality is the basic mental image your brain creates to categorize every
 
 <https://book.inclusive-components.design>
 
-<https://bboxtype.com/typefaces/Gintronic/#!layout=specimen>
+![ginronic font](https://bboxtype.com/typefaces/Gintronic/#!layout=specimen>)
 
-<https://s3.amazonaws.com/ndangelo-documents/universal-principles-of-design-rockport-publishers-2003.pdf>
+![publishing design principes](https://s3.amazonaws.com/ndangelo-documents/universal-principles-of-design-rockport-publishers-2003.pdf)
+
+## whfoods
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1572839883/ir3p29s6rymqe6cmkrzp.png)
 
 ![null](https://res.cloudinary.com/cloudimgts/image/upload/v1537052565/Screen_Shot_2018-09-15_at_7.02.12_PM.png)
 

@@ -72,4 +72,4 @@ then
     # Don't need shellcheck to follow this `source`.
     # shellcheck disable=SC1090
     source "$HOMEBREW_LIBRARY/Homebrew/brew.sh"
-      fi
+fi

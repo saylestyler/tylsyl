@@ -2,16 +2,14 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 const Navbar = () => (
-    <ul style={{
-      width: '450px'
-    }}>
-      <li>
-        <Link className='navbar-item' to='/'>Index</Link>
-      </li>
-      <li>
-        <Link className='navbar-item' to='/about'>About</Link>
-      </li>
-    </ul>
+  <nav>
+    <div>
+      <Link className='navbar-item' to='/'>Index</Link>
+    </div>
+    <div>
+      <Link className='navbar-item' to='/about'>About</Link>
+    </div>
+  </nav>
 );
 
 export default Navbar;

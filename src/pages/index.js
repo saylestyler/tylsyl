@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import graphql from 'graphql';
+import dog from '../img/dog.gif'
 
 export default class IndexPage extends React.Component {
   render () {
@@ -9,6 +10,7 @@ export default class IndexPage extends React.Component {
 
     return (
       <div>
+        <img src={dog} />
         {posts.map(
           ({ node: post }) => (
             <div className='post-list-container' key={post.id}>

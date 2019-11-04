@@ -1,5 +1,5 @@
 .application-wrapper, .blog-post-wrapper
-  width: 450px
+  width: 360px
   margin: 0px auto
 
 img, iframe
@@ -7,48 +7,77 @@ img, iframe
   margin-top: 0.5em
   margin-bottom: 0.5em
 
-.green
+// cursive post-description lol
+.green, .post-description
   border-color: #52E052
   background: #E9FBE9
   overflow: auto
-  
   padding: .5em
   page-break-inside: avoid
+  font-family: cursive 
 
-// .post-content
-//   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
-//   width: 450px
-//   margin: 0px auto
+// nav links
+nav > div
+  text-decoration: underline
+  &:hover
+    color: deeppink
+  display: inline-block
+nav > div:nth-child(2)
+  padding-left: 60px
+  display: inline-block
+a.navbar-item:visited, a.index-link, a.index-link:visited, .taglist a, .taglist a:visited
+  color: #60f
 
-// .taglist li,
-// .navWrapper li
-//   list-style: none
-//   padding-bottom: 8px
-//   padding-inline-start: 0px
+.taglist li:nth-child(1)
+  border-top: 2px solid black
 
-//figure
-  //display: block
-  //margin-block-start: 0em
-  //margin-block-end: 0em
-  //margin-inline-start: 0px
-  //margin-inline-end: 0px
+.taglist li,
+.navWrapper li
+  list-style: none
+  padding-bottom: 8px
+  padding-inline-start: 0px
 
-//a.navbar-item:visited, a.index-link, a.index-link:visited, .taglist a, .taglist a:visited
-  //color: #60f
+.post-list-title
+  color: #6600FF
+  font-size: 1.5rem
 
-//a:visited
-  //color: #100096
+// makes code snippets not go off to right of page
+.post-content > p > code
+  background-color: white
+  word-wrap: break-word
+  white-space: pre-wrap
+  white-space: -moz-pre-wrap
+  white-space: -pre-wrap
+  white-space: -o-pre-wrap
+pre, code
+  white-space: pre-wrap
+  white-space: -moz-pre-wrap
+  white-space: -pre-wrap
+  white-space: -o-pre-wrap
+  word-wrap: break-word
+@media all and (max-width: 599px) and (min-width: 320px)
+  code[class*="language-"]
+    padding: 0
+    font-size: 1.0em
 
-//nav
-  //a
-    //margin-right: 20px
-    //padding: 10px
-    //text-decoration: underline
-    //&:hover
-      //color: deeppink
+.post-content p
+  //margin-left: 3px
+  font-size: 18px
+  //word-wrap: break-word
+  color: #0F000B
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
 
-//.post-list-title
-  //color: #6600FF
+// .post-content > h1, h2, h3, h4, h5, h6
+//   text-decoration: underline
+//   font-weight: 700
+//   word-wrap: break-word
+//   -moz-osx-font-smoothing: grayscale
+//   -webkit-font-smoothing: antialiased
+//   -webkit-osx-font-smoothing: grayscale
+//   text-rendering: optimizelegibility
+//   -ms-touch-action: manipulation
+//   -moz-osx-font-smoothing: grayscale
+//   -moz-text-rendering: optimizelegibility
 
 //.post-description
   //font-style: oblique
@@ -59,63 +88,3 @@ img, iframe
   ///*color: #F600FF*/
   //color: #E10196
   //font-family: monospace
-
-//.post-content p
-  //margin-left: 3px
-  //font-size: 16px
-  //word-wrap: break-word
-  //color: #0F000B
-
-//.post-content > h1, h2, h3, h4, h5, h6
-  //text-decoration: underline
-  //font-weight: 700
-  //word-wrap: break-word
-  //-moz-osx-font-smoothing: grayscale
-  //-webkit-font-smoothing: antialiased
-  //-webkit-osx-font-smoothing: grayscale
-  //text-rendering: optimizeLegibility
-  //-ms-touch-action: manipulation
-  //-moz-osx-font-smoothing: grayscale
-  //-moz-text-rendering: optimizeLegibility
-
-//div[class*="gatsby-highlight"]
-  //border: 1px solid black
-  //pre
-    //padding: 5px
-
-//.post-content > h1, h2, h3, h4, h5, h6
-  //code[class*="language-"]
-    //text-decoration: none
-    //background-color: white
-    //color: black
-
-//div[class*="gatsby-highlight"] pre
-  //background-color: white
-
-//.post-content > p > code
-  //background-color: white
-  //word-wrap: break-word
-  //white-space: pre-wrap
-  //white-space: -moz-pre-wrap
-  //white-space: -pre-wrap
-  //white-space: -o-pre-wrap
-
-//pre, code
-  //white-space: pre-wrap
-  //white-space: -moz-pre-wrap
-  //white-space: -pre-wrap
-  //white-space: -o-pre-wrap
-  //word-wrap: break-word
-
-//code[class*="language-"],
-//pre[class*="language-"]
-  //padding: 0
-  //font-size: 0.8em
-  //font-family: Consolas
-  //background-color: white
-  //color: black
-
-//@media all and (max-width: 599px) and (min-width: 320px)
-  //code[class*="language-"]
-    //padding: 0
-    //font-size: 1.0em

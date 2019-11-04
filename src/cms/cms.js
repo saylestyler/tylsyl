@@ -5,3 +5,5 @@ import BlogPostPreview from './preview-templates/BlogPostPreview';
 
 CMS.registerPreviewTemplate('about', AboutPagePreview);
 CMS.registerPreviewTemplate('blog', BlogPostPreview);
+
+console.log(window)

@@ -13,3 +13,4 @@ scripts
 .env
 env
 .drafts.tags
+.tags

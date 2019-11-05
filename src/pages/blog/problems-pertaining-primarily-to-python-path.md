@@ -8,7 +8,7 @@ tags:
 ---
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1572405112/vev2rjvvjfyhglloc3oz.png)
 
-## jk, just use pyenv 
+## jk, just use pyenv
 
 ```bash
 brew install pyenv
@@ -22,7 +22,7 @@ exec $0
 which python && which pip
 ```
 
-and verify the output : ) 
+and verify the output : )
 
 ## just use virutalenv
 
@@ -49,10 +49,12 @@ pip install --upgrade pip
 
 > _Python modules have been installed and Homebrew's site-packages is not in your Python sys.path, so you will not be able to import the modules this formula installed. If you plan to develop with these modules, please run:_
 
-`mkdir -p /Users/tyler/Library/Python/2.7/lib/python/site-packages`
+```python
+mkdir -p $HOME/Library/Python/2.7/lib/python/site-packages
 
-`echo 'import site; site.addsitedir("/usr/local/lib/python2.7/site-packages")' >>
-  /Users/tyler/Library/Python/2.7/lib/python/site-packages/homebrew.pth`
+echo 'import site; site.addsitedir("/usr/local/lib/python2.7/site-packages")' >
+  $HOME/Library/Python/2.7/lib/python/site-packages/homebrew.pth
+```
 
 after that do something like this ~ (all of these work with pip3 & python3 as well, if one doesn't work try the other)
 

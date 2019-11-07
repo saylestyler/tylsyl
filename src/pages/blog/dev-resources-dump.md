@@ -8,6 +8,10 @@ tags:
   - favs
   - dump
 ---
+# pl.atyp.us
+
+[amaze blog](http://pl.atyp.us/)
+
 # bash 
 
 <http://samrowe.com/wordpress/advancing-in-the-bash-shell/>

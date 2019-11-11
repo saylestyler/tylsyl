@@ -90,7 +90,7 @@ The first two statements make sure that the line is all lowercase, so that, for 
 
 If there are no fields left after removing all the punctuation, the current record is skipped. Otherwise, the program loops through each word, comparing it to the previous one:
 
-```awk
+```
  # dupword.awk --- find duplicate words in text
 {
     $0 = tolower($0)
@@ -281,7 +281,7 @@ then, e.g.
 `ack/bin/ack` = a 138k file with the disclaimer that this file is generated and to go to
 the git repo to see the src (<https://github.com/beyondgrep/ack2>), but alas:
 
-````pl
+```perl
     #!/usr/bin/env perl
     #
     # This file, ack, is generated code.

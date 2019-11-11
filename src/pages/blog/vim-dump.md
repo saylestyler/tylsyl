@@ -9,9 +9,9 @@ tags:
   - vs
 ---
 
-## saving 
+## saving
 
-```
+```vim
 " Use qq in insert and command mode to Esc and to exit when in normal mode
 inoremap qq <Esc>
 cnoremap qq <Esc>
@@ -27,7 +27,7 @@ inoremap qs <Esc>:w<cr>a
 i went weeks hitting ctrl + p which search _only node modules_ before 
 hitting `:h CtrlP` where i learned how to set the custom ignore paths :~)
 
-```vimscript
+```vim
 :h CtrlP
 
 You can use Vim's |'wildignore'| to exclude files and directories from the
@@ -42,7 +42,7 @@ Examples: >
 
 or any command supplied w/ last bit of previous output
 
-## vim 
+## vim.fandom.co.uk.biz.gov 
 
 <https://vim.fandom.com/wiki/Vim_Tips_Wiki>
 
@@ -52,7 +52,7 @@ or any url = edit the html of said page
 
 execute a command and print results under cursor
 
-```vimscript
+```vim
 :r! echo $PATH
 ```
 
@@ -265,7 +265,7 @@ ctrl-p(lease) use it
 
 ## keybindings
 
-```vimscript
+```vim
 Key Action Followed by
 a enter insertion mode after current character text, ESC
 b back word

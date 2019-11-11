@@ -10,7 +10,20 @@ tags:
 ---
 # mission 
 
-Blockstack is interested in getting developers _and consumers_ interested in blockchain-driven technologies. Developers have created a bunch (hundreds) of apps that are what you see after login, speaking of which: 
+Blockstack is interested in getting developers _and consumers_ interested in blockchain-driven technologies. It does this by lowering the barrier of entry to blockchain technologies. 
+
+The platform has two principles 
+
+<div class="green">
+<p>
+• First, create backend services that allow decentralized applications to be both performant and scalable. 
+</p>
+<p>
+• Second, provide simple, familiar development interfaces to blockchain technology.
+</p>
+</div>
+
+Developers have created a bunch (hundreds) of apps that are what you see after login, speaking of which: 
 
 # onboarding 
 
@@ -54,4 +67,6 @@ I also might get a t-shirt.
 
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1573508126/y48olss3ophic8rnlefm.png)
 
+> the blockstack browser app is a Dapp
 
+We're going to be using <browser.blockstack.org> and <hub.blockstack.org> which is the Gaia storage hub (a service w/ no pub interface)

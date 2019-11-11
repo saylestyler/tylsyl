@@ -18,7 +18,7 @@ Honestly B has one of the nicer onboardings I've come across. You register a uni
 
 # using an app
 
-Takes a few seconds in the case of [dcrypt-vault]() a google-drive/dropbox-like service. 
+Takes a few seconds in the case of [dcrypt-vault](https://vault.dcrypt.app/) a google-drive/dropbox-like service. 
 
 When you start using apps in this ecosystem you're presented with an O-auth-y request for permissions: 
 
@@ -28,5 +28,9 @@ After using my id, I uploaded an image to my now hyper-mega-encrypted drive et v
 
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1573506786/xbxkfdwnj2p2iz1e9pio.png)
 
-# building an app
+# btw
+
+The site and app subpages are gorgina: 
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1573506877/ie1kaowrzydv43ouvs3d.png)
 

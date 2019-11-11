@@ -8,8 +8,8 @@ diary, dump, data-home-depot of Tyler Sayles
 
 ## Contact
 
-[github](https://github.com/saylestyler)
-[Email &amp; GPG](http://a.keyserver.alteholz.eu:11371/pks/lookup?op=vindex&search=saylestyler@gmail.com&fingerprint=on)
+- [github](https://github.com/saylestyler)
+- [Email &amp; GPG](http://a.keyserver.alteholz.eu:11371/pks/lookup?op=vindex&search=saylestyler@gmail.com&fingerprint=on)
 
 <!--## Projects-->
 <!--[SeeQL](https://github.com/oslabs-beta/seeql) Postgres visualizer + query generator-->
@@ -18,6 +18,6 @@ diary, dump, data-home-depot of Tyler Sayles
 
 ## Thanks
 
-[gatsby](https://www.gatsbyjs.com/)
-[netlify](https://netlify.com)
-[this site's src](https://github.com/saylestyler/tylsyl)
+- [gatsby](https://www.gatsbyjs.com/)
+- [netlify](https://netlify.com)
+- [this site's src](https://github.com/saylestyler/tylsyl)

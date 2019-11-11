@@ -272,8 +272,6 @@ the wiki goes on to the origin of the concept which is fascinating, and mentions
     
          3. to correct errors in our data or collection methods.
 
-[https://res.cloudinary.com/cloudimgts/image/upload/v1537247911/EMLandTXTfiles.jpg](https://res.cloudinary.com/cloudimgts/image/upload/v1537247911/EMLandTXTfiles.jpg) 
-
 # clients
 
 ## hterm/libapps

@@ -32,5 +32,26 @@ After using my id, I uploaded an image to my now hyper-mega-encrypted drive et v
 
 The site and app subpages are gorgina: 
 
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1573506951/ckdmrn2jekxtcr4hnftw.png)
+
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1573506877/ie1kaowrzydv43ouvs3d.png)
+
+# building an app
+
+I followed along the "zero to Dapp" tut, thither I found some select quotes: 
+
+> A DApp uses blockchain technology for the authentication and data storage components of an application’s platform.
+
+What's [blockchain](https://en.wikipedia.org/wiki/Blockchain)
+
+> Dapps eligible for Application mining must: 
+> - Implement Blockstack authentication
+> - Invite registration and use by the general public
+
+Not sure what Application Mining is, but those are the reqs, and the app we're building apparently meets them.
+
+I also might get a t-shirt. 
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1573508126/y48olss3ophic8rnlefm.png)
+
 

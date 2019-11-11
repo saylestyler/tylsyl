@@ -6,7 +6,6 @@ module.exports = {
   },
   // pathPrefix: `/`
   plugins: [
-    `gatsby-plugin-modal-routing`,
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-netlify-cache',

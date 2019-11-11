@@ -1,6 +1,12 @@
+body {
+  background: black;
+}
+
 .application-wrapper, .blog-post-wrapper {
 	max-width: 600px;
 	margin: 0px auto;
+  background: black;
+  color: #fcfcfc;
 }
 
 img, iframe {
@@ -9,25 +15,30 @@ img, iframe {
 	margin-bottom: 0.5em;
 }
 
-.green, .post-description {
+.post-description {
 	border-color: #52E052;
-	background: #E9FBE9;
+  background: #3700ff;
+  border: 2px solid #3700ff;
+  font-style: italic;
 	overflow: auto;
 	padding: .5em;
 	page-break-inside: avoid;
+}
+
+blockquote{
+	overflow: auto;
+	padding: .5em;
+	page-break-inside: avoid;
+  background: blue;
+  font-style: italic;
 }
 
 .post-description {
 	font-family: monospace;
 }
 
-nav > div {
-	text-decoration: underline;
-	display: inline-block;
-}
-
 nav > div:hover {
-	color: deeppink;
+	color: #4cee93;
 }
 
 nav > div:nth-child(2) {
@@ -36,7 +47,10 @@ nav > div:nth-child(2) {
 }
 
 a.navbar-item:visited, a.index-link, a.index-link:visited, .taglist a, .taglist a:visited {
-	color: #60f;
+	color: #4cee93;
+}
+a.navbar-item:hover {
+  color: pink;
 }
 
 .taglist ul {
@@ -54,9 +68,17 @@ a.navbar-item:visited, a.index-link, a.index-link:visited, .taglist a, .taglist 
 	text-decoration: none;
 }
 
+nav > div {
+	text-decoration: underline;
+	display: inline-block;
+}
+
 .post-list-title {
 	color: #6600FF;
+  background: #3700ff;
+  color: #fff;
 	font-size: 1.5rem;
+  padding: 5px;
 }
 
 .post-content > p > code {
@@ -85,6 +107,37 @@ pre, code {
 
 .post-content p {
 	font-size: 18px;
-	color: #0F000B;
+	color: white;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 20pt;
 }
+
+.post-content a {
+ color: #00d4ff
+  
+}
+
+p.post-list-date {
+  color:#bfbfc3;
+}
+
+.post-list-container {
+  margin-bottom: 10px;
+}
+
+a.post-list-title:hover {
+  background: #4cee93;
+  color: black;
+}
+
+.green {
+	background: #00fff6;
+	overflow: auto;
+	padding: .5em;
+	page-break-inside: avoid;
+}
+
+.green p {
+  color: black;
+}
+

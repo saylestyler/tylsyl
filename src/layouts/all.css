@@ -1,0 +1,90 @@
+.application-wrapper, .blog-post-wrapper {
+	max-width: 600px;
+	margin: 0px auto;
+}
+
+img, iframe {
+	max-width: 100%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.green, .post-description {
+	border-color: #52E052;
+	background: #E9FBE9;
+	overflow: auto;
+	padding: .5em;
+	page-break-inside: avoid;
+}
+
+.post-description {
+	font-family: monospace;
+}
+
+nav > div {
+	text-decoration: underline;
+	display: inline-block;
+}
+
+nav > div:hover {
+	color: deeppink;
+}
+
+nav > div:nth-child(2) {
+	padding-left: 60px;
+	display: inline-block;
+}
+
+a.navbar-item:visited, a.index-link, a.index-link:visited, .taglist a, .taglist a:visited {
+	color: #60f;
+}
+
+.taglist ul {
+	padding-inline-start: 0px;
+}
+
+.taglist li,
+.navWrapper li {
+	list-style: none;
+	padding-bottom: 8px;
+}
+
+.taglist li a,
+  .navWrapper li a {
+	text-decoration: none;
+}
+
+.post-list-title {
+	color: #6600FF;
+	font-size: 1.5rem;
+}
+
+.post-content > p > code {
+	background-color: white;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+}
+
+pre, code {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+
+@media all and (max-width: 599px) and (min-width: 320px) {
+	code[class*="language-"] {
+		padding: 0;
+		font-size: 1.0em;
+	}
+}
+
+.post-content p {
+	font-size: 18px;
+	color: #0F000B;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}

@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 
 import './all.css';
 
-require('prismjs/themes/prism-solarizedlight.css');
+require('prismjs/themes/prism-funky.css');
 
 const TemplateWrapper = ({ children }) => (
   <div>

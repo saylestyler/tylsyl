@@ -112,6 +112,7 @@ pre, code {
   line-height: 20pt;
 }
 
+.about-page a,
 .post-content a {
  color: #00d4ff
   
@@ -137,7 +138,7 @@ a.post-list-title:hover {
 	page-break-inside: avoid;
 }
 
-.green p {
+div.green {
   color: black;
 }
 

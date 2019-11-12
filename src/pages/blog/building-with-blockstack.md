@@ -14,14 +14,8 @@ Blockstack is interested in getting developers _and consumers_ interested in blo
 
 The platform has two principles 
 
-<div class="green">
-<p>
-• First, create backend services that allow decentralized applications to be both performant and scalable. 
-</p>
-<p>
-• Second, provide simple, familiar development interfaces to blockchain technology.
-</p>
-</div>
+> - First, create backend services that allow decentralized applications to be both performant and scalable. 
+> - Second, provide simple, familiar development interfaces to blockchain technology.
 
 Developers have created a bunch (hundreds) of apps that are what you see after login, speaking of which: 
 

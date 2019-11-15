@@ -1,3 +1,26 @@
+/* 
+  iOS 13's dark mode w/ accessibility tweaks
+  https://nshipster.com/dark-mode/#find-replace-fixed-colors 
+*/
+
+:root {
+  --red: rgb(253, 80, 79);
+  --orange: rgb(254, 164, 51);
+  --yellow: rgb(254, 205, 31);
+  --green: rgb(47, 216, 74);
+  --cyan: rgb(97, 206, 255);
+  --blue: rgb(52, 134, 255);
+  --indigo: rgb(105, 94, 255);
+  --purple: rgb(208, 116, 255);
+  --pink: rgb(252, 74, 112);
+  --gray1: rgb(158, 158, 163);
+  --gray2: rgb(105, 105, 109);
+  --gray3: rgb(66, 66, 68);
+  --gray4: rgb(52, 52, 54);
+  --gray5: rgb(41, 41, 42);
+  --gray6: rgb(27, 27, 29);
+}
+
 body {
   background: black;
 }

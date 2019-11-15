@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: 'Tyler Sayles blog',
-    description: 'testing description :)',
-    siteUrl: `https://www.tylsyl.com`
+    description: 'Tyler Sayles development blog and brain dump',
+    siteUrl: `https://www.tylsyl.com`,
+    twitterUrl: `@saylesopenhauer`
   },
-  // pathPrefix: `/`
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify-cache',
@@ -40,6 +40,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
+        // link sharing preview
         name: 'Tyler Sayles dev | brain dump',
         short_name: 'TylerSaylesBlog',
         start_url: '/',

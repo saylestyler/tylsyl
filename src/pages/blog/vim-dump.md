@@ -3,6 +3,8 @@ templateKey: blog-post
 title: 'vim, editor dump'
 date: '2018-09-15T20:00:31-04:00'
 description: vscode?
+keywords:
+  - vim 
 tags:
   - vscode
   - vim

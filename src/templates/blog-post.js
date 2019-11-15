@@ -5,25 +5,18 @@ import Link from 'gatsby-link';
 import graphql from 'graphql';
 import Content, { HTMLContent } from '../components/Content';
 
-export const BlogPostTemplate = ({
-  content,
-  contentComponent,
-  description,
-  tags,
-  title,
-  helmet
-}) => {
+export const BlogPostTemplate = ({ content, contentComponent, description, tags, title, helmet }) => {
   const PostContent = contentComponent || Content;
   return (
-    <div className='blog-post-wrapper'>
+    <div className="blog-post-wrapper">
       {helmet || ''}
-      <h1 className='post-title'>{title}</h1>
-      <p className='post-description'>{description}</p>
-      <PostContent className='post-content' content={content} />
+      <h1 className="post-title">{title}</h1>
+      <p className="post-description">{description}</p>
+      <PostContent className="post-content" content={content} />
 
       {tags && tags.length ? (
-        <section className='taglistWrapper'>
-          <ul className='taglist'>
+        <section className="taglistWrapper">
+          <ul className="taglist">
             {tags.map(tag => (
               <li key={tag + `tag`}>
                 <Link to={`/tags/${kebabCase(tag)}/`}># {tag}</Link>
@@ -33,7 +26,9 @@ export const BlogPostTemplate = ({
         </section>
       ) : null}
 
-      {/* <Link className="index-link" to={'/'}>Index</Link> */}
+      <Link className="index-link" to={'/'}>
+        Back
+      </Link>
     </div>
   );
 };
@@ -46,13 +41,7 @@ const BlogPost = ({ data }) => {
       content={post.html}
       contentComponent={HTMLContent}
       description={post.frontmatter.description}
-      helmet={
-        <Helmet
-          title={`${post.frontmatter.title} | Blog`}
-          description={`${post.frontmatter.description}`}
-          keywords={`${post.frontmatter.tags}`}
-        />
-      }
+      helmet={<Helmet title={`${post.frontmatter.title} | Blog`} description={`${post.frontmatter.description}`} keywords={`${post.frontmatter.tags}`} />}
       tags={post.frontmatter.tags}
       title={post.frontmatter.title}
     />

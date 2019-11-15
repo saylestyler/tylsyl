@@ -127,10 +127,77 @@ deploy-staging $porter_ip
 
 and you've deployed your frontend to staging! :~)
 
+## adding circle.ci 
+
+in your `circle.yml` file, first add any tests you want to run:
+
+```yaml
+version: 2
+jobs:
+  test:
+    docker:
+      - image: circleci/node:8.10-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          name: Restore Yarn Package Cache
+          keys:
+            - yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install Dependencies
+          command: yarn install
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths:
+            - node_modules/
+      - run:
+          name: Run tests
+          command: PATH=$(npm bin):$PATH grunt test
+```
+
+the name keys will show up in the circle.ci gui as headers with their outputs below. 
+
+Then, write out the steps that you'd execute normally to run the script above: 
+
+```yaml
+  deploy-staging:
+    docker:
+      - image: circleci/node:8.10
+    steps:
+      - checkout
+      - restore_cache:
+          name: Restore Yarn Package Cache
+          keys:
+            - yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - run:
+          name: Build Staging
+          command: PATH=$(npm bin):$PATH grunt build:staging
+      - run:
+          name: Deploy Staging
+          command: PATH=$(npm bin):$PATH ./scripts/deployStaging.sh
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - test
+      - deploy-staging:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - dev
+                - master
+```
+
+et mash'allah: whenever you push to dev or master, your staging env is built and deployed automagically.
+
 _backend/production for a separate post_
 
----
+- - -
 
-here's a pic i just found that a fellow developer drew me week 1 of learning abt my job's AWS infrastructure eek 
+here's a pic i just found that a fellow developer drew me week 1 of learning abt my job's AWS infrastructure... eek 
 
 ![aws](https://res.cloudinary.com/cloudimgts/image/upload/v1565330133/xrocyhlzt4yww5qd6qvz.png)

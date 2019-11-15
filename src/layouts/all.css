@@ -5,6 +5,7 @@
 
 :root {
   --background: rgb(36, 36, 36);
+  --white: rgb(240, 240, 240);
   --red: rgb(253, 80, 79);
   --orange: rgb(254, 164, 51);
   --yellow: rgb(254, 205, 31);
@@ -12,6 +13,7 @@
   --cyan: rgb(97, 206, 255);
   --blue: rgb(52, 134, 255);
   --indigo: rgb(105, 94, 255);
+  --irindigo: #6600FF;
   --purple: rgb(208, 116, 255);
   --pink: rgb(252, 74, 112);
   --gray1: rgb(158, 158, 163);
@@ -20,6 +22,7 @@
   --gray4: rgb(52, 52, 54);
   --gray5: rgb(41, 41, 42);
   --gray6: rgb(27, 27, 29);
+  --border-color: 2px solid #3700ff;
 }
 
 body {
@@ -32,33 +35,32 @@ body {
   color: #fcfcfc;
 }
 
+.post-content p {
+	font-size: 18px;
+	color: white;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 20pt;
+}
+
 img, iframe {
 	max-width: 100%;
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 }
 
+blockquote,
+.green,
 .post-description {
-	border-color: #52E052;
-  background: #3700ff;
-  border: 2px solid #3700ff;
+  background: var(--irindigo);
+  color: var(--white);
+  border: var(--border-color);
+  border-radius: 3px;
   font-style: italic;
 	overflow: auto;
 	padding: .5em;
 	page-break-inside: avoid;
 }
 
-blockquote{
-	overflow: auto;
-	padding: .5em;
-	page-break-inside: avoid;
-  background: blue;
-  font-style: italic;
-}
-
-.post-description {
-	font-family: monospace;
-}
 
 /* NAV */
 nav > div:hover {
@@ -111,12 +113,6 @@ nav > div {
   padding: 5px;
 }
 
-.post-content p {
-	font-size: 18px;
-	color: white;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  line-height: 20pt;
-}
 
 .about-page a,
 .post-content a {
@@ -134,18 +130,6 @@ p.post-list-date {
 a.post-list-title:hover {
   background: var(--yellow);
   color: var(--gray6);
-}
-
-.green {
-	background: var(--cyan);
-  color: var(--gray6);
-	overflow: auto;
-	padding: .5em;
-	page-break-inside: avoid;
-}
-
-div.green > p {
-  color: black;
 }
 
 .post-content > p > code {

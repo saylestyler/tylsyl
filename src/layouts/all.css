@@ -1,9 +1,10 @@
-/* 
+/*
   iOS 13's dark mode w/ accessibility tweaks
-  https://nshipster.com/dark-mode/#find-replace-fixed-colors 
+  https://nshipster.com/dark-mode/#find-replace-fixed-colors
 */
 
 :root {
+  --background: rgb(36, 36, 36);
   --red: rgb(253, 80, 79);
   --orange: rgb(254, 164, 51);
   --yellow: rgb(254, 205, 31);
@@ -22,20 +23,19 @@
 }
 
 body {
-  background: black;
+  background: var(--background);
 }
 
 .application-wrapper, .blog-post-wrapper {
 	max-width: 600px;
 	margin: 0px auto;
-  background: black;
   color: #fcfcfc;
 }
 
 img, iframe {
 	max-width: 100%;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
 }
 
 .post-description {
@@ -60,6 +60,7 @@ blockquote{
 	font-family: monospace;
 }
 
+/* NAV */
 nav > div:hover {
 	color: #4cee93;
 }
@@ -72,28 +73,34 @@ nav > div:nth-child(2) {
 a.navbar-item:visited, a.index-link, a.index-link:visited, .taglist a, .taglist a:visited {
 	color: #4cee93;
 }
+
 a.navbar-item:hover {
   color: pink;
 }
 
-.taglist ul {
-	padding-inline-start: 0px;
-}
-
-.taglist li,
 .navWrapper li {
 	list-style: none;
 	padding-bottom: 8px;
 }
 
-.taglist li a,
-  .navWrapper li a {
-	text-decoration: none;
-}
-
 nav > div {
 	text-decoration: underline;
 	display: inline-block;
+  margin: 20px 0px;
+}
+
+
+/* TAGS */
+.taglist ul {
+	padding-inline-start: 0px;
+}
+.taglist li{
+	list-style: none;
+	padding-bottom: 8px;
+}
+.taglist li a,
+  .navWrapper li a {
+	text-decoration: none;
 }
 
 .post-list-title {
@@ -117,20 +124,21 @@ nav > div {
 }
 
 p.post-list-date {
-  color:#bfbfc3;
+  color: var(--gray1);
 }
 
 .post-list-container {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 a.post-list-title:hover {
-  background: #4cee93;
-  color: black;
+  background: var(--yellow);
+  color: var(--gray6);
 }
 
 .green {
-	background: #00fff6;
+	background: var(--cyan);
+  color: var(--gray6);
 	overflow: auto;
 	padding: .5em;
 	page-break-inside: avoid;

@@ -2,8 +2,9 @@ module.exports = {
   siteMetadata: {
     title: 'Tyler Sayles blog',
     description: 'Tyler Sayles development blog and brain dump',
-    siteUrl: `https://www.tylsyl.com`,
-    twitterUrl: `@saylesopenhauer`
+    siteUrl: `https://www.tylsyl.com`, // no trailing slash
+    image: `/images/lightbulb.png`, // in static/images
+    twitterUsername: `@saylesopenhauer`
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "babel-jest": "^24.8.0",
-    "babel-preset-gatsby": "^0.2.8",
+    "babel-preset-gatsby": "^0.2.22",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.8.0",
     "react-test-renderer": "^16.8.6",

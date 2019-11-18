@@ -3,6 +3,9 @@ templateKey: blog-post
 title: 'rust: gourd boggling'
 date: '2019-11-18T18:21:36-05:00'
 description: getting my mind blown by rust's cargo
+tags:
+  - rust
+  - cargo
 ---
 # ok wowwie 
 
@@ -34,8 +37,8 @@ use rand::Rng
 
 // etc 
 
-
-
+let secret_num = rand::thread_rng()
+  .gen_range(1, 101);
 ```
 
 `cargo doc --open` will build docs provided by all ur local dependencies; if u are using `rand::Rng`, you can call the former and click on `rand` to find out more functionality contained in the crate
@@ -55,3 +58,11 @@ _p.s. there are gorgeous examples for each method :scream:_
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1574119235/b7xnrmspxf35pq5qhv2j.png)
 
 / omg it will even show you the source code for any method :gagged: 
+
+# summary 
+
+With the help of `cargo doc` I quickly was able to peek at other methods available to a pkg, see example uses, see the source code for each, and add them to my own project.
+
+The only docs I've seen that are this good/practically usable are Haskell's (jk!! :smiling:) [Ramda's](https://ramdajs.com/docs/). The diff? Cargo generates them on demand for locally installed crates. 
+
+:wow:

@@ -11,6 +11,10 @@ tags:
 
 Prototypicality is the basic mental image your brain creates to categorize everything you interact with. From furniture to websites, your brain has created a template for how things should look and feel.
 
+## literally design:
+
+OS housing design w/ CNC [wikihouse](https://www.wikihouse.cc/).
+
 ## variable font playground
 
 [https://www.axis-praxis.org/specimens/**DEFAULT**](https://www.axis-praxis.org/specimens/__DEFAULT__)

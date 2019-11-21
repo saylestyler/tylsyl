@@ -8,6 +8,11 @@ tags:
   - favs
   - dump
 ---
+
+# killr blog abt myriadiverse topics
+
+[jpmens.net](https://jpmens.net/archive/)
+
 # pl.atyp.us
 
 [amaze blog](http://pl.atyp.us/)

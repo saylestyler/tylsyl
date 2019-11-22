@@ -11,24 +11,25 @@ export const BlogPostTemplate = ({ content, contentComponent, description, tags,
     <div className="blog-post-wrapper">
       {helmet || ''}
       <h1 className="post-title">{title}</h1>
+
+      {tags && tags.length ? (
+        <ul className="tag-list">
+          {tags.map(tag => (
+            <li className="tag-list-item" key={tag + `tag`}>
+              <Link to={`/tags/${kebabCase(tag)}/`}># {tag}</Link>
+            </li>
+          ))}
+        </ul>
+      ) : null}
+
       <p className="post-description">{description}</p>
       <PostContent className="post-content" content={content} />
 
-      {tags && tags.length ? (
-        <section className="taglistWrapper">
-          <ul className="taglist">
-            {tags.map(tag => (
-              <li key={tag + `tag`}>
-                <Link to={`/tags/${kebabCase(tag)}/`}># {tag}</Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ) : null}
-
-      <Link className="index-link" to={'/'}>
-        Back
-      </Link>
+      <div className="footer">
+        <Link className="index-link" to={'/'}>
+          Back
+        </Link>
+      </div>
     </div>
   );
 };

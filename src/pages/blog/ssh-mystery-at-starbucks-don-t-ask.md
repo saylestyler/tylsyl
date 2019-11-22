@@ -3,6 +3,9 @@ templateKey: blog-post
 title: ssh mystery at starbucks (don't ask)
 date: '2019-11-22T16:53:22-05:00'
 description: A dump of what happened when I couldn't ssh into a machine at a starbucks.
+tags:
+  - ssh
+  - networking
 ---
 I needed to see why an email script on an ec2 instance wasn't sending *~urgently~* (I didn't have any reception (tHaNks SpRiNt) otherwise I'd've hotspott'd and I couldn't go home) alas, Starbucks.
 

@@ -60,3 +60,9 @@ At the time of writing (10 mins after it was posted, and curiously upvoted immed
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1574459561/q9xqrp1aq4dh14xoxwob.png)
 
 Why not!
+
+# update: 
+
+A lively discussion has begun on my question, w/ two epic -1 answers (hopefully the downvoter(s) are busy writing rebuttals / The Answer): 
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1574464680/q4zhxiflsnqutk1xotax.png)

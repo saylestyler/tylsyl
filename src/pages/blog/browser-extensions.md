@@ -132,3 +132,15 @@ y'all'reddi know
 Usually just use this when I see a compelling site & wanna satisfy the curiosity. 
 
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1574486088/dwdnayiasgznybkazv8z.png)
+
+# uBlock w/ AdBlock included
+
+The best extension-ad-blocker I know of (_70k+ filters!_).
+
+fun fact: the settings page is a literal trove of interesting links
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1574486921/ctnqqy0limnjuu6fvlsi.png)
+
+Any home icon links out to the source / a blog post re the source of the blockers like [Dan Pollock's hosts file](https://someonewhocares.org/hosts/):
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1574487235/zqyvoxbiwismkracyjuc.png)

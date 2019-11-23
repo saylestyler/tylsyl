@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: browser extensions
-date: '2019-11-22T20:44:34-05:00'
+date: '2018-10-24T20:44:34-04:00'
 description: my fav extensions & bookmarklets & snippets
 tags:
   - browser-extensions

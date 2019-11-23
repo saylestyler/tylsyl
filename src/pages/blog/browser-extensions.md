@@ -144,3 +144,13 @@ fun fact: the settings page is a literal trove of interesting links
 Any home icon links out to the source / a blog post re the source of the blockers like [Dan Pollock's hosts file](https://someonewhocares.org/hosts/):
 
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1574487235/zqyvoxbiwismkracyjuc.png)
+
+# checkbot
+
+Think lighthouse, but different.
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1574495417/rrjfiio7icduln82q6at.png)
+
+It gives you gorgina little explanations to documentation but also a great summary if you don't care to link out in order to Really Find Out about a hsts (or hst?) file. 
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1574496568/i7fvj0ainaezdjj2i9yi.png)

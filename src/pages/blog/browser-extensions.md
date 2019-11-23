@@ -125,6 +125,10 @@ generates a gorgina page with copy-primed hex codes
 
 # LastPass
 
+y'all'reddi know
 
+# wappalyzer
 
-![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1574475555/f7ja3aex1h46rmbyzlyp.png)
+Usually just use this when I see a compelling site & wanna satisfy the curiosity. 
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1574486088/dwdnayiasgznybkazv8z.png)

@@ -27,7 +27,7 @@ autoload -Uz _zplugin
 (( ${+_comps} )) && _comps[zplugin]=_zplugin
 ```
 
-and then just using the manual or [example confs]() to add a single plugin at a time then reloading your shell (`exec $0`): 
+and then just using the manual or [example confs](https://github.com/zdharma/zplugin-configs) to add a single plugin at a time then reloading your shell (`exec $0`): 
 
 ```sh
 zplugin load zdharma/history-search-multi-word

@@ -8,6 +8,9 @@ tags:
   - favs
   - dump
 ---
+# janavirgin.com
+
+[das ßoolest experiments](https://www.janavirgin.com/AMZ/)
 
 # killr blog abt myriadiverse topics
 

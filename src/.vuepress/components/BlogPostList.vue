@@ -132,11 +132,25 @@ export default {
 <style scoped>
 .blog-list__item {
   list-style-type: none;
+  padding-top: 5px;
+  background-image: url('./../theme/assets/red-document-icon.png');
+  background-repeat: no-repeat;
+  background-position: 0% 24px;
 }
 
 .blog-list__tags {
   margin-bottom: 15px;
   list-style: none;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 0px 1px;
+  font-size: 12px;
+  margin: 5px;
+}
+
+ul.blog-list__tags:first-child {
+  margin: 0px;
+  padding: 0px;
 }
 
 /* .blog-list {

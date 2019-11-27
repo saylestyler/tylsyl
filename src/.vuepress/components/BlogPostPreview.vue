@@ -23,25 +23,31 @@ export default {
 
 <template>
   <section>
-    <time>{{ formatPublishDate }}</time>
     <router-link :to="item.path">
       <h3 class="blog-post__title">
         {{ item.frontmatter.title }}
       </h3>
     </router-link>
-    <p v-if="item.frontmatter.excerpt">{{ item.frontmatter.excerpt }}</p>
-    <!-- <router-link class="button blog-post__button" :to="item.path">Read More ></router-link> -->
+    <time class="date-modified">date modified: {{ formatPublishDate }}</time>
+    <!-- <p v-if="item.frontmatter.excerpt">{{ item.frontmatter.excerpt }}</p> -->
   </section>
 </template>
 
 <style scoped>
-/* .blog-post__button {
-  margin-bottom: 1.5rem;
-  display: inline-block;
+.date-modified {
+  font-size: 12px;
+  padding-left: 5px;
 }
 
 .blog-post__title {
-  margin-top: 0.5rem;
+  font-size: 20px;
+  padding-left: 23px;
+  margin-bottom: 0px;
+}
+
+/* .blog-post__button {
+  margin-bottom: 1.5rem;
+  display: inline-block;
 }
 
 .button {

@@ -174,8 +174,10 @@ function find(page, items, offset) {
   @extend $wrapper;
 }
 
+// the title / date at the top of each blog-post view
 .blog__header
-  padding-top: 8.6rem;
+  padding-top 2.6rem
+  padding-left 15px
 
 .blog__title {
   margin-top: 0;

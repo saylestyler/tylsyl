@@ -59,7 +59,6 @@ export default {
 
 .home {
   padding: $navbarHeight 2rem 0;
-  // max-width: 960px;
   margin: 0px auto;
 
   .features {

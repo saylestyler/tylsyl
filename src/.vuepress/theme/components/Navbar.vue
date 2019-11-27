@@ -110,7 +110,6 @@ $navbar-horizontal-padding = 1.5rem;
     padding-left: 0;
     box-sizing: border-box;
     white-space: nowrap;
-    border-bottom: 1px solid red;
   }
 }
 </style>

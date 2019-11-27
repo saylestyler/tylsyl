@@ -20,6 +20,8 @@ body
 
 .page
   padding-left $sidebarWidth
+  padding: $navbarHeight 2rem 0;
+  padding-left: 20px;
 
 .navbar
   height $navbarHeight
@@ -53,7 +55,8 @@ body
 .content:not(.custom)
   @extend $wrapper
   > *:first-child
-    margin-top 5.6rem
+    // the first blog post in the list view
+    margin-top 1.6rem
   a:hover
     text-decoration underline
   p.demo
@@ -64,7 +67,7 @@ body
     max-width 100%
 
 .content.custom
-  padding-left 25px
+  padding-left 15px
   margin 0
   img
     max-width 100%
@@ -181,6 +184,6 @@ th, td
     .sidebar
       display none
     .page
-      padding-left 0
+      padding-left 24px
 
 @require './mobile.styl'

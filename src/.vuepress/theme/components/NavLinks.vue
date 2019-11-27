@@ -75,6 +75,8 @@ export default {
 
 .nav-links {
   .nav-item {
+    display: inline-block
+    padding: 0px 20px;
     position: relative;
     margin-left: 0rem;
     line-height: 2rem;

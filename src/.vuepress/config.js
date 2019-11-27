@@ -7,7 +7,7 @@ module.exports = {
   // $site.themeConfig.myKey
   themeConfig: {
     // nav: [{ text: 'About', link: '/about' }, { text: 'Blog', link: '/blog/' }, { text: 'Archive', link: '/archive/' }],
-    nav: [{ text: 'About', link: '/about' }, { text: 'Blog', link: '/blog/' }],
+    nav: [{ text: 'About', link: '/about' }, { text: 'Blog', link: '/' }],
     // navbar: false,
     // #TODO: find that lil gif of the splotch
     // logo: '/vuepress-blog-logo.png',

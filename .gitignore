@@ -1,17 +1,9 @@
-nohup.out
 # Project dependencies
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
 .cache/
 # Build directory
-public/
-static/admin/*.bundle.*
+/public
 .DS_Store
 yarn-error.log
-drafts
-.sass-cache
-scripts
-.env
-env
-.drafts.tags
-.tags
+package-lock.json

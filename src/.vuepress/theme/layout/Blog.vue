@@ -175,7 +175,7 @@ function find(page, items, offset) {
 }
 
 .blog__header
-  padding-top: 5.6rem;
+  padding-top: 8.6rem;
 
 .blog__title {
   margin-top: 0;

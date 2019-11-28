@@ -1,5 +1,9 @@
 <template>
-  <div class="sidebar">
+  <!-- 
+    rather than deleting all the imports etc. for the sidebar
+  leave an empty template
+  -->
+  <!-- <div class="sidebar">
     <NavLinks/>
     <slot name="top"/>
     <ul class="sidebar-links" v-if="items.length">
@@ -16,7 +20,7 @@
       </li>
     </ul>
     <slot name="bottom"/>
-  </div>
+  </div> -->
 </template>
 
 <script>

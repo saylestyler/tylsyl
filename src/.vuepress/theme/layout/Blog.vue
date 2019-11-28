@@ -174,8 +174,8 @@ function find(page, items, offset) {
   @extend $wrapper;
 }
 
-.blog__header
-  padding-top: 5.6rem;
+// .blog__header
+//   padding-top: 5.6rem;
 
 .blog__title {
   margin-top: 0;

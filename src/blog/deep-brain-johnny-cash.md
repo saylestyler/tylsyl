@@ -9,6 +9,7 @@ tags:
 
 [carl elliot](https://www.nybooks.com/articles/2019/02/07/robert-heath-deep-brain-happiness/)
 
+test
 
 Twelve years ago, a fifty-nine-year-old Dutchman checked into an Amsterdam hospital to have two small electrodes implanted in his brain. The patient, “Mr. B,” had a forty-year history of severe obsessive-compulsive disorder. Neither drugs nor therapy had helped, and he was prepared to try an experimental treatment called deep brain stimulation (DBS). Powered by neurostimulators placed under the skin, the implanted electrodes would deliver regular five-volt electrical pulses to a region of Mr. B’s brain called the nucleus accumbens.
 

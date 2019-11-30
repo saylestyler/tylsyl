@@ -8,7 +8,7 @@ display_url: https://www.tylsyl.com
 collections:
   - name: "doc" #TODO: not sure about this
     label: "Doc" # Used in the UI
-    folder: "blog" # The path to the folder where the documents are stored
+    folder: "src/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     show_preview_links: true

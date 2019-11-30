@@ -4,6 +4,10 @@ blog: true
 title: ssh mystery at starbucks (don't ask)
 date: 2019-11-02 12:00:00
 excerpt: A dump of what happened when I couldn't ssh into a machine at a starbucks.
+keywords:
+    - google fiber
+    - ssh
+    - starbucks
 tags:
     - ssh
     - networking

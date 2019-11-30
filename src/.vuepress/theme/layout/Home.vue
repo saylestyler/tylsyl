@@ -1,19 +1,11 @@
 <template>
   <div class="home">
     <div class="hero">
-      <!-- <img
+      <img
         v-if="data.heroImage"
         :src="$withBase(data.heroImage)"
         alt="hero"
-      >-->
-
-      <!-- <h1>{{ data.heroText || $title || 'Hello' }}</h1> -->
-
-      <!-- <p class="description"> -->
-        <!-- this fetches 'Some tagline' from  -->
-        <!-- src/README.md -->
-        <!-- {{ data.tagline || $description || 'Welcome to your VuePress site' }} -->
-      <!-- </p> -->
+      >
 
       <p class="action" v-if="data.actionText && data.actionLink">
         <NavLink class="action-button" :item="actionLink" />
@@ -90,12 +82,12 @@ export default {
     }
   }
 
-  .footer {
+  .footer
     padding: 2.5rem;
     border-top: 1px solid $borderColor;
-    text-align: center;
+    text-align: left;
     color: lighten($textColor, 25%);
-  }
+    font-style italic
 }
 
 @media (max-width: $MQMobile) {

@@ -6,11 +6,10 @@ module.exports = {
   // kvps here are available in root readmes
   // $site.themeConfig.myKey
   themeConfig: {
-    // nav: [{ text: 'About', link: '/about' }, { text: 'Blog', link: '/blog/' }, { text: 'Archive', link: '/archive/' }],
-    nav: [{ text: 'About', link: '/about' }, { text: 'Blog', link: '/' }],
+    // nav: [{ text: 'About', link: '/about' }, { text: 'Blog', link: '/' }],
     // navbar: false,
     // #TODO: find that lil gif of the splotch
-    // logo: '/vuepress-blog-logo.png',
+    logo: '/vuepress-blog-logo.png',
     docsDir: 'src',
     // #TODO: figure this out
     pageSize: 300,
@@ -20,11 +19,10 @@ module.exports = {
     [
       '@vuepress/google-analytics',
       {
-        ga: '' // UA-00000000-0
+        ga: 'UA-93902103-1'
       }
     ],
-    // here's where ye PLUGINS go
-    // 'vuepress-plugin-reading-time',
+    '@vuepress/back-to-top',
     'vuepress-plugin-janitor'
   ],
   head: [

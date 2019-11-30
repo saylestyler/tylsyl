@@ -1,13 +1,15 @@
 ---
-type: blog
-blog: true
 title: 'funny dev dump '
-date: 2019-01-02 12:00:00
+date: 2019-01-02T12:00:00.000Z
 excerpt: phunni stuff
 tags:
-    - not-serious
-    - dump
+  - not-serious
+  - dump
 ---
+# enjoy NaN
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1575157971/yexuqnej56mq0npodxol.png)
+
 # neural network talk to transformer
 
 some truly darksided results for my name apparently

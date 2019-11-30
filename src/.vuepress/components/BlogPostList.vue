@@ -138,16 +138,6 @@ export default {
   background-position: 0% 24px;
 }
 
-.blog-list__tags {
-  margin-bottom: 15px;
-  list-style: none;
-  display: inline-block;
-  /* border: 1px solid black; */
-  padding: 0px 1px;
-  font-size: 12px;
-  margin: 5px;
-}
-
 /* dreaded browser */
 ul.blog-list {
   margin-block-start: 0em;
@@ -161,7 +151,18 @@ ul.blog-list:first-child {
   margin-top: 20px;
 }
 
-ul.blog-list__tags:first-child {
+.blog-list__tags {
+  margin-bottom: 15px;
+  list-style: none;
+  display: inline-block;
+  /* border: 1px solid black; */
+  padding: 0px 1px;
+  font-size: 12px;
+  margin: 5px;
+  background: rgb(60, 255, 109);
+}
+
+.blog-list__tags:first-child {
   margin: 0px;
   padding: 0px;
 }

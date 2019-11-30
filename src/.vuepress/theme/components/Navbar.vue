@@ -1,13 +1,13 @@
 <template>
   <div class="header-wrapper">
     <header class="navbar">
-      <router-link :to="$localePath" class="home-link">
-        <span
-          ref="siteName"
-          class="site-name"
-          v-if="$siteTitle"
-        >{{ $siteTitle }}</span>
-      </router-link>
+
+      <div>
+        <!-- <img style="display: inline-block; width: 20px" src="../assets/portal-icon.png" /> -->
+        <router-link :to="$localePath" style="display: inline-block" class="home-link">
+          <span ref="siteName" class="site-name" v-if="$siteTitle">{{ $siteTitle }}</span>
+        </router-link>
+      </div>
 
       <div class="header-links">
         <div>
@@ -19,6 +19,7 @@
         </div>
       </div>
     </header>
+    <!-- <img style="width: 300px; text-align: right" src="https://res.cloudinary.com/cloudimgts/image/upload/v1539822106/question-head.png" /> -->
   </div>
 </template>
 
@@ -78,38 +79,15 @@ function css(el, property) {
 </script>
 
 <style lang="stylus">
-@import '../styles/config.styl';
-
-$navbar-vertical-padding = 0.7rem;
-$navbar-horizontal-padding = 1.5rem;
 
 .navbar {
   line-height: 30px;
-  // position: relative;
   padding: 29px
 
   a, span, img {
     background: #fff;
     display: inline-block;
     width: 100%;
-  }
-
-  .site-name {
-    margin-left: 0;
-    font-size: 1.3rem;
-    margin-bottom: 20px
-    font-weight: 600;
-    color: $textColor;
-    position: relative;
-    background: #fff;
-  }
-
-  .header-links {
-    background-color #fff;
-    padding-left: 1.5rem; 
-    padding-left: 0;
-    box-sizing: border-box;
-    white-space: nowrap;
   }
 }
 </style>

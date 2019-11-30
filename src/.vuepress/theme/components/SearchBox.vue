@@ -158,7 +158,6 @@ export default {
   input {
     cursor: text;
     width: 10rem;
-    color: lighten($textColor, 25%);
     display: inline-block;
     border: 1px solid black;
     font-size: 0.9rem;
@@ -213,7 +212,7 @@ export default {
       background-color: $limegreen;
 
       a {
-        color: #FF4136
+        color: green;
       }
     }
   }

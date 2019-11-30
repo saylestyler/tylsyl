@@ -82,12 +82,13 @@ export default {
     }
   }
 
-  .footer
+  .footer {
     padding: 2.5rem;
     border-top: 1px solid $borderColor;
     text-align: left;
     color: lighten($textColor, 25%);
-    font-style italic
+    font-style: italic;
+  }
 }
 
 @media (max-width: $MQMobile) {

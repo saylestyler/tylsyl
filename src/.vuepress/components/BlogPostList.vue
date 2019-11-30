@@ -142,7 +142,7 @@ export default {
   margin-bottom: 15px;
   list-style: none;
   display: inline-block;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 0px 1px;
   font-size: 12px;
   margin: 5px;
@@ -155,6 +155,10 @@ ul.blog-list {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
+}
+
+ul.blog-list:first-child {
+  margin-top: 20px;
 }
 
 ul.blog-list__tags:first-child {

@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: saylestyler/tylsyl
+  branch: master
+media_folder: ".vuepress/public/"
+public_folder: "../../"
+display_url: https://www.tylsyl.com
+collections:
+  - name: "doc" #TODO: not sure about this
+    label: "Doc" # Used in the UI
+    folder: "blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    show_preview_links: true
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Excerpt", name: "excerpt", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

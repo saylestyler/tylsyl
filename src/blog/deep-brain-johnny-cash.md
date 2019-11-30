@@ -1,15 +1,14 @@
 ---
-type: blog
-blog: true
 title: 'deep brain johnny cash '
-date: 2019-01-02 12:00:00
+date: 2019-01-02T12:00:00.000Z
 excerpt: a New York Book Review essay re deep brain stimulation
 tags:
-    - neurology
-    - hello
+  - neurology
+  - hello
 ---
 
 [carl elliot](https://www.nybooks.com/articles/2019/02/07/robert-heath-deep-brain-happiness/)
+
 
 Twelve years ago, a fifty-nine-year-old Dutchman checked into an Amsterdam hospital to have two small electrodes implanted in his brain. The patient, “Mr. B,” had a forty-year history of severe obsessive-compulsive disorder. Neither drugs nor therapy had helped, and he was prepared to try an experimental treatment called deep brain stimulation (DBS). Powered by neurostimulators placed under the skin, the implanted electrodes would deliver regular five-volt electrical pulses to a region of Mr. B’s brain called the nucleus accumbens.
 

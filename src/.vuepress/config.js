@@ -6,13 +6,8 @@ module.exports = {
   // kvps here are available in root readmes
   // $site.themeConfig.myKey
   themeConfig: {
-    // nav: [{ text: 'About', link: '/about' }, { text: 'Blog', link: '/' }],
-    // navbar: false,
-    // #TODO: find that lil gif of the splotch
-    logo: '/vuepress-blog-logo.png',
     docsDir: 'src',
-    // #TODO: figure this out
-    pageSize: 300,
+    pageSize: 300, // #TODO: figure this out
     startPage: 0
   },
   plugins: [
@@ -22,7 +17,6 @@ module.exports = {
         ga: 'UA-93902103-1'
       }
     ],
-    '@vuepress/back-to-top',
     'vuepress-plugin-janitor'
   ],
   head: [

@@ -1,12 +1,14 @@
 ---
-type: blog
-blog: true
 title: funny dump
-date: 2018-04-02 12:00:00
+date: 2018-04-02T12:00:00.000Z
 excerpt: fawefawfewafawefawef
 tags:
   - madtv
 ---
+
+# 1:42 lol
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CM6TATOWfsc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # 0:59
 

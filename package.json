@@ -10,7 +10,9 @@
 		"build": "vuepress build src",
 		"build:docs": "vuepress build docs"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"vuepress-plugin-seo": "^0.1.2"
+	},
 	"devDependencies": {
 		"@vuepress/plugin-google-analytics": "^1.2.0",
 		"vuepress": "^1.2.0",

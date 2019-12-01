@@ -42,5 +42,9 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'description', content: 'tyler sayles software development blog' }]
-  ]
+  ],
+  plugins: ['@vuepress/pwa', {
+    serviceWorker: true,
+    updatePopup: true
+  }],
 };

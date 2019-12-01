@@ -105,7 +105,7 @@ export default {
   <div>
     <div v-if="selectedTags.length > 0" class="filtered-heading">
       <h2>Filtered by {{ selectedTags.join(',') }}</h2>
-      <button type="button" @click="resetTags" class="btn clear-filter-btn">Clear filter</button>
+      <div @click="resetTags" class="btn clear-filter-btn">Clear filter</div>
     </div>
     <ul class="blog-list">
       <li v-for="(item, index) in filteredList" class="blog-list__item">
@@ -116,7 +116,7 @@ export default {
         />
         <ul v-for="tag in item.frontmatter.tags" class="blog-list__tags">
           <li>
-            <button @click="addTag(tag)">{{ tag }}</button>
+            <div class="blog-list__tags" @click="addTag(tag)">{{ tag }}</div>
           </li>
         </ul>
       </li>
@@ -155,11 +155,24 @@ ul.blog-list:first-child {
   margin-bottom: 15px;
   list-style: none;
   display: inline-block;
-  /* border: 1px solid black; */
-  padding: 0px 1px;
-  font-size: 12px;
+  padding: 3px;
+  font-size: 14px;
   margin: 5px;
-  background: rgb(60, 255, 109);
+  border: none;
+  background: #4dfbc0;
+  cursor: pointer;
+
+  /* text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+              */
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .blog-list__tags:first-child {

@@ -5,7 +5,10 @@
       <div>
         <!-- <img style="display: inline-block; width: 20px" src="../assets/portal-icon.png" /> -->
         <router-link :to="$localePath" style="display: inline-block" class="home-link">
-          <span ref="siteName" class="site-name" v-if="$siteTitle">{{ $siteTitle }}</span>
+          <span ref="siteName" class="site-name" v-if="$siteTitle">
+            <mark>{{ $siteTitle }}</mark>
+
+            </span>
         </router-link>
       </div>
 
@@ -89,5 +92,13 @@ function css(el, property) {
     display: inline-block;
     width: 100%;
   }
+}
+
+.header-links { 
+  margin-top: 20px;
+}
+
+.site-name {
+  color: black;
 }
 </style>

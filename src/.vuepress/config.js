@@ -1,7 +1,7 @@
 const currentDateUTC = new Date().toUTCString();
 
 module.exports = {
-  title: 'Index of \\Tyler\\Public\\server\\blog',
+  title: '~\\Tyler Sayles\\Public\\server\\dev\\dump',
   dest: './public',
   // kvps here are available in root readmes
   // $site.themeConfig.myKey

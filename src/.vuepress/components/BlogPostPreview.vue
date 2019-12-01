@@ -35,14 +35,16 @@ export default {
 
 <style scoped>
 .date-modified {
-  font-size: 12px;
+  font-size: 14px;
   padding-left: 5px;
+  padding-bottom: 20px;
 }
 
 .blog-post__title {
+  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   padding-left: 23px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 /* .blog-post__button {

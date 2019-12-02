@@ -10,6 +10,14 @@ module.exports = {
   },
   plugins: [
     [
+      'vuepress-plugin-container',
+      {
+        type: 'theorem',
+        before: info => `<div class="theorem"><p class="title">${info}</p>`,
+        after: '</div>',
+      },
+    ],
+    [
       '@vuepress/google-analytics',
       {
         ga: 'UA-93902103-1'
@@ -25,11 +33,11 @@ module.exports = {
         author: (_, $site) => $site.themeConfig.author,
         tags: $page => $page.frontmatter.tags,
         twitterCard: _ => 'summary_large_image',
-        type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
+        type: $page => (['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website'),
         url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
-        image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image),
+        image: ($page, $site) => $page.frontmatter.image && ($site.themeConfig.domain || '') + $page.frontmatter.image,
         publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
-        modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
+        modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated)
       }
     ]
   ],
@@ -43,8 +51,11 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'description', content: 'tyler sayles software development blog' }]
   ],
-  plugins: ['@vuepress/pwa', {
-    serviceWorker: true,
-    updatePopup: true
-  }],
+  plugins: [
+    '@vuepress/pwa',
+    {
+      serviceWorker: true,
+      updatePopup: true
+    }
+  ]
 };

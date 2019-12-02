@@ -18,6 +18,12 @@ module.exports = {
       },
     ],
     [
+      'vuepress-plugin-container',
+      {
+        type: 'tip',
+      },
+    ],
+    [
       '@vuepress/google-analytics',
       {
         ga: 'UA-93902103-1'

@@ -10,20 +10,6 @@ module.exports = {
   },
   plugins: [
     [
-      'vuepress-plugin-container',
-      {
-        type: 'theorem',
-        before: info => `<div class="theorem"><p class="title">${info}</p>`,
-        after: '</div>',
-      },
-    ],
-    [
-      'vuepress-plugin-container',
-      {
-        type: 'tip',
-      },
-    ],
-    [
       '@vuepress/google-analytics',
       {
         ga: 'UA-93902103-1'

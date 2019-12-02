@@ -1,8 +1,6 @@
 ---
-type: blog
-blog: true
 title: swp4swp?
-date: 2018-01-02 12:00:00
+date: 2018-01-02T12:00:00.000Z
 excerpt: a/swp/l?
 tags:
   - ec2
@@ -10,7 +8,6 @@ tags:
   - vim
   - memory
 ---
-
 ::: theorem Newton's First Law
 In an inertial frame of reference, an object either remains at rest or continues to move at a constant velocity, unless acted upon by a force.
 
@@ -19,9 +16,13 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion)
 :::
 :::
 
+::: tip
+fun amazing cool test yay 
+:::
+
 # b4 u upgrade that ec2 instance
 
-_i thought they were *auto*-scaling?_
+_i thought they were auto-scaling?_
 
 when writing a shell script on an ec2 instance for that instance (mistake 1) i was amiss to find
 that it was no longer working (mistake 2) "out of nowhere"
@@ -29,7 +30,7 @@ that it was no longer working (mistake 2) "out of nowhere"
 after doing some rando bit of debugging without remembering my steps (4) i was blessed with a new
 error message to read: `disk full`
 
-twaz indeed not *truly* full: on doing
+twaz indeed not _truly_ full: on doing
 
 ```shell
 sudo find / -type f -size +10M -exec ls -lh {} \

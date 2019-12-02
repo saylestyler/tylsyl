@@ -5,59 +5,29 @@
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
-    <Navbar
-      v-if="shouldShowNavbar"
-      @toggle-sidebar="toggleSidebar"
-    />
+    <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
 
-    <div
-      class="sidebar-mask"
-      @click="toggleSidebar(false)"
-    ></div>
+    <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
 
-    <Sidebar
-      :items="sidebarItems"
-      @toggle-sidebar="toggleSidebar"
-    >
-      <slot
-        name="sidebar-top"
-        slot="top"
-      />
-      <slot
-        name="sidebar-bottom"
-        slot="bottom"
-      />
+    <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
+      <slot name="sidebar-top" slot="top" />
+      <slot name="sidebar-bottom" slot="bottom" />
     </Sidebar>
 
-    <Blog 
-      v-if="$page.frontmatter.blog" 
-      :sidebar-items="sidebarItems"
-    />
+    <Blog v-if="$page.frontmatter.blog" :sidebar-items="sidebarItems" />
 
-    <div
-      class="custom-layout"
-      v-else-if="$page.frontmatter.layout"
-    >
-      <component :is="$page.frontmatter.layout"/>
+    <div class="custom-layout" v-else-if="$page.frontmatter.layout">
+      <component :is="$page.frontmatter.layout" />
     </div>
 
-    <Home v-else-if="$page.frontmatter.home"/>
+    <Home v-else-if="$page.frontmatter.home" />
 
-    <Page
-      v-else
-      :sidebar-items="sidebarItems"
-    >
-      <slot
-        name="page-top"
-        slot="top"
-      />
-      <slot
-        name="page-bottom"
-        slot="bottom"
-      />
+    <Page v-else :sidebar-items="sidebarItems">
+      <slot name="page-top" slot="top" />
+      <slot name="page-bottom" slot="bottom" />
     </Page>
 
-    <SWUpdatePopup :updateEvent="swUpdateEvent"/>
+    <SWUpdatePopup :updateEvent="swUpdateEvent" />
   </div>
 </template>
 
@@ -73,16 +43,16 @@ import SWUpdatePopup from './components/SWUpdatePopup.vue'
 import { resolveSidebarItems } from './util'
 
 export default {
-  components: { 
+  components: {
     Blog,
-    Home, 
-    Page, 
-    Sidebar, 
-    Navbar, 
-    SWUpdatePopup 
+    Home,
+    Page,
+    Sidebar,
+    Navbar,
+    SWUpdatePopup
   },
 
-  data () {
+  data() {
     return {
       isSidebarOpen: false,
       swUpdateEvent: null
@@ -90,12 +60,10 @@ export default {
   },
 
   computed: {
-    shouldShowNavbar () {
+    shouldShowNavbar() {
       const { themeConfig } = this.$site
       const { frontmatter } = this.$page
-      if (
-        frontmatter.navbar === false ||
-        themeConfig.navbar === false) {
+      if (frontmatter.navbar === false || themeConfig.navbar === false) {
         return false
       }
       return (
@@ -107,7 +75,7 @@ export default {
       )
     },
 
-    shouldShowSidebar () {
+    shouldShowSidebar() {
       const { frontmatter } = this.$page
       return (
         !frontmatter.layout &&
@@ -117,7 +85,7 @@ export default {
       )
     },
 
-    sidebarItems () {
+    sidebarItems() {
       return resolveSidebarItems(
         this.$page,
         this.$route,
@@ -126,7 +94,7 @@ export default {
       )
     },
 
-    pageClasses () {
+    pageClasses() {
       const userPageClass = this.$page.frontmatter.pageClass
       return [
         {
@@ -139,7 +107,7 @@ export default {
     }
   },
 
-  mounted () {
+  mounted() {
     window.addEventListener('scroll', this.onScroll)
 
     // configure progress bar
@@ -161,19 +129,19 @@ export default {
   },
 
   methods: {
-    toggleSidebar (to) {
+    toggleSidebar(to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
     },
 
     // side swipe
-    onTouchStart (e) {
+    onTouchStart(e) {
       this.touchStart = {
         x: e.changedTouches[0].clientX,
         y: e.changedTouches[0].clientY
       }
     },
 
-    onTouchEnd (e) {
+    onTouchEnd(e) {
       const dx = e.changedTouches[0].clientX - this.touchStart.x
       const dy = e.changedTouches[0].clientY - this.touchStart.y
       if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
@@ -185,7 +153,7 @@ export default {
       }
     },
 
-    onSWUpdated (e) {
+    onSWUpdated(e) {
       this.swUpdateEvent = e
     }
   }

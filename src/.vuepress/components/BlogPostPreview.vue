@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "BlogPostPreview",
+  name: 'BlogPostPreview',
   props: {
     item: {
       type: Object,
@@ -9,24 +9,22 @@ export default {
   },
   computed: {
     formatPublishDate() {
-      const dateFormat = new Date(this.item.frontmatter.date);
+      const dateFormat = new Date(this.item.frontmatter.date)
       const options = {
-        year: "numeric",
-        month: "long",
-      };
+        year: 'numeric',
+        month: 'long'
+      }
 
-      return dateFormat.toLocaleDateString("en-US", options);
+      return dateFormat.toLocaleDateString('en-US', options)
     }
   }
-};
+}
 </script>
 
 <template>
   <section>
     <router-link :to="item.path">
-      <h3 class="blog-post__title">
-        {{ item.frontmatter.title }}
-      </h3>
+      <h3 class="blog-post__title">{{ item.frontmatter.title }}</h3>
     </router-link>
     <time class="date-modified">date modified: {{ formatPublishDate }}</time>
     <!-- <p v-if="item.frontmatter.excerpt">{{ item.frontmatter.excerpt }}</p> -->

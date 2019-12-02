@@ -32,8 +32,8 @@
 </template>
 
 <script>
-import NavLink from "./NavLink.vue";
-import DropdownTransition from "./DropdownTransition.vue";
+import NavLink from './NavLink.vue'
+import DropdownTransition from './DropdownTransition.vue'
 
 export default {
   components: { NavLink, DropdownTransition },
@@ -41,7 +41,7 @@ export default {
   data() {
     return {
       open: false
-    };
+    }
   },
 
   props: {
@@ -52,10 +52,10 @@ export default {
 
   methods: {
     toggle() {
-      this.open = !this.open;
+      this.open = !this.open
     }
   }
-};
+}
 </script>
 
 <style lang="stylus">

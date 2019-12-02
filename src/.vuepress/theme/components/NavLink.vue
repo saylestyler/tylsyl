@@ -5,13 +5,7 @@
     v-if="!isExternal(link) && !isXml(link)"
     :exact="exact"
   >{{ item.text }}</router-link>
-  <a 
-    v-else-if="isXml(link)"
-    :href="link"
-    class="nav-link"
-  >
-    {{ item.text }}
-  </a>
+  <a v-else-if="isXml(link)" :href="link" class="nav-link">{{ item.text }}</a>
   <a
     v-else
     :href="link"
@@ -20,7 +14,7 @@
     :rel="isMailto(link) || isTel(link) ? null : 'noopener noreferrer'"
   >
     {{ item.text }}
-    <OutboundLink/>
+    <OutboundLink />
   </a>
 </template>
 
@@ -35,13 +29,15 @@ export default {
   },
 
   computed: {
-    link () {
+    link() {
       return ensureExt(this.item.link)
     },
 
-    exact () {
+    exact() {
       if (this.$site.locales) {
-        return Object.keys(this.$site.locales).some(rootLink => rootLink === this.link)
+        return Object.keys(this.$site.locales).some(
+          rootLink => rootLink === this.link
+        )
       }
       return this.link === '/'
     }

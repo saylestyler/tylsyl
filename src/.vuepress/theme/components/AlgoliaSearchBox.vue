@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  props: ["options"],
+  props: ['options'],
 
   mounted() {
-    this.initialize(this.options, this.$lang);
+    this.initialize(this.options, this.$lang)
   },
 
   methods: {
@@ -17,18 +17,18 @@ export default {
       // instructive use of Promise.all() eh?
       Promise.all([
         import(
-          /* webpackChunkName: "docsearch" */ "docsearch.js/dist/cdn/docsearch.min.js"
+          /* webpackChunkName: "docsearch" */ 'docsearch.js/dist/cdn/docsearch.min.js'
         ),
         import(
-          /* webpackChunkName: "docsearch" */ "docsearch.js/dist/cdn/docsearch.min.css"
+          /* webpackChunkName: "docsearch" */ 'docsearch.js/dist/cdn/docsearch.min.css'
         )
       ]).then(([docsearch]) => {
-        docsearch = docsearch.default;
-        const { algoliaOptions = {} } = userOptions;
+        docsearch = docsearch.default
+        const { algoliaOptions = {} } = userOptions
 
         docsearch(
           Object.assign({}, userOptions, {
-            inputSelector: "#algolia-search-input",
+            inputSelector: '#algolia-search-input',
             // #697 Make docsearch work well at i18n mode.
             algoliaOptions: Object.assign(
               {
@@ -39,27 +39,27 @@ export default {
               algoliaOptions
             )
           })
-        );
-      });
+        )
+      })
     },
 
     update(options, lang) {
       this.$el.innerHTML =
-        '<input id="algolia-search-input" class="search-query">';
-      this.initialize(options, lang);
+        '<input id="algolia-search-input" class="search-query">'
+      this.initialize(options, lang)
     }
   },
 
   watch: {
     $lang(newValue) {
-      this.update(this.options, newValue);
+      this.update(this.options, newValue)
     },
 
     options(newValue) {
-      this.update(newValue, this.$lang);
+      this.update(newValue, this.$lang)
     }
   }
-};
+}
 </script>
 
 <style lang="stylus">

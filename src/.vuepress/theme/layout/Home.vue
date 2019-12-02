@@ -1,11 +1,7 @@
 <template>
   <div class="home">
     <div class="hero">
-      <img
-        v-if="data.heroImage"
-        :src="$withBase(data.heroImage)"
-        alt="hero"
-      >
+      <img v-if="data.heroImage" :src="$withBase(data.heroImage)" alt="hero" />
 
       <p class="action" v-if="data.actionText && data.actionLink">
         <NavLink class="action-button" :item="actionLink" />
@@ -26,24 +22,24 @@
 </template>
 
 <script>
-import NavLink from "../components/NavLink.vue";
+import NavLink from '../components/NavLink.vue'
 
 export default {
   components: { NavLink },
 
   computed: {
     data() {
-      return this.$page.frontmatter;
+      return this.$page.frontmatter
     },
 
     actionLink() {
       return {
         link: this.data.actionLink,
         text: this.data.actionText
-      };
+      }
     }
   }
-};
+}
 </script>
 
 <style lang="stylus">

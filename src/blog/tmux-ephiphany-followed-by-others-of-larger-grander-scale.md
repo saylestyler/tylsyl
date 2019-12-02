@@ -22,7 +22,7 @@ tmux is NOT a ~terminal multiplexer~ (it is) but look no further for a more opaq
 
 my def, post nirvana reached being 
 
-<div class="green">
+<div class="container green">
   tmux is a terminal session manager (... with other cool things such as windowing tricks n stuff)
 </div>
 

@@ -26,6 +26,6 @@ _triple bonus: reading and then practicomg what u read in a sandbox_
 
 _quadruple bonus: spaced repetition of 1-3_
 
-<div class="green">
+<div class="container green">
 tl;dr guessing / poking around in the dark / deleting everything has never worked and if it has it's infinitely less preferable to the ^ method
 </div>

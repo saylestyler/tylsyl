@@ -14,7 +14,7 @@ tags:
 
 ZOC (not) DOC
 
-<div class="green">
+<div class="container green">
 ZOC is a terminal app and SSH client. It emulates Emulations: xterm, VT220, TN3270, TN5250, Wyse, and QNX, plus supports communication SSH, Telnet, Rlogin, Modem, and Serial Cable.
 </div>
 

@@ -136,3 +136,7 @@ do yrself a favor and just click below and get serenaded
 ## all of <https://experiments.withgoogle.com>
 
 not all, but close
+
+## pika
+
+[v pretty website for a v pretty concept](https://www.pika.dev/registry)

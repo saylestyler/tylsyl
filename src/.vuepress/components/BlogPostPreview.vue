@@ -40,6 +40,7 @@ export default {
 
 .blog-post__title {
   font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
   font-size: 20px;
   padding-left: 23px;
   margin-bottom: 10px;

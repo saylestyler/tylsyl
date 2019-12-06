@@ -1,6 +1,6 @@
 ---
 title: randump
-date: 2019-12-06T15:11:58.293Z
+date: 2017-12-06T15:11:00.000Z
 excerpt: fun
 tags: 'misc, dump, rando'
 ---

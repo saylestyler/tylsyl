@@ -1,11 +1,9 @@
 ---
-type: blog
-blog: true
 title: music dump
-date: 2018-06-02 12:00:00
+date: 2018-06-02T12:00:00.000Z
 excerpt: music dump
 tags:
-    - music
+  - music
 ---
 
 ## roof moment bjork
@@ -22,9 +20,9 @@ which reminded me of these two jams:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QYJ-3ie55i4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## asu + stingettes
+## burial + adam curtis
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U287oWnerrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b-1WUdsCDxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## mz hauff
 

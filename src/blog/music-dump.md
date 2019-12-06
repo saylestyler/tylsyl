@@ -30,6 +30,10 @@ which reminded me of these two jams:
 
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=OdJy_g1G7Ho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## kiasmos - jarred
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Km5nbbtQVDo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## omar s
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ItW3HnEtQsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

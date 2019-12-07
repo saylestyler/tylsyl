@@ -34,6 +34,10 @@ which reminded me of these two jams:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5bMXZobndEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## gigi d'agostino - l'amour toujours
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w15oWDh02K4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## omar s
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ItW3HnEtQsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

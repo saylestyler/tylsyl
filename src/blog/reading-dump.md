@@ -20,3 +20,7 @@ the baff dot com
 # all watched over by machines of loving grace
 
 [by richard brautigan](https://www.theatlantic.com/technology/archive/2011/09/weekend-poem-all-watched-over-by-machines-of-loving-grace/245251/)
+
+# thread on the peloton ad
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">addendum: i don’t think you could tell, reading the script, that this ad would be SO bad.<br><br>the creepiness isn’t in the text, it’s in the subtext. the framing, the point of view, the timing<br><br>just like how someone recut Mary Poppins like a horror movie <a href="https://t.co/iH9UIPLEWX">https://t.co/iH9UIPLEWX</a></p>&mdash; Amy Hoy (@amyhoy) <a href="https://twitter.com/amyhoy/status/1202846425287016449?ref_src=twsrc%5Etfw">December 6, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

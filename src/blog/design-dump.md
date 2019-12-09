@@ -140,3 +140,7 @@ not all, but close
 ## pika
 
 [v pretty website for a v pretty concept](https://www.pika.dev/registry)
+
+## dotshare.it
+
+[amaze idea too](http://dotshare.it/category/fms/ranger/)

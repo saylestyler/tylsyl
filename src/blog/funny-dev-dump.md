@@ -59,3 +59,7 @@ While GPT-2 was only trained to predict the next word in a text, it surprisingly
 # `node_modules/death/`
 
 ![](https://res.cloudinary.com/cloudimgts/image/upload/v1562634627/ksvyapdfwaypzrvcmbv9.jpg)
+
+# someone's mad bout favicons
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1575910389/qxd6bv1vrpshqym7ygdd.png)

@@ -170,3 +170,7 @@ today we lrn to make a [bookmarklet](https://betterexplained.com/articles/how-to
 a bunch of programs that use vim-like settings
 
 [vim.reversed.top](https://vim.reversed.top/)
+
+## tbray.org
+
+[we got a writer folks](http://www.tbray.org/ongoing/When/201x/2010/03/15/Joining-Google)

@@ -1,13 +1,11 @@
 ---
-type: blog
-blog: true
 title: dev resources dump
-date: 2019-02-02 12:00:00
+date: 2019-02-02T12:00:00.000Z
 excerpt: bloop
 tags:
-    - dev
-    - favs
-    - dump
+  - dev
+  - favs
+  - dump
 ---
 
 # d.sb
@@ -166,3 +164,9 @@ today we lrn to make a [bookmarklet](https://betterexplained.com/articles/how-to
 ## mfowlerblg
 
 [martin fowler's blog](https://martinfowler.com/bliki/ContinuousDelivery.html)
+
+## pile of vim 
+
+a bunch of programs that use vim-like settings
+
+[vim.reversed.top](https://vim.reversed.top/)

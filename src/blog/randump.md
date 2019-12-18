@@ -4,6 +4,10 @@ date: 2017-12-06T15:11:00.000Z
 excerpt: fun
 tags: 'misc, dump, rando'
 ---
+# MLAL
+
+![](https://res.cloudinary.com/cloudimgts/image/upload/v1576708189/learning_c6z9hx.png﻿)
+
 # fmri
 
 ![altysyl](https://res.cloudinary.com/cloudimgts/image/upload/v1576685999/green_wcttx6.jpg)

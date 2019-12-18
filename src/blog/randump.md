@@ -6,6 +6,8 @@ tags: 'misc, dump, rando'
 ---
 # fmri
 
+![altysyl](https://res.cloudinary.com/cloudimgts/image/upload/v1576685999/green_wcttx6.jpg)
+
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1575645004/lk3j8wbw7mcsdjjqcxo8.png)
 
 # mouse brain cross section

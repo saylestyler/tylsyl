@@ -1,5 +1,3 @@
-const currentDateUTC = new Date().toUTCString()
-
 module.exports = {
   title: '~\\Tyler Sayles\\Public\\server\\dev\\dump',
   dest: './public',
@@ -12,7 +10,7 @@ module.exports = {
     [
       '@vuepress/google-analytics',
       {
-        ga: 'UA-93902103-1'
+        ga: 'UA-111905091-1'
       }
     ],
     'vuepress-plugin-janitor',
@@ -60,6 +58,8 @@ module.exports = {
       { name: 'description', content: 'tyler sayles software development blog' }
     ]
   ],
+  // #todo: confirm lol
+  ga: 'UA-111905091-1',
   plugins: [
     '@vuepress/pwa',
     {

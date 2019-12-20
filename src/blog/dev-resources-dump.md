@@ -174,3 +174,8 @@ a bunch of programs that use vim-like settings
 ## tbray.org
 
 [we got a writer folks](http://www.tbray.org/ongoing/When/201x/2010/03/15/Joining-Google)
+
+## notion api 4 thoz who can't wait 
+
+[presstige](https://presstige.io/p/Using-Notion-API-Go-client-2567fcfa8f7a4ed4bdf6f6ec9298d34a)
+

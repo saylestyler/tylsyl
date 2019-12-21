@@ -1,18 +1,21 @@
 ---
-type: blog
-blog: true
 title: browser dump
-date: 2017-09-02 12:00:00
+date: 2017-09-02T12:00:00.000Z
 excerpt: opera dev edition
 tags:
-    - opera
-    - javascript
-    - browser
+  - opera
+  - javascript
+  - browser
 ---
+[browser extensions]
+(#stats) [stats]
+(#browserExtensions) [mischacs](#mischacs) [user scripts](#userScripts)
 
-[browser extensions](#browserExtensions)
-[mischacs](#mischacs)
-[user scripts](#userScripts)
+# stats
+
+NB chrome doms & reses r as follows: 
+
+![a](https://res.cloudinary.com/cloudimgts/image/upload/v1576891715/B4C374F3-4073-44E3-88E1-6D3D51555696_xwsjbg.png)
 
 # browser extensions
 
@@ -82,7 +85,7 @@ body > :not(.klim-wrapper)
   padding: 0 5%
   text-align: left
 ```
-  
+
 ## feeling lucky
 
 tl;dr guessing / poking around in the dark / deleting everything has never worked and if it has it's infinitely less preferable to the ^ method
@@ -90,22 +93,20 @@ tl;dr guessing / poking around in the dark / deleting everything has never worke
 feeling lucky is almost always right, if `howdoi` didn't quite get you there
 
 1. edit ur search engine settings to include a shortcut to i'm feeling lucky query
-
 2. mine being `l <space> "query"`
-
 3. read the resulting page and weep
 
 my own experiences in debugging (to tears) and watching other developers is the immediate googling of a well-ish worded question will produce the intended result
 
-_bonus tip: this is failsafe provided that you've clearly defined distinct steps you need to take & make it happen_
+*bonus tip: this is failsafe provided that you've clearly defined distinct steps you need to take & make it happen*
 
-_double bonus: reading documentation_
+*double bonus: reading documentation*
 
-_triple bonus: reading and then practicomg what u read in a sandbox_
+*triple bonus: reading and then practicomg what u read in a sandbox*
 
-_quadruple bonus: spaced repetition of 1-3_
+*quadruple bonus: spaced repetition of 1-3*
 
-## _operabrowserjs=no_
+## *operabrowserjs=no*
 
 today in *browsing* around the file system, i saw this interesting (kinda funny) script whereby opera "pretends its Chrome" for every site from Lufthansa to Australian sports websites to blend.io
 
@@ -343,13 +344,11 @@ if (!location.href.includes('operabrowserjs=no')) {
 }
 ```
 
-
 <h2>
   <a href="userScripts">
     user scripts
   </a>
 </h2>
-
 
 ### linters
 
@@ -368,8 +367,7 @@ javascript:
 
 <img src="https://res.cloudinary.com/cloudimgts/image/upload/q_auto/v1539405775/Screen_Shot_2018-10-13_at_12.42.13_AM.png">
 
-tests 4 different standards (WCAG2[A]AA, standard 508), with links on
-how to pass on the relevant whatwg guideline
+tests 4 different standards (WCAG2\[A]AA, standard 508), with links on how to pass on the relevant whatwg guideline
 
 ```javascript
 javascript: (function () {

@@ -4,6 +4,14 @@ date: 2017-12-06T15:11:00.000Z
 excerpt: fun
 tags: 'misc, dump, rando'
 ---
+# increasing min wage will KILL restaurant industry, they said
+
+[not true ofc](https://gallery.mailchimp.com/a6170fa466dd7c8eed0aab6be/files/b2f3acd5-3884-42a7-a0bf-fa410b2b6544/Final_CNYCA_NELP_NYC_Min_Wage_Restaurants.pdf)
+
+# richard stallman sux
+
+[see](https://link.medium.com/LkORpGbGB2)
+
 # MLAL
 
 ![](https://res.cloudinary.com/cloudimgts/image/upload/v1576708189/learning_c6z9hx.png﻿)

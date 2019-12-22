@@ -4,6 +4,13 @@ date: 2017-12-06T15:11:00.000Z
 excerpt: fun
 tags: 'misc, dump, rando'
 ---
+
+# first monday
+
+a gnu-y trove
+
+[jrnl](https://firstmonday.org/ojs/index.php/fm/index)
+
 # smartphones, smiling, strangers
 
 [truly literally](https://www.sciencedirect.com/science/article/pii/S0747563218304643https://www.sciencedirect.com/science/article/pii/S0747563218304643)

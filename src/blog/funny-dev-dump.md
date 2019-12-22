@@ -6,6 +6,11 @@ tags:
   - not-serious
   - dump
 ---
+
+# ai.random()
+
+<iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # enjoy NaN
 
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1575157971/yexuqnej56mq0npodxol.png)

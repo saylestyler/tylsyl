@@ -11,3 +11,4 @@
 
 echo "\n\n\n\t https://app.netlify.com/sites/tylsyl/overview \n\n\n"
 ```
+https://observatory.mozilla.org/analyze/tylsyl.com

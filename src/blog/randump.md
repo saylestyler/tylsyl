@@ -4,6 +4,10 @@ date: 2017-12-06T15:11:00.000Z
 excerpt: fun
 tags: 'misc, dump, rando'
 ---
+# fidgeting as self-evidencing 
+
+![...wat](https://www.sciencedirect.com/science/article/abs/pii/S0732118X19300923)
+
 # increasing min wage will KILL restaurant industry, they said
 
 [not true ofc](https://gallery.mailchimp.com/a6170fa466dd7c8eed0aab6be/files/b2f3acd5-3884-42a7-a0bf-fa410b2b6544/Final_CNYCA_NELP_NYC_Min_Wage_Restaurants.pdf)

@@ -58,8 +58,6 @@ module.exports = {
       { name: 'description', content: 'tyler sayles software development blog' }
     ]
   ],
-  // #todo: confirm lol
-  ga: 'UA-111905091-1',
   plugins: [
     '@vuepress/pwa',
     {

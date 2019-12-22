@@ -4,6 +4,7 @@ date: 2017-12-06T15:11:00.000Z
 excerpt: fun
 tags: 'misc, dump, rando'
 ---
+
 # fidgeting as self-evidencing 
 
 ![...wat](https://www.sciencedirect.com/science/article/abs/pii/S0732118X19300923)

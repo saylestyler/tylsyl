@@ -9,6 +9,10 @@ tags:
     - design
 ---
 
+## fonts
+
+![](https://res.cloudinary.com/cloudimgts/image/upload/v1577001214/cli-upload/f6dvbjapjyiux36p7noh.png)
+
 ## e-knetteng
 
 [v cute](https://winterbash2019.stackexchange.com/)
@@ -29,7 +33,7 @@ I found all the Apache icons hither:
 
 <http://www.apache.org/icons/>
 
-## prototypicality 
+## prototypicality
 
 Prototypicality is the basic mental image your brain creates to categorize everything you interact with. From furniture to websites, your brain has created a template for how things should look and feel.
 

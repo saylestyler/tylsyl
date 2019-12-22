@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/netlify-cms@1.8.2/dist/cms.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/netlify-cms@1.8.2/dist/cms.css" /> -->
     <!-- <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> -->
   </head>
   <body>
 
     <!-- open cloudinary media lib in new tab -->
     <div style="text-align: center; border: 1px solid blue; padding: 20px;">
-      <a target="_blank" href="https://cloudinary.com/console/media_library/folders/%2F?kind=all">cloudinary </a>
+      <a target="_blank"
+        href="https://cloudinary.com/console/media_library/folders/%2F?kind=all">cloudinary
+      </a>
     </div>
 
     <!--
@@ -24,7 +26,7 @@
       <input id="ytInput" style="border: 1px solid black;" />
       <button onclick="getYTEmbedForlink()">generate embed</button>
       <div id="display" style="margin-top: 10px;"></div>
-      <input id="input" type="text"/>
+      <input id="input" type="text" />
       <span id="displaySpan"></span>
       <button onclick="hideElements()">hide</button>
 
@@ -43,7 +45,6 @@
     </div>
 
     <!-- Include the script that builds the page and powers Netlify CMS -->
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-    <script src="./hide.js"><script>
+    <!-- <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script> -->
   </body>
 </html>

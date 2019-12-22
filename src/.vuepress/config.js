@@ -7,12 +7,6 @@ module.exports = {
     startPage: 0
   },
   plugins: [
-    [
-      '@vuepress/google-analytics',
-      {
-        ga: 'UA-111905091-1'
-      }
-    ],
     'vuepress-plugin-janitor',
     [
       'vuepress-plugin-seo',

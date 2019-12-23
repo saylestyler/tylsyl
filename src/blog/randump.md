@@ -4,6 +4,16 @@ date: 2017-12-06T15:11:00.000Z
 excerpt: fun
 tags: 'misc, dump, rando'
 ---
+# single tasking 
+
+[single-tasking](https://stories.buffer.com/the-science-of-single-tasking-how-focus-unlocks-extreme-productivity-be89aef22d44)
+
+> An Ohio State University study found that media multitasking — e.g., reading a book while watching TV — results in poor cognitive performance on both tasks; we keep doing both anyways because we get an emotional boost when we do.An Ohio State University study found that media multitasking — e.g., reading a book while watching TV — results in poor cognitive performance on both tasks; we keep doing both anyways because we get an emotional boost when we do.
+
+> drivers miss 50% of things they'd otherwise see (billboards, _pedestrians) when texting-while-driving
+
+> students made quadruple the errors when interrupted with a popup vs. non-interrupted group
+
 # human speech = fixed bitrate
 
 [most languages ~40bps](https://www.sciencemag.org/news/2019/09/human-speech-may-have-universal-transmission-rate-39-bits-secondhttps://www.sciencemag.org/news/2019/09/human-speech-may-have-universal-transmission-rate-39-bits-second)

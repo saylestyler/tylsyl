@@ -6,6 +6,8 @@ tags: 'misc, dump, rando'
 ---
 # r phones distracting? (y) 
 
+[mega study](https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00605/fullhttps://www.frontiersin.org/articles/10.3389/fpsyg.2017.00605/full)
+
 Reaching for a phone mb is a function of not bn satisfied w/ what we're currently doing (endogenously or exogenously influenced):
 
 > These endogenously driven drifts of attention might arise from a desire for more immediate gratification when ongoing goal-directed activities are not perceived as rewarding (Melcher, 2013), a point to which we return below. Once attention has been shifted to the smartphone for one purpose (e.g., by virtue of a specific notification source), users often then engage in a chain of subsequent task-unrelated acts on the smartphone, thereby extending the period of disruption. 

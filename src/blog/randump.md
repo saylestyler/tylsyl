@@ -4,6 +4,10 @@ date: 2017-12-06T15:11:00.000Z
 excerpt: fun
 tags: 'misc, dump, rando'
 ---
+# ppl love naturals
+
+![](https://res.cloudinary.com/cloudimgts/image/upload/v1577130668/CA67787E-6D16-4798-B9E6-3D6C31999275_gpo06j.png)
+
 # single tasking 
 
 [single-tasking](https://stories.buffer.com/the-science-of-single-tasking-how-focus-unlocks-extreme-productivity-be89aef22d44)

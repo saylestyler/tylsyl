@@ -4,6 +4,12 @@ date: 2017-12-06T15:11:00.000Z
 excerpt: fun
 tags: 'misc, dump, rando'
 ---
+# mere presence of phone leads to cognitive decrements
+
+[study](https://www.journals.uchicago.edu/doi/abs/10.1086/691462)
+
+> Results from two experiments indicate that even when people are successful at maintaining sustained attention—as when avoiding the temptation to check their phones—the mere presence of these devices reduces available cognitive capacity. Moreover, these cognitive costs are highest for those highest in smartphone dependence. We conclude by discussing the practical implications of this smartphone-induced brain drain for consumer decision-making and consumer welfare
+
 # man makes water from air
 
 [moses](https://tanksgoodnews.com/2019/10/10/man-built-a-homemade-machine-that-makes-clean-water-out-of-air-and-brought-it-to-flint-and-puerto-rico/)
@@ -19,6 +25,10 @@ a gnu-y trove
 [truly literally](https://www.sciencedirect.com/science/article/pii/S0747563218304643https://www.sciencedirect.com/science/article/pii/S0747563218304643)
 
 <img src="https://res.cloudinary.com/cloudimgts/image/upload/v1576992714/cli-upload/jpm87bi8me5vm4sqpc53.png">
+
+
+
+
 
 # fidgeting as self-evidencing
 

@@ -4,6 +4,10 @@ date: 2017-12-06T15:11:00.000Z
 excerpt: fun
 tags: 'misc, dump, rando'
 ---
+# human speech = fixed bitrate
+
+[most languages ~40bps](https://www.sciencemag.org/news/2019/09/human-speech-may-have-universal-transmission-rate-39-bits-secondhttps://www.sciencemag.org/news/2019/09/human-speech-may-have-universal-transmission-rate-39-bits-second)
+
 # r phones distracting? (y) 
 
 [mega study](https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00605/fullhttps://www.frontiersin.org/articles/10.3389/fpsyg.2017.00605/full)

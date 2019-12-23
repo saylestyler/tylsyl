@@ -4,6 +4,16 @@ date: 2017-12-06T15:11:00.000Z
 excerpt: fun
 tags: 'misc, dump, rando'
 ---
+# r phones distracting? (y) 
+
+Reaching for a phone mb is a function of not bn satisfied w/ what we're currently doing (endogenously or exogenously influenced):
+
+> These endogenously driven drifts of attention might arise from a desire for more immediate gratification when ongoing goal-directed activities are not perceived as rewarding (Melcher, 2013), a point to which we return below. Once attention has been shifted to the smartphone for one purpose (e.g., by virtue of a specific notification source), users often then engage in a chain of subsequent task-unrelated acts on the smartphone, thereby extending the period of disruption. 
+
+In app notys and interruptions are heinous: 
+
+> Studies exploring these ‘within-phone’ interruptions have found that task completion in one app can be delayed by up to 400% by an unintended interruption from another app.
+
 # mere presence of phone leads to cognitive decrements
 
 [study](https://www.journals.uchicago.edu/doi/abs/10.1086/691462)

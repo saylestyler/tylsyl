@@ -4,6 +4,9 @@ date: 2017-12-06T15:11:00.000Z
 excerpt: fun
 tags: 'misc, dump, rando'
 ---
+# man makes water from air
+
+[moses](https://tanksgoodnews.com/2019/10/10/man-built-a-homemade-machine-that-makes-clean-water-out-of-air-and-brought-it-to-flint-and-puerto-rico/)
 
 # first monday
 
@@ -72,8 +75,6 @@ a gnu-y trove
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1575645501/fjgghpyka8ywp5qreofr.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hwwWF0dpEM8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"></a>
-
-
 
 # fidgeting as self-evidencing
 

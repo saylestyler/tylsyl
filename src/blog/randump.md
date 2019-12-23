@@ -113,3 +113,21 @@ a gnu-y trove
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1575645501/fjgghpyka8ywp5qreofr.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hwwWF0dpEM8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Crime & Pb
+
+![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1577014620/cli-upload/zmox7qd4xxca55y7zqlj.png)
+
+# using smartphone as sonar to detect opiod overdose via respiration rate, aka omg
+
+stuff like this has been bn done for parkinsons etc. but something abt this one is kinda haunting: [study](https://stm.sciencemag.org/content/11/474/eaau8914?intcmp=trendmd-stm)
+
+> We present algorithms that run on smartphones and unobtrusively detect opioid overdose events and their precursors. Our proof-of- concept contactless system converts the phone into a short-range active sonar using frequency shifts to identify respiratory depression, apnea, and gross motor movements associated with acute opioid toxicity.
+
+other haunting lines include:
+
+> The time delay (∆t) is given by 2d/vs, where d is the distance of the human body from the smartphone and vs is the speed of sound in air. When the subject’s chest moves because of breathing, the distance (d) to the smartphone and the corresponding time delay of its echo (∆t) at the microphone change.
+
+this technology specficially was used for sleep apnea, cue bizarre science-writer description of the differences between a sleep laboratory and a supervised injection site, a "dynamic and stmulating environment", thither "overheard music plays [...]":
+
+> The SIF where our experiments were performed is a highly dynamic and stimulating environment; recording devices are prohibited within the SIF, but the environment can be observed in a public domain report (37). For example, there are routinely several people around; there is talking among clients; staff and clients walk around; overhead music plays; and occasionally, personal dogs are within the environment. In addition, there is climate control equipment and a special indoor ventilation system (to remove the smoke from heroin preparation), all of which produce ambient noise. In short, there are several environmental elements in the high-risk opioid use domain that differ from the controlled setting of a sleep laboratory.

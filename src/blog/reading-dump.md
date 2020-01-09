@@ -4,6 +4,9 @@ date: 2019-12-06T15:29:08.999Z
 excerpt: good things 2 read
 tags: readings
 ---
+# u r not so smart
+
+[eli5 learned helplessness](https://youarenotsosmart.com/2009/11/11/learned-helplessness/)
 
 # habits vs customs in The Pale King
 

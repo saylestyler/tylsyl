@@ -24,6 +24,14 @@ which reminded me of these two jams:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b-1WUdsCDxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## dj boronin - playback
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ikFYGgCCG2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+from ~ 27:00 of 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LV6nc-JXnKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## mz hauff
 
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=OdJy_g1G7Ho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

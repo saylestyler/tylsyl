@@ -26,14 +26,12 @@ The "safe" injection where they tested their wares seems p nightmarish, w/ on av
 
 While it can detect a chest movement of 0.7cm, right now it seems only to be able to do so when positioned @ 90 degrees, within 1m, out of range of a separate loudspeaker, etc. which I'm guessing is not part of the pre-ritual for someone who's about to OD. 
 
-Alas,  [ppl r dying alone these days](https://www.nytimes.com/2019/12/19/us/grandma-for-christmas.html?algo=top_conversion&fellback=true&imp_id=388011822&imp_id=207339169&action=click&module=editorsPicks&pgtype=Article&region=Footer).
+Alas, [ppl r dying alone these days](https://www.nytimes.com/2019/12/19/us/grandma-for-christmas.html?algo=top_conversion&fellback=true&imp_id=388011822&imp_id=207339169&action=click&module=editorsPicks&pgtype=Article&region=Footer).
 
 ﻿![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1577021380/cli-upload/zfyzooeetaz7zjsaj6xu.png)
-Indeed, one might even draw a correlation btwn late-stage free-market atomization + rampant loneliness bn in part responsible for both driving certain citizenry to drugs _and_ leaving them with no friends, family around to — q literally — save their lives. 
+<br>
 
-﻿![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1577021380/cli-upload/zfyzooeetaz7zjsaj6xu.png)
-
-Ugh.
+Indeed, one might even draw a correlation btwn late-stage free-market atomization + rampant loneliness bn in part responsible for both driving certain citizenry to drugs _and_ leaving them with no friends, family around to — q literally — save their lives.
 
 
 

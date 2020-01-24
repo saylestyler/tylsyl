@@ -8,6 +8,10 @@ tags:
   - dump
 ---
 
+# a blog is a blog is a blog 
+
+[perfection kills](http://perfectionkills.com/refactoring-single-page-app/)
+
 # d.sb
 
 gorgina website [d.sb](https://d.sb/)

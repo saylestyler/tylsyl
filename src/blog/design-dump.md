@@ -1,17 +1,19 @@
 ---
-type: blog
-blog: true
 title: design dump
-date: 2019-11-02 12:00:00
+date: 2019-11-02T12:00:00.000Z
 excerpt: web 69.0
 tags:
-    - dump
-    - design
+  - dump
+  - design
 ---
 
 ## fonts
 
 ![](https://res.cloudinary.com/cloudimgts/image/upload/v1577001214/cli-upload/f6dvbjapjyiux36p7noh.png)
+
+## octoverse
+
+[the graphs!](https://octoverse.github.com/)
 
 ## e-knetteng
 

@@ -7,6 +7,10 @@ tags:
   - design
 ---
 
+## good ideas 2 boot
+
+[mindprod](https://www.mindprod.com/jgloss/unmain.html)
+
 ## fonts
 
 ![](https://res.cloudinary.com/cloudimgts/image/upload/v1577001214/cli-upload/f6dvbjapjyiux36p7noh.png)

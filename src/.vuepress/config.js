@@ -1,5 +1,3 @@
-const currentDateUTC = new Date().toUTCString()
-
 module.exports = {
   title: '~\\Tyler Sayles\\Public\\server\\dev\\dump',
   dest: './public',

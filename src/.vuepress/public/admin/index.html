@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager</title>
 
-    <link rel="stylesheet"
-      href="https://unpkg.com/netlify-cms@1.8.2/dist/cms.css" />
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/netlify-cms@1.8.2/dist/cms.css" /> -->
+    <!-- <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> -->
   </head>
   <body>
 
     <!-- open cloudinary media lib in new tab -->
-    <div style="border: 1px solid blue; padding: 20px;">
-      <a target="_blank" href="https://cloudinary.com/console/media_library/folders/%2F?kind=all">cloudinary </a>
+    <div style="text-align: center; border: 1px solid blue; padding: 20px;">
+      <a target="_blank"
+        href="https://cloudinary.com/console/media_library/folders/%2F?kind=all">cloudinary
+      </a>
     </div>
 
     <!--
@@ -21,11 +22,11 @@
       https://www.youtube.com/watch?v=w15oWDh02K4 into input,
       get an embed iframe  copied to clipboard
     -->
-    <div style="border: 1px solid blue; padding: 20px;">
+    <div style="text-align: center; border: 1px solid blue; padding: 20px;">
       <input id="ytInput" style="border: 1px solid black;" />
       <button onclick="getYTEmbedForlink()">generate embed</button>
       <div id="display" style="margin-top: 10px;"></div>
-      <input id="input" type="text"/>
+      <input id="input" type="text" />
       <span id="displaySpan"></span>
       <button onclick="hideElements()">hide</button>
 
@@ -45,29 +46,5 @@
 
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-
-    <script>
-    const hideElements = () => {
-      // hide some pointless embellishments
-      document.getElementsByTagName('header')[0].style.display = 'none';
-      document.getElementsByTagName('aside')[0].style.display = 'none';
-      document.getElementsByTagName('main')[0].style.paddingLeft = '0px';
-      document.getElementsByClassName('css-rtapgf-CollectionTopHeading-cardTopHeading enajvhy2')[0].style.display = 'none'
-      document.getElementsByClassName('css-6gyc3k-ViewControls enajvhy5')[0].style.display = 'none'
-
-      // make the list of posts not be so bulky
-      var cards =  Array.from(document.getElementsByClassName('css-hstwmc-ListCard-dropMain-card'))
-      cards.forEach(x => x.style.margin = '0px')
-
-      // hide background of "new post" bar
-      document.getElementsByClassName('css-1ujh71h-CollectionTopNewButton-button-dropDeep-default-gray')[0].style.backgroundColor = 'green'
-      document.getElementsByClassName('css-1ujh71h-CollectionTopNewButton-button-dropDeep-default-gray')[0].innerText = 'n'
-
-      // change post list links typography
-      var posts = Array.from(document.getElementsByClassName('css-6ud6h6-ListCardTitle'))
-      posts.forEach(x => x.style.color = 'blue')
-      posts.forEach(x => x.style.fontFamily = 'Times')
-    }
-    </script>
   </body>
 </html>

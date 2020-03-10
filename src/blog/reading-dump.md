@@ -4,6 +4,13 @@ date: 2019-12-06T15:29:08.999Z
 excerpt: good things 2 read
 tags: readings
 ---
+# a supposedly fun thing i'll never do again
+
+[hitting different what with corona](https://harpers.org/wp-content/uploads/2008/09/HarpersMagazine-1996-01-0007859.pdf)
+
+# u r not so smart
+
+[eli5 learned helplessness](https://youarenotsosmart.com/2009/11/11/learned-helplessness/)
 
 # habits vs customs in The Pale King
 

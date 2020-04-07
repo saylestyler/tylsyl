@@ -7,6 +7,10 @@ tags:
   - design
 ---
 
+## i have a hedgehog, what do i do?
+
+[oocities](https://www.oocities.org/petsburgh/1004/)
+
 ## hamburger deluxe
 
 [sing-sing.co](https://www.sing-sing.co/work/dropbox)

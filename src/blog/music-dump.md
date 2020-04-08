@@ -20,6 +20,22 @@ which reminded me of these two jams:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QYJ-3ie55i4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## new frames - scatter
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/impoPPegpvg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## vtss
+
+00:07:00 :sob:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ny9XZffta1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786590473&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+## teatre - regret
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cGCnQ_hSrBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## burial + adam curtis
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b-1WUdsCDxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -28,9 +44,13 @@ which reminded me of these two jams:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ikFYGgCCG2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-from ~ 27:00 of 
+from ~ 27:00 of
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LV6nc-JXnKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## giovanni d'auria - nin
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MPwHzFcZoNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## mz hauff
 
@@ -52,7 +72,7 @@ from ~ 27:00 of
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XVmql83s43A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## mel b, lol 
+## mel b, lol
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jUUO5JeT-QA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -60,7 +80,7 @@ from ~ 27:00 of
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZFHD9QpQDFA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## truly 
+## truly
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wBaoOfbh3hY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

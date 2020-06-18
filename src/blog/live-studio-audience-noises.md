@@ -2,11 +2,16 @@
 type: blog
 blog: true
 title: live studio audience noises
-date: 2018-05-02 12:00:00
-excerpt: mostly timestamps of laughter heard from audiences in yt clips bc that's what i like ok 
+date: 2018-05-02T12:00:00.000Z
+excerpt: mostly timestamps of laughter heard from audiences in yt clips bc
+  that's what i like ok
 tags:
-    - youtube
+  - youtube
 ---
+
+## 6:21 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KYspLu4GjVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 4:53 - 4:56 a compounding laugh
 

@@ -8,6 +8,9 @@ excerpt: mostly timestamps of laughter heard from audiences in yt clips bc
 tags:
   - youtube
 ---
+## 1:49
+ 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zNlKR2wrGZU?start=108" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 6:21 
 

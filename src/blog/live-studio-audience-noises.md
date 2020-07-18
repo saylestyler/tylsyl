@@ -8,22 +8,25 @@ excerpt: mostly timestamps of laughter heard from audiences in yt clips bc
 tags:
   - youtube
 ---
+## 4:52
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2wpA93fOcss?start=292" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 2:35
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vcd9jb-_nuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 1:49
- 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zNlKR2wrGZU?start=108" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 6:21 
+## 6:21
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KYspLu4GjVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 4:53 - 4:56 a compounding laugh
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G6ghWBYBk6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 # 12:35
 

@@ -5,7 +5,6 @@ excerpt: music dump
 tags:
   - music
 ---
-
 ## roof moment bjork
 
 my friend was on a roof w/ bjork + her choir and saw this happen:
@@ -27,6 +26,10 @@ which reminded me of these two jams:
 ## new frames - scatter
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/impoPPegpvg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 1:55 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_9dcCvivML0?start=116" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## vtss
 

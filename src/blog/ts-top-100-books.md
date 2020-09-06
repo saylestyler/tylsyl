@@ -1,11 +1,13 @@
 ---
 title: t's top 100 books
-date: 2020-02-05T16:49:32.560Z
+date: 2020-07-05T15:49:00.000Z
 excerpt: fab
 tags: mY FaVoRiTe 10o BooKS
 ---
-* infinite jest - wallace
 * the brothers karamazov - dostoyevsky
+* the ethics - spinoza
+* antkind - kaufman
+* infinite jest - wallace
 * gravity's rainbow - pynchon
 * 100 selected poems - cummings
 * mrs. dalloway - woolf

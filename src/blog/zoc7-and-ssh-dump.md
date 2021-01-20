@@ -5,24 +5,15 @@ title: Zoc7 and SSH dump
 date: 2017-09-02 12:00:00
 excerpt: today in having fun downloading terminal emulators
 tags:
-    - serious
-    - ssh
-    - networking
+  - serious
+  - ssh
+  - networking
 ---
-
 # SSH & Zoc7
 
 ZOC (not) DOC
 
-<div class="container green">
-ZOC is a terminal app and SSH client. It emulates Emulations: xterm, VT220, TN3270, TN5250, Wyse, and QNX, plus supports communication SSH, Telnet, Rlogin, Modem, and Serial Cable.
-</div>
-
-what follows is a sprawling, not-cohesive account of downloading a program, pressing buttons, discovering RFCs, typing-out-loud about interesting RFCs, a bloated and even more discursive glossary compiled along the way, and in no way represents the thoughts/beliefs of tyler sayles’s more rational, goal-oriented 2018-mind
-
-lo,
-
-while aimlessly scrolling thru terminal emulators &c I saw ZOC7 and clicked download
+a sprawling, not-cohesive account of downloading a program, pressing buttons, discovering RFCs, typing-out-loud about interesting RFCs, a bloated and even more discursive glossary compiled along the way, and in no way represents the thoughts/beliefs of tyler sayles’s more rational, goal-oriented 2018-mind...
 
 ## whats this button do
 
@@ -32,42 +23,46 @@ cd’in2 `/Applications/zoc7.app/Contents/Resources/newuserprofile_english/REXX/
 
 shows the source:
 
-    /* REXX */
-    /* ^^^^^^ REXX programs always begin with /* REXX */ on the first line */
-    
-    /* clear the screen */
-    CALL ZocClearScreen
-    
-    SAY "This is a REXX scripting example."
-    SAY
-    
-    /* Ask user for his/her name */
-    who= ZocAsk("What is your name")
-    
-    /* print some text to the ZOC window */
-    /* (this time we're using REXX's internal SAY command) */
-    SAY "Hello "||who||"!"
-    SAY
-    SAY "Thank you for choosing the ZOC Terminal."
-    SAY
-    SAY "For more information about REXX scripting, please "
-    SAY "read the help topic at the bottom of the ZOC Script "
-    SAY "menu. Alternately look at the extra documentation at "
-    SAY "http://www.emtec.com/zoc/documents.html"
-    
-    EXIT
+```
+/* REXX */
+/* ^^^^^^ REXX programs always begin with /* REXX */ on the first line */
+
+/* clear the screen */
+CALL ZocClearScreen
+
+SAY "This is a REXX scripting example."
+SAY
+
+/* Ask user for his/her name */
+who= ZocAsk("What is your name")
+
+/* print some text to the ZOC window */
+/* (this time we're using REXX's internal SAY command) */
+SAY "Hello "||who||"!"
+SAY
+SAY "Thank you for choosing the ZOC Terminal."
+SAY
+SAY "For more information about REXX scripting, please "
+SAY "read the help topic at the bottom of the ZOC Script "
+SAY "menu. Alternately look at the extra documentation at "
+SAY "http://www.emtec.com/zoc/documents.html"
+
+EXIT
+```
 
 another button: (call to a host directory)
 
-    Connected to TELEHACK port 39
-    
-    It is 6:05 pm on Friday, November 2, 2018 in Mountain View, California, USA.
-    There are 45 local users. There are 26637 hosts on the network.
-    
-      Type HELP for a detailed command list.
-      Type NEWUSER to create an account.
-    
-    May the command line live forever.
+```
+Connected to TELEHACK port 39
+
+It is 6:05 pm on Friday, November 2, 2018 in Mountain View, California, USA.
+There are 45 local users. There are 26637 hosts on the network.
+
+  Type HELP for a detailed command list.
+  Type NEWUSER to create an account.
+
+May the command line live forever.
+```
 
 ## what is ZOC
 
@@ -75,19 +70,19 @@ from [softpedia](https://mac.softpedia.com/get/Network-Admin/ZOC.shtml):
 
 powerful terminal emulator with a comprehensive collection of efficient tools for establishing Telnet and secure shell connections to hosts and mainframes
 
-- Designed to streamline the connection and communication process with various hosts while using different protocols
-- an SSH and Telnet client
-- the active connections are organized into tabs, while the main area is reserved for displaying host messages.
-- once you establish a connection, you will be able to type commands, run scripts, or transfer files by using different protocols
-- enables you to save connection profiles and offers you the possibility to add them to your user bar + place a link for the connection on your desktop
-- able to handle popular transfer protocols
-- includes support for a scripting language that has more than 200 commands.
+* Designed to streamline the connection and communication process with various hosts while using different protocols
+* an SSH and Telnet client
+* the active connections are organized into tabs, while the main area is reserved for displaying host messages.
+* once you establish a connection, you will be able to type commands, run scripts, or transfer files by using different protocols
+* enables you to save connection profiles and offers you the possibility to add them to your user bar + place a link for the connection on your desktop
+* able to handle popular transfer protocols
+* includes support for a scripting language that has more than 200 commands.
 
 ## wikipedia rox
 
 while looking up some terms above, the *Host (network)* entry has this P that included most of them
 
-In operating systems, the term terminal host denotes a time-sharing computer or multi-user software providing services to computer terminals, or a computer that provides services to smaller or less capable devices,[1] such as a mainframe computer serving teletype terminals or video terminals. Other examples of this architecture include a telnet host connected to a telnet server and an xhost connected to an X Window client.
+In operating systems, the term terminal host denotes a time-sharing computer or multi-user software providing services to computer terminals, or a computer that provides services to smaller or less capable devices,\[1] such as a mainframe computer serving teletype terminals or video terminals. Other examples of this architecture include a telnet host connected to a telnet server and an xhost connected to an X Window client.
 
 [here is a glossary of the other things i defined along the way](/#glossary)
 
@@ -95,23 +90,21 @@ In operating systems, the term terminal host denotes a time-sharing computer or 
 
 using the .rfc 0 command, one (me) finds that the first RFC deals with… yes, “Host Software. S. Crocker. April 1969”
 
-    I.   A Summary of the IMP Software
-    
-    Messages
-    
-       Information is transmitted from HOST to HOST in bundles called
-       messages.  A message is any stream of not more than 8080 bits,
-       together with its header.  The header is 16 bits and contains the
-       following information:
-    
-               Destination     5 bits
-               Link            8 bits
-               Trace           1 bit
-               Spare           2 bits
+```
+I.   A Summary of the IMP Software
 
-## what is TELEHACK
+Messages
 
-WAT
+   Information is transmitted from HOST to HOST in bundles called
+   messages.  A message is any stream of not more than 8080 bits,
+   together with its header.  The header is 16 bits and contains the
+   following information:
+
+           Destination     5 bits
+           Link            8 bits
+           Trace           1 bit
+           Spare           2 bits
+```
 
 # commands
 
@@ -121,34 +114,40 @@ while in evaluation mode, in Telehack, typing help will bring up a list of comma
 
 .ching I Ching / The Book of Changes
 
-    (c) 1995, 1999 Albert Dvornik <bert@mit.edu>
+```
+(c) 1995, 1999 Albert Dvornik <bert@mit.edu>
+```
 
 Hexagram text (c) 1988 The Regents of the University of California
 
-    Type HELP CHING for more documentation
+```
+Type HELP CHING for more documentation
+```
 
 Type your question now: what do i needa do tn
 
 Consulting the Oracle …………………………..
 
-    60.  Chieh / Limitation
-    
-          -- --
-          -----     above     K'an   The Abysmal, Water
-          -- --
-          -- --
-          -----     below     Tui    The Joyous, Lake
-          -----
-    
-     The Judgement
-    
-          Limitation. Success.
-          Galling limitation must not be persevered in.
-    
-          Water over lake: the image of Limitation.
-          Thus the superior man
-          Creates number and measure,
-          And examines the nature of virtue and correct conduct.
+```
+60.  Chieh / Limitation
+
+      -- --
+      -----     above     K'an   The Abysmal, Water
+      -- --
+      -- --
+      -----     below     Tui    The Joyous, Lake
+      -----
+
+ The Judgement
+
+      Limitation. Success.
+      Galling limitation must not be persevered in.
+
+      Water over lake: the image of Limitation.
+      Thus the superior man
+      Creates number and measure,
+      And examines the nature of virtue and correct conduct.
+```
 
 ## hosts
 
@@ -179,26 +178,28 @@ so, together, find a host, then traceroute arandomhost and u’ll get:
 
 returns a list of games e.g. zork a text based adventure game w/ a siq [wiki](https://en.wikipedia.org/wiki/Zork) history in early computin’
 
-    .zork
-    
-    ZORK
-    
-    Welcome to ZORK.
-    Release 13 / Serial number 040826 / Inform v6.14 Library 6/7
-    West of House
-    This is an open field west of a white house, with a boarded front door.
-    There is a small mailbox here.
-    A rubber mat saying 'Welcome to Zork!' lies by the door.
-    
-    >fun
-    That's not a verb I recognise.
-    
-    >go
-    You'll have to say which compass direction to go in.
-    
-    >go north
-    North of House
-    You are facing the north side of a white house.  There is no door here, and all the windows are barred.
+```
+.zork
+
+ZORK
+
+Welcome to ZORK.
+Release 13 / Serial number 040826 / Inform v6.14 Library 6/7
+West of House
+This is an open field west of a white house, with a boarded front door.
+There is a small mailbox here.
+A rubber mat saying 'Welcome to Zork!' lies by the door.
+
+>fun
+That's not a verb I recognise.
+
+>go
+You'll have to say which compass direction to go in.
+
+>go north
+North of House
+You are facing the north side of a white house.  There is no door here, and all the windows are barred.
+```
 
 # glossary [§](glossary)
 
@@ -208,7 +209,7 @@ A terminal emulator, terminal application, or term, is a program that emulates a
 
 **SSH**
 
-Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network.[1] Typical applications include remote command-line login and remote command execution, but any network service can be secured with SSH.
+Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network.\[1] Typical applications include remote command-line login and remote command execution, but any network service can be secured with SSH.
 
 **Telnet**
 
@@ -220,13 +221,15 @@ Telnet is a protocol used on the Internet or local area network to provide a bid
 
 > a simple utility for performing DNS lookups. It is normally used to convert names to IP addresses and vice versa
 
-    $ host hackmd.io
-    
-    hackmd.io has address 52.194.216.48
-    hackmd.io has address 54.65.58.17
-    hackmd.io has IPv6 address 2406:da14:88d:a100:1a64:5804:bc86:2c3b
-    hackmd.io has IPv6 address 2406:da14:88d:a101:4dc5:6749:42f4:d474
-    hackmd.io mail is handled by 10 inbound-smtp.us-east-1.amazonaws.com.
+```
+$ host hackmd.io
+
+hackmd.io has address 52.194.216.48
+hackmd.io has address 54.65.58.17
+hackmd.io has IPv6 address 2406:da14:88d:a100:1a64:5804:bc86:2c3b
+hackmd.io has IPv6 address 2406:da14:88d:a101:4dc5:6749:42f4:d474
+hackmd.io mail is handled by 10 inbound-smtp.us-east-1.amazonaws.com.
+```
 
 1. **literally, a host (computer)**
 
@@ -252,26 +255,28 @@ the wiki goes on to the origin of the concept which is fascinating, and mentions
 
 `rfc` returns all rfcs w/ indexes so, `.rfc 308` gives u
 
-    Network Working Group                   Marc Seriff
-    Request for Comments 308                MIT-DMCG
-    NIC 9259                                13 MARCH 1972
-    References: RFC 254
-    
-                         ARPANET HOST AVAILABILITY DATA
-    
-         Several months ago a SURVEY program was implemented on the
-    MIT-DMCG ITS PDP-10 system to aid in gathering information on the
-    availability of various HOSTS on the ARPANET.  The purpose of this
-    Request for Comments is threefold:
-    
-         1. to inform the Network Working Group of the
-            existence of this information gathering service
-            and about getting access to it,
-    
-         2. to present the results of SURVEY for its first
-            few months, and
-    
-         3. to correct errors in our data or collection methods.
+```
+Network Working Group                   Marc Seriff
+Request for Comments 308                MIT-DMCG
+NIC 9259                                13 MARCH 1972
+References: RFC 254
+
+                     ARPANET HOST AVAILABILITY DATA
+
+     Several months ago a SURVEY program was implemented on the
+MIT-DMCG ITS PDP-10 system to aid in gathering information on the
+availability of various HOSTS on the ARPANET.  The purpose of this
+Request for Comments is threefold:
+
+     1. to inform the Network Working Group of the
+        existence of this information gathering service
+        and about getting access to it,
+
+     2. to present the results of SURVEY for its first
+        few months, and
+
+     3. to correct errors in our data or collection methods.
+```
 
 # clients
 

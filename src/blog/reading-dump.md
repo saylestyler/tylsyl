@@ -4,7 +4,8 @@ blog: true
 title: reading dump
 date: 2019-12-06T15:29:08.999Z
 excerpt: good things 2 read
-tags: readings
+tags:
+  - readings
 ---
 # a supposedly fun thing i'll never do again
 

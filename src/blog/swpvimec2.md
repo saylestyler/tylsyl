@@ -1,4 +1,6 @@
 ---
+blog: true
+type: blog
 title: swp4swp?
 date: 2018-01-02T12:00:00.000Z
 excerpt: a/swp/l?

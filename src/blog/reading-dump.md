@@ -1,4 +1,6 @@
 ---
+type: blog
+blog: true
 title: reading dump
 date: 2019-12-06T15:29:08.999Z
 excerpt: good things 2 read

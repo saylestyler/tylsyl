@@ -8,11 +8,11 @@ export default {
     },
     pageSize: {
       type: Number,
-      default: 300
+      default: 2
     },
     startPage: {
       type: Number,
-      default: 0
+      default: 2
     }
   },
   data() {
@@ -24,39 +24,30 @@ export default {
   computed: {
     filteredList() {
       if (this.pages) {
-        return this.pages
-          .filter(item => {
-            const isBlogPost = !!item.frontmatter.blog
-            const isReadyToPublish =
-              new Date(item.frontmatter.date) <= new Date()
-            // check for locales
-            let isCurrentLocale = true
-            if (this.$site.locales) {
-              const localePath = this.$route.path.split('/')[1] || ''
-              isCurrentLocale = item.relativePath.startsWith(localePath)
-            }
-            // check if tags contain all of the selected tags
-            const hasTags =
-              !!item.frontmatter.tags &&
-              this.selectedTags.every(tag =>
-                item.frontmatter.tags.includes(tag)
-              )
+        return this.pages.filter(item => {
+          // must have blog: true in FM
+          const isBlogPost = !!item.frontmatter.blog
+          // must be dated < Date()
+          const isReadyToPublish = new Date(item.frontmatter.date) <= new Date()
+          const hasTags = !!item.frontmatter.tags && this.selectedTags.every(tag => item.frontmatter.tags.includes(tag))
 
-            if (
-              !isBlogPost ||
-              !isReadyToPublish ||
-              (this.selectedTags.length > 0 && !hasTags) ||
-              !isCurrentLocale
-            ) {
-              return false
-            }
+          let isCurrentLocale = true
+          if (this.$site.locales) {
+            const localePath = this.$route.path.split('/')[1] || ''
+            isCurrentLocale = item.relativePath.startsWith(localePath)
+          }
 
-            return true
-          })
-          .sort(
-            (a, b) =>
-              new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
-          )
+          if (
+            !isBlogPost ||
+            !isReadyToPublish ||
+            (this.selectedTags.length > 0 && !hasTags) ||
+            !isCurrentLocale
+          ) {
+            return false
+          }
+
+          return true
+        }).sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
       }
     },
 
@@ -103,10 +94,13 @@ export default {
 
 <template>
   <div>
+    <!-- if a tag is clicked, show filtered posts and heading -->
     <div v-if="selectedTags.length > 0" class="filtered-heading">
       <h2>Filtered by {{ selectedTags.join(',') }}</h2>
       <div @click="resetTags" class="btn clear-filter-btn">Clear filter</div>
     </div>
+
+    <!-- non filtered list -->
     <ul class="blog-list">
       <li v-for="(item, index) in filteredList" class="blog-list__item">
         <BlogPostPreview
@@ -177,7 +171,7 @@ ul.blog-list:first-child {
   font-family: sans-serif;
   font-size: 1rem;
   text-align: center;
-  transition: background 250ms ease-in-out, 
+  transition: background 250ms ease-in-out,
               transform 150ms ease;
               */
   -webkit-appearance: none;

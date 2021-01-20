@@ -1,9 +1,11 @@
 ---
+type: blog
+blog: true
 title: browser dump
 date: 2017-09-02T12:00:00.000Z
 excerpt: opera dev edition
 tags:
-  - opera
+  - dev
   - javascript
   - browser
 ---
@@ -13,7 +15,7 @@ tags:
 
 # stats
 
-NB chrome doms & reses r as follows: 
+NB chrome doms & reses r as follows:
 
 ![a](https://res.cloudinary.com/cloudimgts/image/upload/v1576891715/B4C374F3-4073-44E3-88E1-6D3D51555696_xwsjbg.png)
 
@@ -39,19 +41,19 @@ note to self: you can find stylesheets for extensions the same way as any other 
 /*****************************************
   reset/misc
  *****************************************/
-table 
+table
   /*border-collapse: collapse*/
   border-spacing: 0
   /* border-collapse stuffs up in FF: fails to draw <td> borders when using dynamic hide/show */
   article, aside, details, figcaption,
   figure, footer, header, hgroup,
-  menu, nav, section, video 
+  menu, nav, section, video
   display: block
   margin: 0
   padding: 0
 
 /* make 'em flexible */
-html, body 
+html, body
   -webkit-text-size-adjust: none
     /* Prevent font scaling in landscape */
   font-size: 100%
@@ -63,11 +65,11 @@ html, body
  * This hides any elements that may be written into the DOM after we've
  * removed all the children of body.
  */
-body > :not(.klim-wrapper) 
+body > :not(.klim-wrapper)
   display: none !important
 
 /***** layout ******/
-.header-container 
+.header-container
   width: 100%
   position: fixed
   top: 0
@@ -75,11 +77,11 @@ body > :not(.klim-wrapper)
   text-align: center
   z-index: 1000
 
-.header-container span 
+.header-container span
   vertical-align: top
   padding: 7px 0px 9px 0px
 
-.article-container 
+.article-container
   margin-left: auto
   margin-right: auto
   padding: 0 5%
@@ -268,7 +270,7 @@ if (!location.href.includes('operabrowserjs=no')) {
         apply: () => hideOperaUserAgent(),
       },
 
-      // etc 
+      // etc
 
       'PATCH-1295': {
         description: 'Pretend to be Chrome on blend',
@@ -357,7 +359,7 @@ if (!location.href.includes('operabrowserjs=no')) {
 simplest example yet mb the most informative of any bookmarklet (second maybe to Axe for accessibility)
 
 ```javascript
-javascript: 
+javascript:
   window.location=`
     https://uitest.com/en/check/results/?url=${window.location}
   `

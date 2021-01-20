@@ -23,6 +23,7 @@ export default {
 
 <template>
   <section>
+    this is the preview
     <router-link :to="item.path">
       <h3 class="blog-post__title">{{ item.frontmatter.title }}</h3>
     </router-link>

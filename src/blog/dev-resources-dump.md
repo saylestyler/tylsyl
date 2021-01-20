@@ -1,10 +1,11 @@
 ---
+type: blog
+blog: true
 title: dev resources dump
 date: 2019-02-02T12:00:00.000Z
 excerpt: bloop
 tags:
   - dev
-  - favs
   - dump
 ---
 # a blog is a blog is a blog
@@ -43,7 +44,7 @@ gorgina website [d.sb](https://d.sb/)
 
 ## post-quantum cryptography (lol)
 
-bunch of cool looking graphics ;) 
+bunch of cool looking graphics ;)
 
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1572475939/nmgtcsegvvjkow7ezjot.png)
 
@@ -182,7 +183,7 @@ a bunch of programs that use vim-like settings
 
 [presstige](https://presstige.io/p/Using-Notion-API-Go-client-2567fcfa8f7a4ed4bdf6f6ec9298d34a)
 
-## car agile product metaphor 
+## car agile product metaphor
 
 <a href="https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">
   <img alt="car" src="https://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-.jpg">

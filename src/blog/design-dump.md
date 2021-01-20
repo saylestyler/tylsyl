@@ -1,4 +1,6 @@
 ---
+type: blog
+blog: true
 title: design dump
 date: 2019-11-02T12:00:00.000Z
 excerpt: web 69.0

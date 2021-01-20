@@ -1,4 +1,6 @@
 ---
+type: blog
+blog: true
 title: music dump
 date: 2018-06-02T12:00:00.000Z
 excerpt: music dump
@@ -27,7 +29,7 @@ which reminded me of these two jams:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/impoPPegpvg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 1:55 
+## 1:55
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_9dcCvivML0?start=116" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

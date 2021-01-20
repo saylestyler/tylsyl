@@ -1,14 +1,17 @@
 ---
+type: blog
+blog: true
 title: randump
 date: 2017-12-06T15:11:00.000Z
 excerpt: fun
-tags: 'misc, dump, rando'
+tags:
+  - dump
 ---
 # ppl love naturals
 
 ![](https://res.cloudinary.com/cloudimgts/image/upload/v1577130668/CA67787E-6D16-4798-B9E6-3D6C31999275_gpo06j.png)
 
-# single tasking 
+# single tasking
 
 [single-tasking](https://stories.buffer.com/the-science-of-single-tasking-how-focus-unlocks-extreme-productivity-be89aef22d44)
 
@@ -22,15 +25,15 @@ tags: 'misc, dump, rando'
 
 [most languages ~40bps](https://www.sciencemag.org/news/2019/09/human-speech-may-have-universal-transmission-rate-39-bits-secondhttps://www.sciencemag.org/news/2019/09/human-speech-may-have-universal-transmission-rate-39-bits-second)
 
-# r phones distracting? (y) 
+# r phones distracting? (y)
 
 [mega study](https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00605/fullhttps://www.frontiersin.org/articles/10.3389/fpsyg.2017.00605/full)
 
 Reaching for a phone mb is a function of not bn satisfied w/ what we're currently doing (endogenously or exogenously influenced):
 
-> These endogenously driven drifts of attention might arise from a desire for more immediate gratification when ongoing goal-directed activities are not perceived as rewarding (Melcher, 2013), a point to which we return below. Once attention has been shifted to the smartphone for one purpose (e.g., by virtue of a specific notification source), users often then engage in a chain of subsequent task-unrelated acts on the smartphone, thereby extending the period of disruption. 
+> These endogenously driven drifts of attention might arise from a desire for more immediate gratification when ongoing goal-directed activities are not perceived as rewarding (Melcher, 2013), a point to which we return below. Once attention has been shifted to the smartphone for one purpose (e.g., by virtue of a specific notification source), users often then engage in a chain of subsequent task-unrelated acts on the smartphone, thereby extending the period of disruption.
 
-In app notys and interruptions are heinous: 
+In app notys and interruptions are heinous:
 
 > Studies exploring these ‘within-phone’ interruptions have found that task completion in one app can be delayed by up to 400% by an unintended interruption from another app.
 

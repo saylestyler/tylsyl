@@ -1,10 +1,12 @@
 ---
+type: blog
+blog: true
 title: 'funny dev dump '
 date: 2019-01-02T12:00:00.000Z
 excerpt: phunni stuff
 tags:
-  - not-serious
   - dump
+  - dev
 ---
 
 # ai.random()

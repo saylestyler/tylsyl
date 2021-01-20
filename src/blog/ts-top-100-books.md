@@ -1,9 +1,13 @@
 ---
-title: t's top 100 books
+type: blog
+blog: true
+title: ts top 100 books
 date: 2020-07-05T15:49:00.000Z
 excerpt: fab
-tags: mY FaVoRiTe 10o BooKS
+tags:
+  - books
 ---
+
 * the brothers karamazov - dostoyevsky
 * the ethics - spinoza
 * antkind - kaufman
@@ -205,4 +209,3 @@ tags: mY FaVoRiTe 10o BooKS
 * one-dimensional man - herbert marcuse
 * vertigo - sebald
 * empire - hardt
-

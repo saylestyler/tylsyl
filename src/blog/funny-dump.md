@@ -1,4 +1,6 @@
 ---
+type: blog
+blog: true
 title: funny dump
 date: 2018-04-02T12:00:00.000Z
 excerpt: fawefawfewafawefawef

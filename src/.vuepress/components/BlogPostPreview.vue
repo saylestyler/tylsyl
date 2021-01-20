@@ -23,7 +23,6 @@ export default {
 
 <template>
   <section>
-    this is the preview
     <router-link :to="item.path">
       <h3 class="blog-post__title">{{ item.frontmatter.title }}</h3>
     </router-link>
@@ -42,7 +41,7 @@ export default {
 .blog-post__title {
   font-family: 'Times New Roman', Times, serif;
   text-decoration: underline;
-  font-size: 20px;
+  font-size: 18px;
   padding-left: 23px;
   margin-bottom: 10px;
 }

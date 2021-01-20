@@ -8,11 +8,11 @@ export default {
     },
     pageSize: {
       type: Number,
-      default: 2
+      default: 200
     },
     startPage: {
       type: Number,
-      default: 2
+      default: 200
     }
   },
   data() {

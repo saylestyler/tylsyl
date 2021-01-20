@@ -1,10 +1,11 @@
 ---
+type: blog
+blog: true
 title: 'deep brain johnny cash '
 date: 2019-01-02T12:00:00.000Z
 excerpt: a New York Book Review essay re deep brain stimulation
 tags:
   - neurology
-  - hello
 ---
 
 [carl elliot](https://www.nybooks.com/articles/2019/02/07/robert-heath-deep-brain-happiness/)

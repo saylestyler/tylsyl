@@ -7,8 +7,7 @@ tags:
   - favs
   - dump
 ---
-
-# a blog is a blog is a blog 
+# a blog is a blog is a blog
 
 [perfection kills](http://perfectionkills.com/refactoring-single-page-app/)
 
@@ -24,7 +23,7 @@ gorgina website [d.sb](https://d.sb/)
 
 [amaze blog](http://pl.atyp.us/)
 
-# bash 
+# bash
 
 <http://samrowe.com/wordpress/advancing-in-the-bash-shell/>
 
@@ -38,7 +37,7 @@ gorgina website [d.sb](https://d.sb/)
 
 ![altylsyl](https://res.cloudinary.com/cloudimgts/image/upload/v1572473118/vwucrmgjuwumy37njxaw.png)
 
-+ this amazin' vid companion by In One Lesson
+* this amazin' vid companion by In One Lesson
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cNN_tTXABUA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -95,7 +94,7 @@ here's an example implementing all of their landmark guidelines
 
 <https://dequeuniversity.com/resources/>
 
-## compilers 
+## compilers
 
 11:00 is particularly mind-blowing :~)
 
@@ -121,7 +120,7 @@ here's an example implementing all of their landmark guidelines
 
 today we lrn to make a [bookmarklet](https://betterexplained.com/articles/how-to-make-a-bookmarklet-for-your-web-application/)
 
-+ his ruby guides = siq
+* his ruby guides = siq
 
 ## html5-editor.net
 
@@ -169,7 +168,7 @@ today we lrn to make a [bookmarklet](https://betterexplained.com/articles/how-to
 
 [martin fowler's blog](https://martinfowler.com/bliki/ContinuousDelivery.html)
 
-## pile of vim 
+## pile of vim
 
 a bunch of programs that use vim-like settings
 
@@ -179,7 +178,12 @@ a bunch of programs that use vim-like settings
 
 [we got a writer folks](http://www.tbray.org/ongoing/When/201x/2010/03/15/Joining-Google)
 
-## notion api 4 thoz who can't wait 
+## notion api 4 thoz who can't wait
 
 [presstige](https://presstige.io/p/Using-Notion-API-Go-client-2567fcfa8f7a4ed4bdf6f6ec9298d34a)
 
+## car agile product metaphor 
+
+<a href="https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">
+  <img alt="car" src="https://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-.jpg">
+</a>

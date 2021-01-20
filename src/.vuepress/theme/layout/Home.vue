@@ -84,6 +84,7 @@ export default {
     text-align: left;
     color: lighten($textColor, 25%);
     font-style: italic;
+    margin-top: 20px;
   }
 }
 

@@ -25,6 +25,10 @@ tags:
 
 ![](https://res.cloudinary.com/cloudimgts/image/upload/v1577001214/cli-upload/f6dvbjapjyiux36p7noh.png)
 
+## eternal.org 
+
+[listopia](http://lists.ethernal.org/oldarchives/)
+
 ## octoverse
 
 [the graphs!](https://octoverse.github.com/)

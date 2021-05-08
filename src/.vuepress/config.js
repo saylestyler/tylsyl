@@ -3,7 +3,7 @@ module.exports = {
   dest: './public',
   themeConfig: {
     docsDir: 'src',
-    pageSize: 300, // #TODO: figure this out
+    pageSize: 300,
     startPage: 1
   },
   plugins: [

@@ -4,16 +4,17 @@
       <h2>Filtered by {{ selectedTags.join(',') }}</h2>
       <div @click="resetTags" class="btn clear-filter-btn">Clear filter</div>
     </div>
+
+    <!-- {{ filteredList }} -->
+    <!-- {{ pages }} -->
+
     <ul class="blog-list">
       <li v-for="(item, index) in filteredList" class="blog-list__item">
         <!-- <BlogPostPreview
           v-show="index >= currentPage * pageSize && index < (currentPage + 1) * pageSize"
           :item="item"
         /> -->
-        <BlogPostPreview
-          v-show="true"
-          :item="item"
-        />
+        <BlogPostPreview :item="item" />
         <ul v-for="tag in item.frontmatter.tags" class="blog-list__tags">
           <li>
             <div class="blog-list__tags" @click="addTag(tag)">{{ tag }}</div>
@@ -69,6 +70,7 @@ export default {
   computed: {
     filteredList() {
       if (this.pages) {
+        // it is included in pages... does it have all this
         return this.pages.filter(item => {
           // must have blog: true in FM
           const isBlogPost = !!item.frontmatter.blog

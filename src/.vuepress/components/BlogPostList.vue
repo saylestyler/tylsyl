@@ -1,3 +1,48 @@
+<template>
+  <div>
+    <div v-if="selectedTags.length > 0" class="filtered-heading">
+      <h2>Filtered by {{ selectedTags.join(',') }}</h2>
+      <div @click="resetTags" class="btn clear-filter-btn">Clear filter</div>
+    </div>
+    <ul class="blog-list">
+      <li v-for="(item, index) in filteredList" class="blog-list__item">
+        <!-- <BlogPostPreview
+          v-show="index >= currentPage * pageSize && index < (currentPage + 1) * pageSize"
+          :item="item"
+        /> -->
+        <BlogPostPreview
+          v-show="true"
+          :item="item"
+        />
+        <ul v-for="tag in item.frontmatter.tags" class="blog-list__tags">
+          <li>
+            <div class="blog-list__tags" @click="addTag(tag)">{{ tag }}</div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="pagination">
+      <button
+        v-show="currentPage > 0"
+        @click="previousPage"
+        class="button--pagination"
+        type="button"
+      >
+        Previous
+      </button>
+      <button
+        v-show="currentPage < totalPages - 1"
+        @click="nextPage"
+        class="button--pagination"
+        type="button"
+      >
+        Next
+      </button>
+    </div>
+  </div>
+</template>
+
 <script>
 export default {
   name: 'BlogPostList',
@@ -92,53 +137,18 @@ export default {
 }
 </script>
 
-<template>
-  <div>
-    <!-- if a tag is clicked, show filtered posts and heading -->
-    <div v-if="selectedTags.length > 0" class="filtered-heading">
-      <h2>Filtered by {{ selectedTags.join(',') }}</h2>
-      <div @click="resetTags" class="btn clear-filter-btn">Clear filter</div>
-    </div>
-
-    <!-- non filtered list -->
-    <ul class="blog-list">
-      <li v-for="(item, index) in filteredList" class="blog-list__item">
-        <BlogPostPreview
-          v-show="index >= currentPage * pageSize && index < (currentPage + 1) * pageSize"
-          :item="item"
-        />
-        <ul v-for="tag in item.frontmatter.tags" class="blog-list__tags">
-          <li>
-            <div class="blog-list__tags" @click="addTag(tag)">{{ tag }}</div>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-    <div class="pagination">
-      <button
-        v-show="currentPage > 0"
-        @click="previousPage"
-        class="button--pagination"
-        type="button"
-      >Previous</button>
-      <button
-        v-show="currentPage < totalPages - 1"
-        @click="nextPage"
-        class="button--pagination"
-        type="button"
-      >Next</button>
-    </div>
-  </div>
-</template>
-
 <style scoped>
-.blog-list__item {
+/* red fake apache server file lol */
+/* .blog-list__item {
   list-style-type: none;
   padding-top: 5px;
   background-image: url('./../theme/assets/red-document-icon.png');
   background-repeat: no-repeat;
   background-position: 0% 24px;
+} */
+
+.blog-list__item {
+  list-style-type: none;
 }
 
 /* dreaded browser */

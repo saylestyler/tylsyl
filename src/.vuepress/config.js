@@ -4,7 +4,7 @@ module.exports = {
   themeConfig: {
     docsDir: 'src',
     pageSize: 300, // #TODO: figure this out
-    startPage: 0
+    startPage: 1
   },
   plugins: [
     'vuepress-plugin-janitor',

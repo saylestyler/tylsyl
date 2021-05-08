@@ -42,7 +42,7 @@ export default {
   font-family: 'Times New Roman', Times, serif;
   text-decoration: underline;
   font-size: 18px;
-  padding-left: 23px;
+  /* padding-left: 23px; */
   margin-bottom: 10px;
 }
 

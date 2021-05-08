@@ -5,9 +5,6 @@
       <div @click="resetTags" class="btn clear-filter-btn">Clear filter</div>
     </div>
 
-    <!-- {{ filteredList }} -->
-    <!-- {{ pages }} -->
-
     <ul class="blog-list">
       <li v-for="(item, index) in filteredList" class="blog-list__item">
         <!-- <BlogPostPreview

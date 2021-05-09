@@ -16,6 +16,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
-    #   - {label: "Tags", name: "tags", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list"}
+    #   - {label: "Tags", name: "tags", widget: "list"}
+    #   list didn't work but string is not it, look @ old gatsby site?
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Blog", name: "blog", widget: "boolean", default: true}
       - {label: "Body", name: "body", widget: "markdown"}

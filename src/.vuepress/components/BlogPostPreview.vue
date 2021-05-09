@@ -34,14 +34,18 @@ export default {
 <style scoped>
 .date-modified {
   font-size: 14px;
-  padding-left: 5px;
+  /* padding-left: 5px; */
   padding-bottom: 20px;
 }
 
+/* #ccfcff */
 .blog-post__title {
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   text-decoration: underline;
-  font-size: 18px;
+  color: #1c1ce1; /* ethereum.com blue lol */
+  font-family: 'emoji', 'math', 'system-ui', 'arial';
+  font-size: 24px;
+  font-weight: 900;
   /* padding-left: 23px; */
   margin-bottom: 10px;
 }

@@ -164,27 +164,34 @@ ul.blog-list:first-child {
 }
 
 .blog-list__tags {
+  border-radius: 2px;
   margin-bottom: 15px;
   list-style: none;
   display: inline-block;
   padding: 3px;
   font-size: 14px;
-  margin: 5px;
+  margin-right: 5px;
   border: none;
-  background: #4dfbc0;
+  background: #ccfcff;
   cursor: pointer;
-
-  /* text-decoration: none;
-  background: #0069ed;
-  color: #ffffff;
-  font-family: sans-serif;
-  font-size: 1rem;
-  text-align: center;
-  transition: background 250ms ease-in-out,
-              transform 150ms ease;
-              */
+  /* i think this kills cpu but alas */
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #ccfcff, pink);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   -webkit-appearance: none;
   -moz-appearance: none;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .blog-list__tags:first-child {

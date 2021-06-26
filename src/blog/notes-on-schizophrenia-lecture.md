@@ -48,7 +48,7 @@ A: They're all multisyllabic words.
 (Or in paranoid schizophrenia, 
 A: They're all wired for listening. A world that makes no sense is extremely threatening) 
 
-> Neurochemistry of Hallucinations 
+> Hallucinations 
 
 The final defining feature is hallucinations. 
 
@@ -64,6 +64,17 @@ tldr Structure.
 
 brb
 
+> Neurochemistry + Etiology 
+
+The dopamine hypothesis is the model for understanding schizophrenia—and parkinsons for that matter–states that too much dopamine, either because of an increased amount of receptors or a malfunction in the enzyme that catalyses dopamine. 
+
+Giving ppl drugs that block dopamine receptors = better symptoms. 
+
+Parkinsons on the other hand = too little dopamine in the substantia nigra, vs. prefrontal cortex, evidenced by drugs like L-Dopa that increase dopamine = better symptoms. 
+
+Too much L-Dopa? Parkinsons ppl become indistinguishable from schizophrenics. 
+ 
+Too much anti-psychotics? Schizoprenics begin having symptoms similar to Parkinsons. 
 
 
  

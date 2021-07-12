@@ -1,12 +1,12 @@
 ---
 type: blog
-blog: true
 title: dev resources dump
 date: 2019-02-02T12:00:00.000Z
 excerpt: bloop
 tags:
   - dev
   - dump
+blog: true
 ---
 # a blog is a blog is a blog
 
@@ -188,3 +188,7 @@ a bunch of programs that use vim-like settings
 <a href="https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">
   <img alt="car" src="https://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-.jpg">
 </a>
+
+## npm audit needs an audit 
+
+[why npm audit is broken](https://overreacted.io/npm-audit-broken-by-design/?ck_subscriber_id=978623672)

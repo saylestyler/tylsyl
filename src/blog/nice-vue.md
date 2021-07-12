@@ -2,10 +2,11 @@
 title: nice vue
 date: 2021-06-09T00:57:29.011Z
 excerpt: "bless and highly favored vue code "
-tags: vue
+tags:
+    - vue
 blog: true
 ---
-Sometimes I browse the [vue topic/tag](https://github.com/topics/vuejs) on github just to see how people-not-on-my-team write vue. I found [this web file browser]() with a vue frontend while scrolling, and figured I would post snippets from the code that were written nicely. 
+Sometimes I browse the [vue topic/tag](https://github.com/topics/vuejs) on github just to see how people-not-on-my-team write vue. I found [this web file browser]() with a vue frontend while scrolling, and figured I would post snippets from the code that were written nicely.
 
 ## checking if there is a conflict on drop event
 
@@ -16,7 +17,7 @@ if (conflict) {
   this.$store.commit("showHover", {
     prompt: "replace-rename",
     confirm: (event, option) => {
-      overwrite = option == "overwrite"; // cool syntax 
+      overwrite = option == "overwrite"; // cool syntax
       rename = option == "rename";
       event.preventDefault();
       this.$store.commit("closeHovers");
@@ -25,7 +26,7 @@ if (conflict) {
 });
 ```
 
-## handling potentially complex click events 
+## handling potentially complex click events
 ```js
 click: function (event) {
       if (!this.singleClick && this.selectedCount !== 0) event.preventDefault();
@@ -45,10 +46,10 @@ click: function (event) {
       }
 ```
 
-and 
+and
 
 ```js
-      // nice didn't know you could use event.shiftKey 
+      // nice didn't know you could use event.shiftKey
       if (event.shiftKey && this.selected.length > 0) {
         let fi = 0;
         let la = 0;
@@ -71,7 +72,7 @@ and
       }
 ```
 
-and this super legible check: 
+and this super legible check:
 
 ```js
       if (
@@ -83,21 +84,21 @@ and this super legible check:
         this.resetSelected();
 ```
 
-reminds me of the style used for another && check: 
+reminds me of the style used for another && check:
 
 ```js
  showOverlay: function () {
    return (
-     this.show !== null 
-  && this.show !== "search" 
+     this.show !== null
+  && this.show !== "search"
   && this.show !== "more"
    );
  },
 ```
 
-## legible humanTime method 
+## legible humanTime method
 
-also, imagine if browser's api was moment... I think [temporal proposal](https://tc39.es/proposal-temporal/docs/) addresses some of this... 
+also, imagine if browser's api was moment... I think [temporal proposal](https://tc39.es/proposal-temporal/docs/) addresses some of this...
 
 ```js
     humanTime: function () {
@@ -108,7 +109,7 @@ also, imagine if browser's api was moment... I think [temporal proposal](https:/
     },
 ```
 
-## prettier formatting 
+## prettier formatting
 
 can be unpretty sometimes, and I can't tell if I like this or hate this:
 

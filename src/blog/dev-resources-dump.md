@@ -8,23 +8,23 @@ tags:
   - dump
 blog: true
 ---
-# a blog is a blog is a blog
+## a blog is a blog is a blog
 
 [perfection kills](http://perfectionkills.com/refactoring-single-page-app/)
 
-# d.sb
+## d.sb
 
 gorgina website [d.sb](https://d.sb/)
 
-# killr blog abt myriadiverse topics
+## killr blog abt myriadiverse topics
 
 [jpmens.net](https://jpmens.net/archive/)
 
-# pl.atyp.us
+## pl.atyp.us
 
 [amaze blog](http://pl.atyp.us/)
 
-# bash
+## bash
 
 <http://samrowe.com/wordpress/advancing-in-the-bash-shell/>
 

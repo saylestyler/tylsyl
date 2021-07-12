@@ -3,7 +3,7 @@
 
 [build]
   # This is the directory to change to before starting a build.
-  base    = "project/"
+  base    = "/"
   # NOTE: This is where we will look for package.json/.nvmrc/etc, not root.
   # This is the directory that you are publishing from (relative to root of your repo)
   publish = "project/build-output/"
@@ -30,6 +30,7 @@
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.
   [headers.values]
+    X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Content-Security-Policy = "default-src https:"

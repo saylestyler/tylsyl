@@ -9,11 +9,11 @@ blog: true
 
 Was watching this thought I'd summarize some of the points made :) 
 
-> FOXP2 Gene 
+### FOXP2 Gene 
 
 A gene heavily tied to language production... abnormalities in people with certain syndromes of diminished vocabularies. In mice with the gene removed they make a lot less sounds. When the human version of the gene is spliced into the mice, they make a lot more sounds.
 
-> Pidgin -> Creole
+### Pidgin -> Creole
 
 When populations are forced to live together but speak diff languages (think forced labor) pidgins develop to allow them to communicate. Pidgins have very simple grammar rules. A generation later, creoles develop with complex grammar. 
 
@@ -21,17 +21,17 @@ The grammar of creoles is as complex as any language.
 
 Meaning that even though they are developed in isolation, they do not feature the least common denom / easiest syntaxes. 
 
-> Nicaraguan Sign Language
+### Nicaraguan Sign Language
 
 Developed in isolation among deaf children in Nicaragua (pidgin) ended up featuring (creole) the same grammatical features of creole languages, which is to say, of major languages. 
 
 This implies that there is a genetic, hard wired neurological basis for grammar (think/cf Chomsky).
 
-> Greater Ecological Diversity = Greater Grammar Complexity 
+### Greater Ecological Diversity = Greater Grammar Complexity 
 
 Languages that develop in diverse ecosystems feature more complex ways of constructing sentences (objects, participles, tenses) than those that do not. 
 
-> Schizophrenia Is a Language Disorder 
+### Schizophrenia Is a Language Disorder 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Cloth_embroidered_by_a_schizophrenia_sufferer.jpg" alt="schizophrenia-tapestry" />
 
@@ -48,7 +48,7 @@ A: They're all multisyllabic words.
 (Or in paranoid schizophrenia, 
 A: They're all wired for listening. A world that makes no sense is extremely threatening) 
 
-> Hallucinations 
+### Hallucinations 
 
 The final defining feature is hallucinations. 
 
@@ -62,9 +62,7 @@ They're so structured that papers have been published defining the most common o
 
 tldr Structure. 
 
-brb
-
-> Neurochemistry + Etiology 
+### Neurochemistry + Etiology 
 
 The dopamine hypothesis is the model for understanding schizophrenia—and parkinsons for that matter–states that too much dopamine, either because of an increased amount of receptors or a malfunction in the enzyme that catalyses dopamine. 
 
@@ -76,5 +74,8 @@ Too much L-Dopa? Parkinsons ppl become indistinguishable from schizophrenics.
  
 Too much anti-psychotics? Schizoprenics begin having symptoms similar to Parkinsons. 
 
+### actually 
+
+I stopped watching this lecture and ordered a book by this guy Why Zebra's Don't Get Ulcers : ) u should too
 
  

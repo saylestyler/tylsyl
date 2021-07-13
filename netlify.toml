@@ -33,8 +33,10 @@
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    # Content-Security-Policy = "default-src https:" hmm this didn't work
-    Content-Security-Policy = "default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'"
+    # Content-Security-Policy = "default-src https:" # most restrictive
+    # Content-Security-Policy = "default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'"
+    # media-src media1.com res.cloudinary.com
+    Content-Security-Policy = "default-src 'none'; img-src *; script-src identity.netlify.com https://unpkg.com/netlify-cms@%5E2.0.0/dist/netlify-cms.js; style-src 'self'"
     # Multi-key header rules are expressed with multi-line strings
     Link = '''
     </assets/css/base.css>; rel=preload; as=style, \

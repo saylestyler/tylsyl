@@ -85,4 +85,6 @@ This was the final CSP:
 Content-Security-Policy = "default-src 'none'; img-src *; script-src identity.netlify.com https://unpkg.com/netlify-cms@%5E2.0.0/dist/netlify-cms.js; style-src 'self'"
 ```
 
+Edit: that didn't actually work, I found [this much better article](https://jeffschoonover.dev/posts/2020/10/implementing-content-security-policy-netlify/) about all this and commented out CSP for now because I'm gonna go eat some mashed potatoes.
+
 : )

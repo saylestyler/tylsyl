@@ -146,11 +146,11 @@ export default {
   background-position: 0% 24px;
 } */
 
+/*
 .blog-list__item {
   list-style-type: none;
 }
 
-/* dreaded browser */
 ul.blog-list {
   margin-block-start: 0em;
   margin-block-end: 0em;
@@ -174,7 +174,6 @@ ul.blog-list:first-child {
   border: none;
   background: #ccfcff;
   cursor: pointer;
-  /* i think this kills cpu but alas */
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #ccfcff, pink);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
@@ -199,7 +198,7 @@ ul.blog-list:first-child {
   padding: 0px;
 }
 
-/* .blog-list {
+.blog-list {
   padding: 0;
   margin: 0;
 }
@@ -235,5 +234,7 @@ ul.blog-list:first-child {
 
 .pagination {
   text-align: center;
-} */
+}
+*/
+
 </style>

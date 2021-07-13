@@ -174,9 +174,10 @@ function find(page, items, offset) {
   @extend $wrapper;
 }
 
-.blog__header {
-  margin-top: 110px;
-}
+// space above a blog post
+// .blog__header {
+//   margin-top: 110px;
+// }
 
 .blog__title {
   margin-top: 0;

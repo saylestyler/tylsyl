@@ -46,7 +46,8 @@ export default {
 @import '../styles/config.styl';
 
 .home {
-  padding: $navbarHeight 2rem 0;
+  // majr padding
+  // padding: $navbarHeight 2rem 0;
   margin: 0px auto;
 
   .features {

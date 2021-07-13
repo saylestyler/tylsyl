@@ -43,8 +43,9 @@ export default {
   /* font-family: 'Times New Roman', Times, serif; */
   text-decoration: underline;
   color: #1c1ce1; /* ethereum.com blue lol */
-  font-family: 'emoji', 'math', 'system-ui', 'arial';
-  font-size: 24px;
+  /* font-family: 'emoji', 'math', 'system-ui', 'arial'; */
+  font-family: 'Fantasy', 'monospace', serif
+  /* font-size: 24px; */
   font-weight: 900;
   /* padding-left: 23px; */
   margin-bottom: 10px;

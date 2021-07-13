@@ -49,7 +49,7 @@ Blocks pages from loading when the browser detects an X-XSS attack. Will maybe c
 Allows fine-grained control of where resources can be loaded from.
 *But*, from mozilla:
 
-> Note that disabling inline JavaScript means that all JavaScript must be loaded from <script> src tags . Event handlers such as onclick used directly on a tag will fail to work, as will JavaScript inside <script> tags but not loaded via src. Furthermore, inline stylesheets using either <style> tags or the style attribute will also fail to load. As such, care must be taken when designing sites so that CSP becomes easier to implement.
+> Note that disabling inline JavaScript means that all JavaScript must be loaded from `<script>` src tags . Event handlers such as onclick used directly on a tag will fail to work, as will JavaScript inside `<script>` tags but not loaded via src. Furthermore, inline stylesheets using either `<style>` tags or the style attribute will also fail to load. As such, care must be taken when designing sites so that CSP becomes easier to implement.
 
 # notes on CSP:
 
